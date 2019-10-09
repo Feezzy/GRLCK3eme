@@ -1,26 +1,45 @@
 Decoupage Technique 
 
-Plan 1 : Vue général de l'espace, la planète principal au centre et d'autres planètes avoisinantes, transition zoom
+Plan 1 3sec : Vue général de l'espace, la planète principal au centre et d'autres planètes avoisinantes, transition zoom
 
-Plan 2 : Gros plan sur les pieds du personnage qui court, cut
+Plan 2 2sec : Gros plan sur les pieds du personnage qui court, cut
 
-Plan 3 : Gros plan sur les yeux du protagoniste qui cherche sa proie, cut
+Plan 3 2sec : Gros plan sur les yeux du protagoniste qui cherche sa proie, cut
 
-Plan 4 : Plan d'ensemble de l'environment, un cri de monstre retentit et fait echo dans l'environment, cut 
+Plan 4 3sec : Plan d'ensemble de l'environment, un cri de monstre retentit et fait echo dans l'environment, cut 
 
-Plan 5 : Champs, Plan rapproché taille de face, le protagonise court et freine en entendant le cri, cut/180° de la cam passant sur le plan suivant
+Plan 5 3sec : Champs, Plan rapproché taille de face, le protagonise court et freine en entendant le cri, cut/180° de la cam passant sur le plan suivant
 
-Plan 6 : Plan d'ensemble, le monstre grimpe une montagne puis saute dans le champs en s'écrasant au mileu de la scène, créant un amat de poussière, il pousse ensuite un autre gros cri sur le protagoniste, cut
+Plan 6 7sec : Plan d'ensemble, le monstre grimpe une montagne puis saute dans le champs en s'écrasant au mileu de la scène, créant un amat de poussière, il pousse ensuite un autre gros cri sur le protagoniste, cut
 
-Plan 7 :  Plan rapproché taille de face, le cris souffle dans les cheveux du protagoniste, des débris volent, de la bave etc, elle esquive tant bien que mal, cut
+Plan 7 2sec :  Plan rapproché taille de face, le cris souffle dans les cheveux du protagoniste, des débris volent, de la bave etc, elle esquive tant bien que mal, cut
 
-Plan 8 : Plan général, on voit le monstre et le protagoniste face à face. Le monstre s'apprête à mettre un coup de pate, cut
+Plan 8 2sec : Plan général, on voit le monstre et le protagoniste face à face. Le monstre s'apprête à mettre un coup de pate, cut
 
-Plan 9 : Vue du dessus, enorme onde de choc suivant le coup, cut
+Plan 9 4sec : Vue du dessus, enorme onde de choc suivant le coup, cut
 
-Plan 10 : Plan d'ensemble, la poussière levé par l'explosion se dissipe, ce qui laisse apparaitre le protagoniste contrant le coup du monstre avec son avant bras bionique. La caméra fait un travelling frontal jusqu'à avoir un Plan rapproché poitrine. Elle repousse le bras du monstre en lui tranchant la patoune grâce une lame qui était dissumilé dans son bras, cut raccord mouvement personnage 
+Plan 10 8sec : Plan d'ensemble, la poussière levé par l'explosion se dissipe, ce qui laisse apparaitre le protagoniste contrant le coup du monstre avec son avant bras bionique. La caméra fait un travelling frontal jusqu'à avoir un Plan rapproché poitrine. Elle repousse le bras du monstre en lui tranchant la patoune grâce une lame qui était dissumilé dans son bras, cut raccord mouvement personnage 
 
-Plan 11 : Plan Moyen, raccord movement plan 10, le protagoniste à son bras en l'air, du sang gicle de la blessure du monstre, et ce dernier recule de douleur.
+Plan 11 3sec : Plan Moyen, raccord mouvement plan 10, le protagoniste à son bras en l'air, du sang gicle de la blessure du monstre, et ce dernier recule de douleur, pissant le sang, cut
 
-Plan 12 : 
+Plan 12 2sec : Gros plan sur les pieds du protagoniste de dos, elle part soudainement et rapidement vers le monstre, cut
 
+Plan 13 7sec : Plan americain travelling suivant le mouvement de saut du protagoniste, elle sort une grenade collante de son dos et la lance en direction du monstre. La camera suit maintenant le mouvement de la grenade jusqu'à ce coller sur le monstre au niveau de son torse. Elle clignote (gros plan sur la grenade à présent), cut
+
+Plan 14 3sec : Plan moyen sur le monstre, la grenade explose, le monstre est secoué, cut
+
+Plan 15 3sec : Plan d'ensemble panoramique raccord mouvement, le protagoniste finit sa chute en roulade, après sa roulade elle regarde vers le monste pour voir les dégats, cut
+
+Plan 16 6sec : Gros plan sur le trou qu'a créée l'explosion, la fumée se dissipe et le coeur du monstre se dévoile, son coeur bat, des restes de fumée continue de s'echapper de son corps, cut
+
+Plan 17 3sec : Rapproché poitrine 3/4 plongée, elle regarde le monstre, une ombre arrive sur elle, elle le remarque et lève le regard, choqué de ce qui arrive, elle esquive en sortant du cadre, et la grosse queue du monstre s'écrase à l'emplacement ou était le protagoniste.
+
+Plan 18 2sec : Plan moyen panoramique suivant le personnage, elle se rattrape en posant une main au sol, cut
+
+Plan 19 2sec : Gros plan sur le visage du monstre qui s'apprête à "cracher du feu" comme un dragon, cut 
+
+Plan 20 5sec : Plan moyen panoramique suivant le personnage, le feu s'approche du protagoniste, elle saute pour ne pas se faire brûler, pendant le saut elle sort un pistolet de nul part, et tire avec visant le monstre, cut
+
+Plan 21 4sec : Plan americain sur le monstre 3/4 face, le monstre est encore entrain de cracher du feu, les balles tapent son gros corps et une des balles touche le coeur, ce qui fait arrêter le monstre de cracher 
+
+Plan 22 : 
