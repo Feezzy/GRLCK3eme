@@ -1,0 +1,2166 @@
+#! C:/Program Files/Nuke10.5v1/nuke-10.5.1.dll -nx
+version 10.5 v1
+define_window_layout_xml {<?xml version="1.0" encoding="UTF-8"?>
+<layout version="1.0">
+    <window x="0" y="0" w="1920" h="1040" screen="0">
+        <splitter orientation="1">
+            <split size="40"/>
+            <dock id="" hideTitles="1" activePageId="Toolbar.1">
+                <page id="Toolbar.1"/>
+            </dock>
+            <split size="1241" stretch="1"/>
+            <splitter orientation="2">
+                <split size="514"/>
+                <dock id="" activePageId="Viewer.1">
+                    <page id="Viewer.1"/>
+                </dock>
+                <split size="460"/>
+                <dock id="" activePageId="DAG.1">
+                    <page id="DAG.1"/>
+                    <page id="Curve Editor.1"/>
+                    <page id="DopeSheet.1"/>
+                </dock>
+            </splitter>
+            <split size="615"/>
+            <dock id="" activePageId="Properties.1" focus="true">
+                <page id="Properties.1"/>
+            </dock>
+        </splitter>
+    </window>
+</layout>
+}
+Root {
+ inputs 0
+ name D:/GRLCK3eme/04_storyboard/storyboard/fx/nukeCompArrow.nk
+ frame 11
+ last_frame 83
+ lock_range true
+ format "2048 1556 0 0 2048 1556 1 2K_Super_35(full-ap)"
+ proxy_type scale
+ proxy_format "1024 778 0 0 1024 778 1 1K_Super_35(full-ap)"
+ colorManagement Nuke
+ workingSpaceLUT linear
+ monitorLut sRGB
+ int8Lut sRGB
+ int16Lut sRGB
+ logLut Cineon
+ floatLut linear
+ views {
+  {main #ffffff}
+  {cam1 ""}
+ }
+}
+BackdropNode {
+ inputs 0
+ name BackdropNode1
+ tile_color 0xf1454ff
+ label "HOLOGRAME\n"
+ note_font_size 42
+ xpos 644
+ ypos 64
+ bdwidth 1015
+ bdheight 856
+}
+Roto {
+ inputs 0
+ output alpha
+ curves {{{v x3f99999a}
+  {f 0}
+  {n
+   {layer Root
+    {f 2097152}
+    {t x44800000 x44428000}
+    {a pt1x 0 pt1y 0 pt2x 0 pt2y 0 pt3x 0 pt3y 0 pt4x 0 pt4y 0 ptex00 0 ptex01 0 ptex02 0 ptex03 0 ptex10 0 ptex11 0 ptex12 0 ptex13 0 ptex20 0 ptex21 0 ptex22 0 ptex23 0 ptex30 0 ptex31 0 ptex32 0 ptex33 0 ptof1x 0 ptof1y 0 ptof2x 0 ptof2y 0 ptof3x 0 ptof3y 0 ptof4x 0 ptof4y 0 pterr 0 ptrefset 0 ptmot x40800000 ptref 0}
+    {curvegroup Bezier1 512 bezier
+     {{cc
+       {f 8192}
+       {px 1
+        {xc1800000 xc1a00000}
+        {x440f8000 x43e60000}
+        {x41800000 x41a00000}
+        {xc1600000 xc1000000}
+        {x441e0000 x440c0000}
+        {x41600000 x41000000}
+        {xc1b00000 xc0000000}
+        {x44298000 x44110000}
+        {x41b00000 x40000000}
+        {xc0800000 x41200000}
+        {x44388000 x440a0000}
+        {x40800000 xc1200000}
+        {xc09c3e80 x4208b6a0}
+        {x443e0000 x43fd0000}
+        {x40c00000 xc2280000}
+        {xc1000000 x41600000}
+        {x44410004 x43d50000}
+        {x41000000 xc1600000}
+        {0 x40800000}
+        {x44470004 x43bf0000}
+        {0 xc0800000}
+        {x40c00000 x41800000}
+        {x44438004 x43a20000}
+        {xc0c00000 xc1800000}
+        {x40800000 x41400000}
+        {x44408004 x43860000}
+        {xc0800000 xc1400000}
+        {x4129dd80 x409a6c40}
+        {x443b0000 x435e0000}
+        {xc1b00000 xc1200000}
+        {x40000000 0}
+        {x44280000 x43460000}
+        {xc0000000 0}
+        {x41600000 x41800000}
+        {x441f0000 x43380000}
+        {xc1600000 xc1800000}
+        {x40000000 x41900000}
+        {x441a0000 x43080000}
+        {xc0000000 xc1900000}
+        {x41200000 xc1c00000}
+        {x44098000 x432c0000}
+        {xc1200000 x41c00000}
+        {xc1200000 xc2280000}
+        {x43fe0000 x43910000}
+        {x41200000 x42280000}}}
+      {cc
+       {f 8192}
+       {px 1
+        {xc1800000 xc1a00000}
+        {xc2a3fb00 x42832ff0}
+        {x41800000 x41a00000}
+        {xc1600000 xc1000000}
+        {xc2506140 x42b65470}
+        {x41600000 x41000000}
+        {xc1b00000 xc0000000}
+        {xc1180b80 x42d12380}
+        {x41b00000 x40000000}
+        {xc0800000 x41200000}
+        {x42c2fa98 x421bfcd0}
+        {x40800000 xc1200000}
+        {xc09c3e80 x4208b6a0}
+        {x42cfe400 x416d94c0}
+        {x40c00000 xc2280000}
+        {xc1000000 x41600000}
+        {x42b65470 x42506140}
+        {x41000000 xc1600000}
+        {0 x40800000}
+        {x42d20000 0}
+        {0 xc0800000}
+        {x40c00000 x41800000}
+        {x42c4a100 xc21378c0}
+        {xc0c00000 xc1800000}
+        {x40800000 x41400000}
+        {x42c73920 xc204d050}
+        {xc0800000 xc1400000}
+        {x4129dd80 x409a6c40}
+        {x422dcde0 xc2bf2cf5}
+        {xc1b00000 xc1200000}
+        {x40000000 0}
+        {x42999990 xc2f13333}
+        {xc0000000 0}
+        {x41600000 x41800000}
+        {x427daeb0 xc2e57c4e}
+        {xc1600000 xc1800000}
+        {x40000000 x41900000}
+        {x4105ba00 xc29d962d}
+        {xc0000000 xc1900000}
+        {x41200000 xc1c00000}
+        {xc2c1d820 xc2218c38}
+        {xc1200000 x41c00000}
+        {xc1200000 xc2280000}
+        {xc2cc49e0 x41c29160}
+        {x41200000 x42280000}}}}
+     {tx 1 x442a8889 x43af5555}
+     {a osw x41200000 osf 0 str 1 spx x44800000 spy x44428000 sb 1 tt x40800000}}}}}}
+ toolbox {selectAll {
+  { selectAll str 1 ssx 1 ssy 1 sf 1 }
+  { createBezier str 1 ssx 1 ssy 1 sf 1 sb 1 tt 4 }
+  { createBezierCusped str 1 ssx 1 ssy 1 sf 1 sb 1 }
+  { createBSpline str 1 ssx 1 ssy 1 sf 1 sb 1 }
+  { createEllipse str 1 ssx 1 ssy 1 sf 1 sb 1 }
+  { createRectangle str 1 ssx 1 ssy 1 sf 1 sb 1 }
+  { createRectangleCusped str 1 ssx 1 ssy 1 sf 1 sb 1 }
+  { addPoints str 1 ssx 1 ssy 1 sf 1 }
+  { brush str 1 ssx 1 ssy 1 sf 1 sb 1 }
+  { eraser src 2 str 1 ssx 1 ssy 1 sf 1 sb 1 }
+  { clone src 1 str 1 ssx 1 ssy 1 sf 1 sb 1 }
+  { reveal src 3 str 1 ssx 1 ssy 1 sf 1 sb 1 }
+  { dodge src 1 str 1 ssx 1 ssy 1 sf 1 sb 1 }
+  { burn src 1 str 1 ssx 1 ssy 1 sf 1 sb 1 }
+  { blur src 1 str 1 ssx 1 ssy 1 sf 1 sb 1 }
+  { sharpen src 1 str 1 ssx 1 ssy 1 sf 1 sb 1 }
+  { smear src 1 str 1 ssx 1 ssy 1 sf 1 sb 1 }
+} }
+ toolbar_brush_hardness 0.200000003
+ toolbar_source_transform_scale {1 1}
+ toolbar_source_transform_center {1024 778}
+ colorOverlay {0 0 0 0}
+ lifetime_type "all frames"
+ view {main}
+ motionblur_shutter_offset_type centred
+ source_black_outside true
+ name Roto1
+ xpos 444
+ ypos -294
+}
+Read {
+ inputs 0
+ file D:/siera/animatique/vrai_storyboard/14.jpg
+ format "1506 652 0 0 1506 652 1 "
+ origset true
+ name Read1
+ xpos 282
+ ypos -418
+}
+Glow2 {
+ inputs 1+1
+ tint {1 0.2646351457 0 1}
+ brightness {{random((frame)/3)/1.7}}
+ name Glow1
+ xpos 284
+ ypos -251
+}
+Read {
+ inputs 0
+ file D:/siera/animatique/vrai_storyboard/13.jpg
+ format "1504 650 0 0 1504 650 1 "
+ origset true
+ name Read3
+ xpos 260
+ ypos 29
+}
+Read {
+ inputs 0
+ file D:/siera/animatique/vrai_storyboard/12.jpg
+ format "1504 652 0 0 1504 652 1 "
+ origset true
+ name Read5
+ xpos 524
+ ypos 84
+}
+Roto {
+ output alpha
+ curves {{{v x3f99999a}
+  {f 0}
+  {n
+   {layer Root
+    {f 2097152}
+    {t x44800000 x44428000}
+    {a pt1x 0 pt1y 0 pt2x 0 pt2y 0 pt3x 0 pt3y 0 pt4x 0 pt4y 0 ptex00 0 ptex01 0 ptex02 0 ptex03 0 ptex10 0 ptex11 0 ptex12 0 ptex13 0 ptex20 0 ptex21 0 ptex22 0 ptex23 0 ptex30 0 ptex31 0 ptex32 0 ptex33 0 ptof1x 0 ptof1y 0 ptof2x 0 ptof2y 0 ptof3x 0 ptof3y 0 ptof4x 0 ptof4y 0 pterr 0 ptrefset 0 ptmot x40800000 ptref 0}
+    {curvegroup Bezier1 512 bezier
+     {{cc
+       {f 8192}
+       {px
+        {x41c80000 x42640000}
+        {{{x4101eb80 0 1 x3e3c2900 1}
+       {x41600000 x3e3c2900 1 0 1}}
+      {{xc025e380 0 1 xbd343900 1}
+       {xc0800000 xbd343900 1 0 1}}}
+        {{{x44823968 0 1 xc049fce0 1}
+       {x446d0000 xc049fce0 1 0 1}}
+      {{x43c8de90 0 1 xc02d13d8 1}
+       {x439d0000 xc02d13d8 1 0 1}}}
+        {{{xc101eb80 0 1 xbe3c2900 1}
+       {xc1600000 xbe3c2900 1 0 1}}
+      {{x4025e300 0 1 x3d343a00 1}
+       {x40800000 x3d343a00 1 0 1}}}
+        {{{x40197400 0 1 x3da14800 1}
+       {x40c00000 x3da14800 1 0 1}}
+      {{xc06d3900 0 1 xbdf7ce80 1}
+       {xc1300000 xbdf7ce80 1 0 1}}}
+        {{{x4486af0b 0 1 xc0b34520 1}
+       {x44634000 xc0b34520 1 0 1}}
+      {{x43da0120 0 1 xc00f9e18 1}
+       {x43b58000 xc00f9e18 1 0 1}}}
+        {{{xc0197400 0 1 xbda14800 1}
+       {xc0c00000 xbda14800 1 0 1}}
+      {{x406d3800 0 1 x3df7ce80 1}
+       {x41300000 x3df7ce80 1 0 1}}}
+        {{{xc0147c00 0 1 xbd570800 1}
+       {xc0800000 xbd570800 1 0 1}}
+      {{xc13a9fc0 0 1 xbe4ac080 1}
+       {xc1900000 xbe4ac080 1 0 1}}}
+        {{{x448481fc 0 1 xc0dc4310 1}
+       {x445fc000 xc0dc4310 1 0 1}}
+      {{x43e22c2e 0 1 x3eaa7a60 1}
+       {x43d58000 x3eaa7a60 1 0 1}}}
+        {{{x40147a00 0 1 x3d570c00 1}
+       {x40800000 x3d570c00 1 0 1}}
+      {{x413a9fc0 0 1 x3e4ac080 1}
+       {x41900000 x3e4ac080 1 0 1}}}
+        {{{xc081ec00 0 1 xbdbc2800 1}
+       {xc0e00000 xbdbc2800 1 0 1}}
+      {{xc11126e0 0 1 xbe1db240 1}
+       {xc1600000 xbe1db240 1 0 1}}}
+        {{{x44846f6c 0 1 xc0d6ae98 1}
+       {x4460fffe xc0d6ae98 1 0 1}}
+      {{x43f0c0a8 0 1 x3f99fac8 1}
+       {x43f20000 x3f99fac8 1 0 1}}}
+        {{{x4081eb00 0 1 x3dbc2a00 1}
+       {x40e00000 x3dbc2a00 1 0 1}}
+      {{x41112700 0 1 x3e1db200 1}
+       {x41600000 x3e1db200 1 0 1}}}
+        {{{xc11dc200 0 1 xbe647c00 1}
+       {xc1880000 xbe647c00 1 0 1}}
+      {{xc1a0b440 0 1 xbeae9780 1}
+       {xc1f80000 xbeae9780 1 0 1}}}
+        {{{x448381da 0 1 xc0ad4208 1}
+       {x44697ffe xc0ad4208 1 0 1}}
+      {{x4404c0cc 0 1 x3f83f350 1}
+       {x44040000 x3f83f350 1 0 1}}}
+        {{{x411dc300 0 1 x3e647a00 1}
+       {x41880000 x3e647a00 1 0 1}}
+      {{x41a0b430 0 1 x3eae97a0 1}
+       {x41f80000 x3eae97a0 1 0 1}}}
+        {{{xbfdeb800 0 1 xbd214800 1}
+       {xc0400000 xbd214800 1 0 1}}
+      {{xc1641880 0 1 xbe77cf00 1}
+       {xc1b00000 xbe77cf00 1 0 1}}}
+        {{{x4482f115 0 1 xc087bbe0 1}
+       {x4471bffe xc087bbe0 1 0 1}}
+      {{x44114aba 0 1 x3fb75470 1}
+       {x4413c000 x3fb75470 1 0 1}}}
+        {{{x3fdeb800 0 1 x3d214800 1}
+       {x40400000 x3d214800 1 0 1}}
+      {{x41641880 0 1 x3e77cf00 1}
+       {x41b00000 x3e77cf00 1 0 1}}}
+        {{{xc1b05200 0 1 xbeff5c00 1}
+       {xc2180000 xbeff5c00 1 0 1}}
+      {{xbff8d400 0 1 xbd072c00 1}
+       {xc0400000 xbd072c00 1 0 1}}}
+        {{{x44843407 0 1 xc079a6e0 1}
+       {x4476fffe xc079a6e0 1 0 1}}
+      {{x4417389a 0 1 x3fdc7670 1}
+       {x441c0000 x3fdc7670 1 0 1}}}
+        {{{x41b05240 0 1 x3eff5c80 1}
+       {x42180040 x3eff5c80 1 0 1}}
+      {{x3ff8d400 0 1 x3d072c00 1}
+       {x40400000 x3d072c00 1 0 1}}}
+        {{{xc1a7ff40 0 1 xbef34e80 1}
+       {xc210d340 xbef34e80 1 0 1}}
+      {{xc09e0e80 0 1 xbdabb800 1}
+       {xc0f3ea80 xbdabb800 1 0 1}}}
+        {{{x4489f968 0 1 xc00dfcd0 1}
+       {x44880001 xc00dfcd0 1 0 1}}
+      {{x4416dd5c 0 1 x3ff62a40 1}
+       {x441d4000 x3ff62a40 1 0 1}}}
+        {{{x42043d80 0 1 x3f3f8500 1}
+       {x42640000 x3f3f8500 1 0 1}}
+      {{x40f8d500 0 1 x3e072b00 1}
+       {x41400000 x3e072b00 1 0 1}}}
+        {{{xc1305200 0 1 xbe7f5c00 1}
+       {xc1980000 xbe7f5c00 1 0 1}}
+      {{x40912680 0 1 x3d9db300 1}
+       {x40e00000 x3d9db300 1 0 1}}}
+        {{{x44921820 0 1 xbf3fa140 1}
+       {x44960001 xbf3fa140 1 0 1}}
+      {{x4414ebb2 0 1 x3fe544e0 1}
+       {x441a4000 x3fe544e0 1 0 1}}}
+        {{{x41305200 0 1 x3e7f5c00 1}
+       {x41980000 x3e7f5c00 1 0 1}}
+      {{xc0912700 0 1 xbd9db200 1}
+       {xc0e00000 xbd9db200 1 0 1}}}
+        {{{xc10b3300 0 1 xbe499a00 1}
+       {xc1700000 xbe499a00 1 0 1}}
+      {{0 -}}}
+        {{{x44965f2a 0 1 x3cd38800 1}
+       {x449d6001 x3cd38800 1 0 1}}
+      {{x44139fec 0 1 x3fda0150 1}
+       {x44184000 x3fda0150 1 0 1}}}
+        {{{x410b3380 0 1 x3e499900 1}
+       {x41700000 x3e499900 1 0 1}}
+      {{0 -}}}
+        {{{xc1680000 0 1 xbea80000 1}
+       {xc1c80000 xbea80000 1 0 1}}
+      {{x41bfcec0 0 1 x3ed06280 1}
+       {x42140000 x3ed06280 1 0 1}}}
+        {{{x449ae80a 0 1 x400811c0 1}
+       {x44a38001 x400811c0 1 0 1}}
+      {{x4415f673 0 1 x3eddd100 1}
+       {x44180000 x3eddd100 1 0 1}}}
+        {{{x41680000 0 1 x3ea80000 1}
+       {x41c80000 x3ea80000 1 0 1}}
+      {{xc1bfcf00 0 1 xbed06280 1}
+       {xc2140000 xbed06280 1 0 1}}}
+        {{{x40400000 -}}
+      {{x420c0000 -}}}
+        {{{x44a40925 0 1 x3f3124c0 1}
+       {x44a6a001 x3f3124c0 1 0 1}}
+      {{x4406124a 0 1 x3eab6dc0 1}
+       {x44078000 x3eab6dc0 1 0 1}}}
+        {{{xc0400000 -}}
+      {{xc20c0000 -}}}
+        {{{x40dc7b00 -}
+       {x41200000 -}}
+      {{x41cbd700 -}
+       {x42440000 -}}}
+        {{{x44a3b697 0 1 xbef99980 1}
+       {x44a64001 xbef99980 1 0 1}}
+      {{x43e16240 0 1 x3de66580 1}
+       {x43ed8000 x3de66580 1 0 1}}}
+        {{{xc0dc7b00 -}
+       {xc1200000 -}}
+      {{xc1cbd700 -}
+       {xc2440000 -}}}
+        {{{x411fd900 0 1 x3ea80000 1}
+       {x41c80000 x3ea80000 1 0 1}}
+      {{x413cb280 0 1 x3ec51ec0 1}
+       {x420c0000 x3ec51ec0 1 0 1}}}
+        {{{x449b5219 0 1 x3ff76280 1}
+       {x44a3c001 x3ff76280 1 0 1}}
+      {{x43d9d7aa 0 1 xbfe19448 1}
+       {x43c10000 xbfe19448 1 0 1}}}
+        {{{xc11fd980 0 1 xbea80000 1}
+       {xc1c80000 xbea80000 1 0 1}}
+      {{xc13cb2c0 0 1 xbec51ea0 1}
+       {xc20c0000 xbec51ea0 1 0 1}}}
+        {{{x40a63e00 0 1 x3e2eb800 1}
+       {x41500000 x3e2eb800 1 0 1}}
+      {{x40d7a780 0 1 x3e6147c0 1}
+       {x41a00000 x3e6147c0 1 0 1}}}
+        {{{x4498c5ea 0 1 x3fa1b480 1}
+       {x449d6001 x3fa1b480 1 0 1}}
+      {{x43d01212 0 1 xc0199f24 1}
+       {x43a40000 xc0199f24 1 0 1}}}
+        {{{xc0a63d00 0 1 xbe2eb900 1}
+       {xc1500000 xbe2eb900 1 0 1}}
+      {{xc0d7a780 0 1 xbe6147c0 1}
+       {xc1a00000 xbe6147c0 1 0 1}}}
+        {{{x41330780 0 1 x3ebc2900 1}
+       {x41e00000 x3ebc2900 1 0 1}}
+      {{x41016480 0 1 x3e872b00 1}
+       {x41c00000 x3e872b00 1 0 1}}}
+        {{{x44998636 0 1 x3f333fc0 1}
+       {x449a6001 x3f333fc0 1 0 1}}
+      {{x43b429b5 0 1 xc066a6d4 1}
+       {x438f8000 xc066a6d4 1 0 1}}}
+        {{{xc1330780 0 1 xbebc2900 1}
+       {xc1e00000 xbebc2900 1 0 1}}
+      {{xc1016480 0 1 xbe872b00 1}
+       {xc1c00000 xbe872b00 1 0 1}}}
+        {{{x418fdcc0 0 1 x3f173340 1}
+       {x42340000 x3f173340 1 0 1}}
+      {{x4057a800 0 1 x3de14780 1}
+       {x41200000 x3de14780 1 0 1}}}
+        {{{x4494a087 0 1 x3e321e00 1}
+       {x44930001 x3e321e00 1 0 1}}
+      {{x43c34420 0 1 xc04f202c 1}
+       {x437c0000 xc04f202c 1 0 1}}}
+        {{{xc18fdd40 0 1 xbf173300 1}
+       {xc2340000 xbf173300 1 0 1}}
+      {{xc057a700 0 1 xbde14800 1}
+       {xc1200000 xbde14800 1 0 1}}}
+        {{{x41be3d80 0 1 x3f09c280 1}
+       {x42240000 x3f09c280 1 0 1}}
+      {{xc144fde0 0 1 xbe560440 1}
+       {xc1980000 xbe560440 1 0 1}}}
+        {{{x448b11bb 0 1 xbfc70400 1}
+       {x4485c001 xbfc70400 1 0 1}}
+      {{x43b2307b 0 1 xc05e5b84 1}
+       {x43740000 xc05e5b84 1 0 1}}}
+        {{{xc1be3d80 0 1 xbf09c280 1}
+       {xc2240000 xbf09c280 1 0 1}}
+      {{x4144fde0 0 1 x3e560440 1}
+       {x41980000 x3e560440 1 0 1}}}
+        {{{x4181eb80 0 1 x3ebc2900 1}
+       {x41e00000 x3ebc2900 1 0 1}}
+      {{xc178d500 0 1 xbe872b00 1}
+       {xc1c00000 xbe872b00 1 0 1}}}
+        {{{x44850d3f 0 1 xc0293a50 1}
+       {x4476c000 xc0293a50 1 0 1}}
+      {{x43be2d69 0 1 xc0444f3c 1}
+       {x438c8000 xc0444f3c 1 0 1}}}
+        {{{xc181eb80 0 1 xbebc2900 1}
+       {xc1e00000 xbebc2900 1 0 1}}
+      {{x4178d500 0 1 x3e872b00 1}
+       {x41c00000 x3e872b00 1 0 1}}}}}
+      {cc
+       {f 8192}
+       {px
+        {x41c80000 x42640000}
+        {{{x4101ebc0 0 1 x3e3c2880 1}
+       {x41600000 x3e3c2880 1 0 1}}
+      {{xc025e380 0 1 xbd343900 1}
+       {xc0800000 xbd343900 1 0 1}}}
+        {{{xc04bf000 0 1 xbd93b000 1}
+       {xc0afd000 xbd93b000 1 0 1}}
+      {{xc14761e0 0 1 xbe589cc0 1}
+       {xc199d820 xbe589cc0 1 0 1}}}
+        {{{xc101ebc0 0 1 xbe3c2880 1}
+       {xc1600000 xbe3c2880 1 0 1}}
+      {{x4025e380 0 1 x3d343900 1}
+       {x40800000 x3d343900 1 0 1}}}
+        {{{x40197400 0 1 x3da14800 1}
+       {x40c00000 x3da14800 1 0 1}}
+      {{xc06d3800 0 1 xbdf7cf00 1}
+       {xc1300000 xbdf7cf00 1 0 1}}}
+        {{{x42350400 0 1 xc02679f0 1}
+       {xc18c7600 xc02679f0 1 0 1}}
+      {{xc19181a0 0 1 x3f4b3310 1}
+       {xc1193d80 x3f4b3310 1 0 1}}}
+        {{{xc0197400 0 1 xbda14800 1}
+       {xc0c00000 xbda14800 1 0 1}}
+      {{x406d3800 0 1 x3df7cf00 1}
+       {x41300000 x3df7cf00 1 0 1}}}
+        {{{xc0147c00 0 1 xbd570800 1}
+       {xc0800000 xbd570800 1 0 1}}
+      {{xc13a9fe0 0 1 xbe4ac040 1}
+       {xc1900000 xbe4ac040 1 0 1}}}
+        {{{xc1352e00 0 1 xbe833300 1}
+       {xc19c3080 xbe833300 1 0 1}}
+      {{x4033ec00 0 1 x3d437800 1}
+       {x408ad400 x3d437800 1 0 1}}}
+        {{{x40147a00 0 1 x3d570c00 1}
+       {x40800000 x3d570c00 1 0 1}}
+      {{x413a9fc0 0 1 x3e4ac080 1}
+       {x41900000 x3e4ac080 1 0 1}}}
+        {{{xc081ec00 0 1 xbdbc2800 1}
+       {xc0e00000 xbdbc2800 1 0 1}}
+      {{xc11126e0 0 1 xbe1db240 1}
+       {xc1600000 xbe1db240 1 0 1}}}
+        {{{xc1260200 0 1 xbe706c00 1}
+       {xc18f1c00 xbe706c00 1 0 1}}
+      {{x40b97640 0 1 x3dc97d80 1}
+       {x410f1a80 x3dc97d80 1 0 1}}}
+        {{{x4081ec00 0 1 x3dbc2800 1}
+       {x40e00000 x3dbc2800 1 0 1}}
+      {{x41112700 0 1 x3e1db200 1}
+       {x41600000 x3e1db200 1 0 1}}}
+        {{{xc11dc300 0 1 xbe647a00 1}
+       {xc1880000 xbe647a00 1 0 1}}
+      {{xc1a0b440 0 1 xbeae9780 1}
+       {xc1f80000 xbeae9780 1 0 1}}}
+        {{{xbedaa000 0 1 xbf08e000 1}
+       {xc18c4a80 xbf08e000 1 0 1}}
+      {{xbf445600 0 1 x3ea62260 1}
+       {x4119dd00 x3ea62260 1 0 1}}}
+        {{{x411dc200 0 1 x3e647c00 1}
+       {x41880000 x3e647c00 1 0 1}}
+      {{x41a0b430 0 1 x3eae97a0 1}
+       {x41f80000 x3eae97a0 1 0 1}}}
+        {{{xbfdeb800 0 1 xbd214800 1}
+       {xc0400000 xbd214800 1 0 1}}
+      {{xc1641880 0 1 xbe77cf00 1}
+       {xc1b00000 xbe77cf00 1 0 1}}}
+        {{{xbeb72000 0 1 xbf1bac00 1}
+       {xc19e8880 xbf1bac00 1 0 1}}
+      {{xc08f0600 0 1 x3e658200 1}
+       {x402cf800 x3e658200 1 0 1}}}
+        {{{x3fdeb800 0 1 x3d214800 1}
+       {x40400000 x3d214800 1 0 1}}
+      {{x41641880 0 1 x3e77cf00 1}
+       {x41b00000 x3e77cf00 1 0 1}}}
+        {{{xc1b051c0 0 1 xbeff5c80 1}
+       {xc2180000 xbeff5c80 1 0 1}}
+      {{xbff8d400 0 1 xbd072c00 1}
+       {xc0400000 xbd072c00 1 0 1}}}
+        {{{xbf69a800 0 1 xbca92800 1}
+       {xbfc96800 xbca92800 1 0 1}}
+      {{x414eb780 0 1 x3e609500 1}
+       {x419f8100 x3e609500 1 0 1}}}
+        {{{x41b05200 0 1 x3eff5c00 1}
+       {x42180000 x3eff5c00 1 0 1}}
+      {{x3ff8d600 0 1 x3d072a00 1}
+       {x40400000 x3d072a00 1 0 1}}}
+        {{{xc1a7ff40 0 1 xbef34e80 1}
+       {xc210d340 xbef34e80 1 0 1}}
+      {{xc09e0f00 0 1 xbdabb700 1}
+       {xc0f3ea80 xbdabb700 1 0 1}}}
+        {{{xc018f000 0 1 xbd5d8000 1}
+       {xc083d800 xbd5d8000 1 0 1}}
+      {{x414ae9c0 0 1 x3e5c7280 1}
+       {x419c9180 x3e5c7280 1 0 1}}}
+        {{{x42043d80 0 1 x3f3f8500 1}
+       {x42640000 x3f3f8500 1 0 1}}
+      {{x40f8d500 0 1 x3e072b00 1}
+       {x41400000 x3e072b00 1 0 1}}}
+        {{{xc1305200 0 1 xbe7f5c00 1}
+       {xc1980000 xbe7f5c00 1 0 1}}
+      {{x40912680 0 1 x3d9db300 1}
+       {x40e00000 x3d9db300 1 0 1}}}
+        {{{x40805400 0 1 x3db9d800 1}
+       {x40dd4000 x3db9d800 1 0 1}}
+      {{x41429340 0 1 x3e536380 1}
+       {x41962280 x3e536380 1 0 1}}}
+        {{{x41305200 0 1 x3e7f5c00 1}
+       {x41980000 x3e7f5c00 1 0 1}}
+      {{xc0912700 0 1 xbd9db200 1}
+       {xc0e00000 xbd9db200 1 0 1}}}
+        {{{xc10b3300 0 1 xbe499a00 1}
+       {xc1700000 xbe499a00 1 0 1}}
+      {{0 -}}}
+        {{{0 -}}
+      {{x414f5c40 0 1 x3e614780 1}
+       {x41a00000 x3e614780 1 0 1}}}
+        {{{x410b3380 0 1 x3e499900 1}
+       {x41700000 x3e499900 1 0 1}}
+      {{0 -}}}
+        {{{xc1680000 0 1 xbea80000 1}
+       {xc1c80000 xbea80000 1 0 1}}
+      {{x41bfcf00 0 1 x3ed06280 1}
+       {x42140000 x3ed06280 1 0 1}}}
+        {{{x4119ca00 0 1 x3e5ebc00 1}
+       {x41849400 x3e5ebc00 1 0 1}}
+      {{x40e82a00 0 1 x3dfc3a00 1}
+       {x41332400 x3dfc3a00 1 0 1}}}
+        {{{x41680000 0 1 x3ea80000 1}
+       {x41c80000 x3ea80000 1 0 1}}
+      {{xc1bfcec0 0 1 xbed06200 1}
+       {xc2140000 xbed06200 1 0 1}}}
+        {{{xc1548b00 -}
+       {x40400000 -}}
+      {{x413ec5c0 -}
+       {x420c0000 -}}}
+        {{{x419f6a00 -}}
+      {{xbfdac000 -}}}
+        {{{x41d12340 -}
+       {xc0400000 -}}
+      {{xc1bbb760 -}
+       {xc20c0000 -}}}
+        {{{x40dc7b00 -}
+       {x41200000 -}}
+      {{x41cbd700 -}
+       {x42440000 -}}}
+        {{{x41580700 -}
+       {x419cc500 -}}
+      {{xc0051600 -}
+       {xc07ff000 -}}}
+        {{{xc0dc7a00 -}
+       {xc1200000 -}}
+      {{xc1cbd710 -}
+       {xc2440000 -}}}
+        {{{x411fd900 0 1 x3ea80000 1}
+       {x41c80000 x3ea80000 1 0 1}}
+      {{x413cb2a0 0 1 x3ec51ec0 1}
+       {x420c0000 x3ec51ec0 1 0 1}}}
+        {{{x41d73a40 0 1 x3f07c3c0 1}
+       {x41823100 x3f07c3c0 1 0 1}}
+      {{xc290a28c 0 1 x3f3beed0 1}
+       {xc13a0380 x3f3beed0 1 0 1}}}
+        {{{xc11fd900 0 1 xbea80000 1}
+       {xc1c80000 xbea80000 1 0 1}}
+      {{xc13cb280 0 1 xbec51ec0 1}
+       {xc20c0000 xbec51ec0 1 0 1}}}
+        {{{x40a63e00 0 1 x3e2eb800 1}
+       {x41500000 x3e2eb800 1 0 1}}
+      {{x40d7a7c0 0 1 x3e614780 1}
+       {x41a00000 x3e614780 1 0 1}}}
+        {{{x40d67000 0 1 x3e615e00 1}
+       {x41862600 x3e615e00 1 0 1}}
+      {{xc06b1280 0 1 xbdf59080 1}
+       {xc12e6840 xbdf59080 1 0 1}}}
+        {{{xc0a63f00 0 1 xbe2eb800 1}
+       {xc1500000 xbe2eb800 1 0 1}}
+      {{xc0d7a780 0 1 xbe6147c0 1}
+       {xc1a00000 xbe6147c0 1 0 1}}}
+        {{{x41330780 0 1 x3ebc2900 1}
+       {x41e00000 x3ebc2900 1 0 1}}
+      {{x410164a0 0 1 x3e872b00 1}
+       {x41c00000 x3e872b00 1 0 1}}}
+        {{{x40a67100 0 1 x3e2eee00 1}
+       {x41504000 x3e2eee00 1 0 1}}
+      {{xc0a3bd40 0 1 xbe2b0c40 1}
+       {xc172f700 xbe2b0c40 1 0 1}}}
+        {{{xc1330780 0 1 xbebc2900 1}
+       {xc1e00000 xbebc2900 1 0 1}}
+      {{xc1016480 0 1 xbe872b00 1}
+       {xc1c00000 xbe872b00 1 0 1}}}
+        {{{x418fdcc0 0 1 x3f173380 1}
+       {x42340000 x3f173380 1 0 1}}
+      {{x4057a800 0 1 x3de14700 1}
+       {x41200000 x3de14700 1 0 1}}}
+        {{{xc1710e80 0 1 x3f11a3c0 1}
+       {x408ad800 x3f11a3c0 1 0 1}}
+      {{xc2171d60 0 1 x3e4828e0 1}
+       {xc19c3088 x3e4828e0 1 0 1}}}
+        {{{xc18fdd00 0 1 xbf173300 1}
+       {xc2340000 xbf173300 1 0 1}}
+      {{xc057a780 0 1 xbde14800 1}
+       {xc1200000 xbde14800 1 0 1}}}
+        {{{x41be3d40 0 1 x3f09c2c0 1}
+       {x42240000 x3f09c2c0 1 0 1}}
+      {{xc144fe00 0 1 xbe560400 1}
+       {xc1980000 xbe560400 1 0 1}}}
+        {{{xc09c1100 0 1 xbde20600 1}
+       {xc1068a00 xbde20600 1 0 1}}
+      {{xc13c2460 0 1 xbe4c66a0 1}
+       {xc1912bd8 xbe4c66a0 1 0 1}}}
+        {{{xc1be3dc0 0 1 xbf09c280 1}
+       {xc2240020 xbf09c280 1 0 1}}
+      {{x4144fe00 0 1 x3e560400 1}
+       {x41980000 x3e560400 1 0 1}}}
+        {{{x4181eb80 0 1 x3ebc2900 1}
+       {x41e00000 x3ebc2900 1 0 1}}
+      {{xc178d500 0 1 xbe872b00 1}
+       {xc1c00000 xbe872b00 1 0 1}}}
+        {{{xc0f19200 0 1 xbe2eee00 1}
+       {xc1504000 xbe2eee00 1 0 1}}
+      {{xc11d70e0 0 1 xbe2b0c40 1}
+       {xc172f700 xbe2b0c40 1 0 1}}}
+        {{{xc181eb80 0 1 xbebc2900 1}
+       {xc1e00000 xbebc2900 1 0 1}}
+      {{x4178d500 0 1 x3e872b00 1}
+       {x41c00000 x3e872b00 1 0 1}}}}}}
+     {tx x42640000 x448aca1b x43e206bd}
+     {a osw x41200000 osf 0 str 1 spx x44800000 spy x44428000 sb 1 nv x40000000 view2 x40000000 ltn x42640000 ltm x42640000 tt x40800000}}}}}}
+ toolbox {selectAll {
+  { selectAll str 1 ssx 1 ssy 1 sf 1 }
+  { createBezier str 1 ssx 1 ssy 1 sf 1 sb 1 tt 4 }
+  { createBezierCusped str 1 ssx 1 ssy 1 sf 1 sb 1 }
+  { createBSpline str 1 ssx 1 ssy 1 sf 1 sb 1 }
+  { createEllipse str 1 ssx 1 ssy 1 sf 1 sb 1 }
+  { createRectangle str 1 ssx 1 ssy 1 sf 1 sb 1 }
+  { createRectangleCusped str 1 ssx 1 ssy 1 sf 1 sb 1 }
+  { brush str 1 ssx 1 ssy 1 sf 1 sb 1 }
+  { eraser src 2 str 1 ssx 1 ssy 1 sf 1 sb 1 }
+  { clone src 1 str 1 ssx 1 ssy 1 sf 1 sb 1 }
+  { reveal src 3 str 1 ssx 1 ssy 1 sf 1 sb 1 }
+  { dodge src 1 str 1 ssx 1 ssy 1 sf 1 sb 1 }
+  { burn src 1 str 1 ssx 1 ssy 1 sf 1 sb 1 }
+  { blur src 1 str 1 ssx 1 ssy 1 sf 1 sb 1 }
+  { sharpen src 1 str 1 ssx 1 ssy 1 sf 1 sb 1 }
+  { smear src 1 str 1 ssx 1 ssy 1 sf 1 sb 1 }
+} }
+ toolbar_brush_hardness 0.200000003
+ toolbar_source_transform_scale {1 1}
+ toolbar_source_transform_center {1024 778}
+ colorOverlay {0 0 0 0}
+ lifetime_type "all frames"
+ lifetime_start 57
+ lifetime_end 57
+ motionblur_shutter_offset_type centred
+ source_black_outside true
+ name Roto3
+ xpos 524
+ ypos 187
+}
+Premult {
+ name Premult1
+ xpos 524
+ ypos 290
+}
+Transform {
+ translate {-662 -88}
+ center {1120 478}
+ name Transform1
+ xpos 524
+ ypos 328
+}
+Glow2 {
+ tolerance 0.83
+ brightness 2.14
+ size 1.4
+ name Glow3
+ xpos 414
+ ypos 328
+}
+Read {
+ inputs 0
+ file D:/siera/animatique/vrai_storyboard/13.1.jpg
+ format "1504 650 0 0 1504 650 1 "
+ origset true
+ name Read4
+ xpos 112
+ ypos 52
+}
+Merge2 {
+ inputs 2
+ mix 0.625
+ name Merge2
+ xpos 260
+ ypos 328
+}
+Write {
+ file D:/siera/animatique/rework/13.2_fire.jpeg
+ file_type jpeg
+ _jpeg_quality 1
+ checkHashOnRead false
+ version 2
+ in_colorspace scene_linear
+ out_colorspace scene_linear
+ name Write2
+ xpos 150
+ ypos 399
+ addUserKnob {20 view_presets l "View Presets"}
+ addUserKnob {4 viewPresets l "View Presets" M {main stereo cams "stereo cams" all}}
+ addUserKnob {22 set l Set -STARTLINE T "w = nuke.thisNode()\nscriptViews = nuke.views()\nviewPreset = w\['viewPresets'].getValue()\nselectedViews = None\nif viewPreset == 0:\n  selectedViews = \['main']\nif viewPreset == 1:\n  stereoViews = \['left', 'right']\n  if set(stereoViews).issubset(set(scriptViews)):\n    selectedViews = stereoViews\n  else:\n    selectedViews = None\nelif viewPreset == 2:\n  selectedViews = \[v for v in scriptViews if 'cam' in v and not ('_left' in v or '_right' in v)]\nelif viewPreset == 3:\n  selectedViews = \[v for v in scriptViews if 'cam' in v and ('_left' in v or '_right' in v)]\nelif viewPreset == 4:\n  selectedViews = scriptViews\nif selectedViews:\n  w\['views'].fromScript(' '.join(selectedViews))\n"}
+}
+Roto {
+ inputs 0
+ output alpha
+ curves {{{v x3f99999a}
+  {f 0}
+  {n
+   {layer Root
+    {f 2097664}
+    {t x44800000 x44428000}
+    {a pt1x 0 pt1y 0 pt2x 0 pt2y 0 pt3x 0 pt3y 0 pt4x 0 pt4y 0 ptex00 0 ptex01 0 ptex02 0 ptex03 0 ptex10 0 ptex11 0 ptex12 0 ptex13 0 ptex20 0 ptex21 0 ptex22 0 ptex23 0 ptex30 0 ptex31 0 ptex32 0 ptex33 0 ptof1x 0 ptof1y 0 ptof2x 0 ptof2y 0 ptof3x 0 ptof3y 0 ptof4x 0 ptof4y 0 pterr 0 ptrefset 0 ptmot x40800000 ptref 0}
+    {curvegroup Bezier1 512 bezier
+     {{cc
+       {f 8192}
+       {px 1
+        {{{xc0e65b40 0 1 xbf1de195 1}}
+      {{x404ff600 0 1 xbe0aa400 1}}}
+        {{{x434cac02 0 1 xbd360b61 1}}
+      {{x44197a58 0 1 xbd360b61 1}}}
+        {{{x40e65b00 0 1 x3f1de1ab 1}}
+      {{xc04ff500 0 1 x3e0aa355 1}}}
+        {{{xc0e64000 0 1 xbf8ef555 1}}
+      {{x415ba540 0 1 x3edb23ab 1}}}
+        {{{x436a1f34 0 1 xbd360b61 1}}
+      {{x44170726 0 1 xbd360b61 1}}}
+        {{{x40e64000 0 1 x3f8ef555 1}}
+      {{xc15ba580 0 1 xbedb2355 1}}}
+        {{{xc0e64000 0 1 xbf8ef555 1}}
+      {{x415ba580 0 1 x3edb2355 1}}}
+        {{{x437a25d2 0 1 xbd360b61 1}}
+      {{x440f530f 0 1 xbd360b61 1}}}
+        {{{x40e64000 0 1 x3f8ef555 1}}
+      {{xc15ba540 0 1 xbedb23ab 1}}}
+        {{{xc0f0d180 0 1 xbf2fba2b 1}}
+      {{x4088a600 0 1 xbdc1baab 1}}}
+        {{{x439572b8 0 1 xbd360b61 1}}
+      {{x44053d05 0 1 xbd360b61 1}}}
+        {{{x40f0d140 0 1 x3f2fba40 1}}
+      {{xc088a600 0 1 x3dc1baab 1}}}
+        {{{xc14a0a20 0 1 xbf9b2d75 1}}
+      {{x4106eca0 0 1 xbdb98800 1}}}
+        {{{x43a2b2fa 0 1 xbd360b61 1}}
+      {{x4400b828 0 1 xbd360b61 1}}}
+        {{{x41c1b1f0 0 1 x4014c4b0 1}}
+      {{xc18159f0 0 1 x3e31dfab 1}}}
+        {{{x3ea84000 0 1 xbe38b000 1}}
+      {{x4086fcc0 0 1 x3e76af00 1}}}
+        {{{x43b3389e 0 1 xbd360b61 1}}
+      {{x43f36e4f 0 1 xbd360b61 1}}}
+        {{{xbea83c00 0 1 x3e38afab 1}}
+      {{xc086fcc0 0 1 xbe76af00 1}}}
+        {{{x409d1f80 0 1 x3e03d600 1}}
+      {{x40796880 0 1 x3ed787d5 1}}}
+        {{{x43b07002 0 1 xbd360b61 1}}
+      {{x43ed4398 0 1 xbd360b61 1}}}
+        {{{xc09d1f40 0 1 xbe03d655 1}}
+      {{xc0796900 0 1 xbed787ab 1}}}
+        {{{x415be280 0 1 x3f96b480 1}}
+      {{xc0c68180 0 1 x3e845655 1}}}
+        {{{x43a1b5fe 0 1 xbd360b61 1}}
+      {{x43ececbd 0 1 xbd360b61 1}}}
+        {{{xc15be2a0 0 1 xbf96b475 1}}
+      {{x40c68140 0 1 xbe84562b 1}}}
+        {{{x4156a300 0 1 x3fa31f00 1}}
+      {{xc10acdc0 0 1 x3de44955 1}}}
+        {{{x4391d7ab 0 1 xbd360b61 1}}
+      {{x43f8047d 0 1 xbd360b61 1}}}
+        {{{xc156a300 0 1 xbfa31f00 1}}
+      {{x410acde0 0 1 xbde44a00 1}}}
+        {{{x41881e80 0 1 x3fba9655 1}}
+      {{xc0f5c500 0 1 x3ea3d8ab 1}}}
+        {{{x437b7136 0 1 xbd360b61 1}}
+      {{x4403d334 0 1 xbd360b61 1}}}
+        {{{xc1881e90 0 1 xbfba964b 1}}
+      {{x40f5c500 0 1 xbea3d8ab 1}}}
+        {{{x40c6eb00 0 1 x3f285c55 1}}
+      {{xc0ada080 0 1 xbcc3faab 1}}}
+        {{{x4357731e 0 1 xbd360b61 1}}
+      {{x440852c4 0 1 xbd360b61 1}}}
+        {{{xc0c6eac0 0 1 xbf285c6b 1}}
+      {{x40ada100 0 1 x3cc3f555 1}}}
+        {{{x401289c0 0 1 x3ea47cc0 1}}
+      {{xc069d300 0 1 xbdc83c00 1}}}
+        {{{x43370fa7 0 1 xbd360b61 1}}
+      {{x44102067 0 1 xbd360b61 1}}}
+        {{{xc0128980 0 1 xbea47cd5 1}}
+      {{x4069d400 0 1 x3dc83aab 1}}}
+        {{{xbf7b8280 0 1 x3d27ac55 1}}
+      {{xc00b4c00 0 1 xbe2322ab 1}}}
+        {{{x433fe760 0 1 xbd360b61 1}}
+      {{x441575dc 0 1 xbd360b61 1}}}
+        {{{x3f7b8200 0 1 xbd27ac00 1}}
+      {{x400b4d00 0 1 x3e232200 1}}}}}
+      {cc
+       {f 8192}
+       {px 1
+        {{{xc0e65b40 0 1 xbf1de195 1}}
+      {{x404ff600 0 1 xbe0aa400 1}}}
+        {{{x4178e3a0 0 1 xbf25ed15 1}}
+      {{x4209d8f0 0 1 x40216f55 1}}}
+        {{{x40e65b00 0 1 x3f1de1ab 1}}
+      {{xc04ff500 0 1 x3e0aa355 1}}}
+        {{{xc0e64000 0 1 xbf8ef555 1}}
+      {{x415ba540 0 1 x3edb23ab 1}}}
+        {{{x41f51290 0 1 x3f80caf5 1}}
+      {{x41a081c0 0 1 x4019774b 1}}}
+        {{{x40e64000 0 1 x3f8ef555 1}}
+      {{xc15ba580 0 1 xbedb2355 1}}}
+        {{{xc0e63fc0 0 1 xbf8ef560 1}}
+      {{x415ba580 0 1 x3edb2400 1}}}
+        {{{x41f513a0 0 1 x3f80cd6b 1}}
+      {{x41a08020 0 1 x401976eb 1}}}
+        {{{x40e64000 0 1 x3f8ef555 1}}
+      {{xc15ba580 0 1 xbedb2355 1}}}
+        {{{xc0f0d180 0 1 xbf2fba2b 1}}
+      {{x4088a600 0 1 xbdc1baab 1}}}
+        {{{x4190a9c0 0 1 xbed97d55 1}}
+      {{x4204b600 0 1 x4023fbf5 1}}}
+        {{{x40f0d140 0 1 x3f2fba40 1}}
+      {{xc088a600 0 1 x3dc1baab 1}}}
+        {{{xc14a0a40 0 1 xbf9b2d6b 1}}
+      {{x4106ec80 0 1 xbdb98755 1}}}
+        {{{x419ff4f0 0 1 xbe7bd500 1}}
+      {{x41fffe20 0 1 x402532f0 1}}}
+        {{{x41c1b1e0 0 1 x4014c4b5 1}}
+      {{xc18159e0 0 1 x3e31df55 1}}}
+        {{{x3ea83c00 0 1 xbe38afab 1}}
+      {{x4086fcc0 0 1 x3e76af00 1}}}
+        {{{x420a8e00 0 1 x400ed775 1}}
+      {{xbe69f800 0 1 x3fbd64cb 1}}}
+        {{{xbea84000 0 1 x3e38b000 1}}
+      {{xc086fcc0 0 1 xbe76af00 1}}}
+        {{{x409d1f80 0 1 x3e03d600 1}}
+      {{x40796880 0 1 x3ed787d5 1}}}
+        {{{x419a2bc0 0 1 x40289035 1}}
+      {{xc1ea3e70 0 1 xbf3e6ec0 1}}}
+        {{{xc09d1f40 0 1 xbe03d655 1}}
+      {{xc0796880 0 1 xbed787d5 1}}}
+        {{{x415be280 0 1 x3f96b480 1}}
+      {{xc0c68180 0 1 x3e845655 1}}}
+        {{{xc178e3c0 0 1 x3f25ed2b 1}}
+      {{xc209d8f8 0 1 xc0216f65 1}}}
+        {{{xc15be2a0 0 1 xbf96b475 1}}
+      {{x40c68140 0 1 xbe84562b 1}}}
+        {{{x4156a2e0 0 1 x3fa31f0b 1}}
+      {{xc10acdc0 0 1 x3de44955 1}}}
+        {{{xc19ce6f0 0 1 x3e909680 1}}
+      {{xc2010030 0 1 xc02502a0 1}}}
+        {{{xc156a300 0 1 xbfa31f00 1}}
+      {{x410acde0 0 1 xbde44a00 1}}}
+        {{{x41881e80 0 1 x3fba9655 1}}
+      {{xc0f5c500 0 1 x3ea3d8ab 1}}}
+        {{{xc178e3a0 0 1 x3f25ed15 1}}
+      {{xc209d8f0 0 1 xc0216f60 1}}}
+        {{{xc1881e90 0 1 xbfba964b 1}}
+      {{x40f5c500 0 1 xbea3d8ab 1}}}
+        {{{x40c6eb00 0 1 x3f285c55 1}}
+      {{xc0ada100 0 1 xbcc3f555 1}}}
+        {{{xc1b97ed0 0 1 xbd9a8755 1}}
+      {{xc1ec7120 0 1 xc0259775 1}}}
+        {{{xc0c6ea90 0 1 xbf285c7b 1}}
+      {{x40ada0c0 0 1 x3cc3f800 1}}}
+        {{{x40128980 0 1 x3ea47cd5 1}}
+      {{xc069d300 0 1 xbdc83c00 1}}}
+        {{{xc1eaa7f0 0 1 xbf507cc0 1}}
+      {{xc1b2a700 0 1 xc01dae10 1}}}
+        {{{xc0128980 0 1 xbea47cd5 1}}
+      {{x4069d300 0 1 x3dc83c00 1}}}
+        {{{xbf7b8300 0 1 x3d27acab 1}}
+      {{xc00b4c00 0 1 xbe2322ab 1}}}
+        {{{xc1f8adf4 0 1 xc02a70af 1}}
+      {{x41608040 0 1 xbf15aad5 1}}}
+        {{{x3f7b8300 0 1 xbd27acab 1}}
+      {{x400b4c00 0 1 x3e2322ab 1}}}}}}
+     {tx x41c80000 x4433cec5 x43c9c4ec}
+     {a osw x41200000 osf 0 str 1 spx x44800000 spy x44428000 sb 1 nv x40000000 view2 x40000000 ltn x41c80000 ltm x41c80000 tt x40800000}}}}}}
+ toolbox {selectAll {
+  { selectAll str 1 ssx 1 ssy 1 sf 1 }
+  { createBezier str 1 ssx 1 ssy 1 sf 1 sb 1 tt 4 }
+  { createBezierCusped str 1 ssx 1 ssy 1 sf 1 sb 1 }
+  { createBSpline str 1 ssx 1 ssy 1 sf 1 sb 1 }
+  { createEllipse str 1 ssx 1 ssy 1 sf 1 sb 1 }
+  { createRectangle str 1 ssx 1 ssy 1 sf 1 sb 1 }
+  { createRectangleCusped str 1 ssx 1 ssy 1 sf 1 sb 1 }
+  { brush str 1 ssx 1 ssy 1 sf 1 sb 1 }
+  { eraser src 2 str 1 ssx 1 ssy 1 sf 1 sb 1 }
+  { clone src 1 str 1 ssx 1 ssy 1 sf 1 sb 1 }
+  { reveal src 3 str 1 ssx 1 ssy 1 sf 1 sb 1 }
+  { dodge src 1 str 1 ssx 1 ssy 1 sf 1 sb 1 }
+  { burn src 1 str 1 ssx 1 ssy 1 sf 1 sb 1 }
+  { blur src 1 str 1 ssx 1 ssy 1 sf 1 sb 1 }
+  { sharpen src 1 str 1 ssx 1 ssy 1 sf 1 sb 1 }
+  { smear src 1 str 1 ssx 1 ssy 1 sf 1 sb 1 }
+} }
+ toolbar_brush_hardness 0.200000003
+ toolbar_source_transform_scale {1 1}
+ toolbar_source_transform_center {1024 778}
+ colorOverlay {0 0 0 0}
+ lifetime_type "all frames"
+ lifetime_start 25
+ lifetime_end 25
+ motionblur_shutter_offset_type centred
+ source_black_outside true
+ name Roto6
+ xpos 1329
+ ypos 713
+}
+Constant {
+ inputs 0
+ channels rgb
+ color {0 0.02087052166 0.04600000009 0}
+ name Constant2
+ xpos 1164
+ ypos 202
+}
+Grade {
+ name Grade2
+ xpos 1164
+ ypos 294
+}
+Glow2 {
+ brightness {{curve x1 3.111894624 x5 2.08 x11 2.76 x16 1.28 x24 2.62 x34 2.52 x37 2.18 x45 1.7 x50 2.84 x59 1.94 x64 2.68 x80 2.34 x84 2.52 x94 2.24}}
+ name Glow4
+ xpos 1164
+ ypos 344
+}
+TimeWarp {
+ lookup {{curve C x1 1 x100 100}}
+ time ""
+ name TimeWarp2
+ xpos 1164
+ ypos 391
+}
+Noise {
+ size 21
+ zoffset {{curve x1 0 x99 20}}
+ lacunarity 2.1
+ gamma 0.285
+ rotate 116.173851
+ scale {10 0.7}
+ center {1024 778}
+ xrotate 26
+ color {0.26 0.26 0.69 1}
+ color_panelDropped true
+ name Noise2
+ xpos 1164
+ ypos 431
+}
+Blur {
+ size 0.9
+ name Blur1
+ xpos 1164
+ ypos 474
+}
+Glow2 {
+ brightness 1.66
+ name Glow5
+ xpos 1164
+ ypos 520
+}
+Dot {
+ name Dot4
+ xpos 1198
+ ypos 562
+}
+set N54efb400 [stack 0]
+Dot {
+ name Dot5
+ xpos 1108
+ ypos 562
+}
+Read {
+ inputs 0
+ file D:/siera/animatique/vrai_storyboard/17.0.jpg
+ format "1506 652 0 0 1506 652 1 "
+ origset true
+ name Read10
+ xpos 867
+ ypos 431
+}
+Dot {
+ name Dot6
+ xpos 901
+ ypos 723
+}
+Merge2 {
+ inputs 2+1
+ operation multiply
+ name Merge5
+ xpos 1074
+ ypos 719
+}
+Roto {
+ inputs 0
+ output alpha
+ curves {{{v x3f99999a}
+  {f 0}
+  {n
+   {layer Root
+    {f 2097664}
+    {t x44800000 x44428000 0 0 0 0 0 0 0
+     {{x41200000 1}}}
+    {a pt1x 0 pt1y 0 pt2x 0 pt2y 0 pt3x 0 pt3y 0 pt4x 0 pt4y 0 ptex00 0 ptex01 0 ptex02 0 ptex03 0 ptex10 0 ptex11 0 ptex12 0 ptex13 0 ptex20 0 ptex21 0 ptex22 0 ptex23 0 ptex30 0 ptex31 0 ptex32 0 ptex33 0 ptof1x 0 ptof1y 0 ptof2x 0 ptof2y 0 ptof3x 0 ptof3y 0 ptof4x 0 ptof4y 0 pterr 0 ptrefset 0 ptmot x40800000 ptref 0}
+    {curvegroup Bezier1 512 bezier
+     {{cc
+       {f 8192}
+       {px
+        {1 x41700000 x42080000 x42440000}
+        {{{x42b00000 -}}
+	 {{x41500000 -}}}
+        {{{xc237b2a8 0 1 xc0cdb6ce 1}
+	  {xc2d3d94c -}
+	  {xc2cfd94c -}
+	  {xc317eca2 xc099998d 1 0 1}}
+	 {{x438c6cfa 0 1 x41900000 1}
+	  {x43e06cfa -}
+	  {x438a6cfb -}
+	  {x43d96cfc x417cccd0 1 0 1}}}
+        {{{xc2b00000 -}}
+	 {{xc1500000 -}}}
+        {{{0 -}}
+	 {{0 -}}}
+        {{{xc2f6ef58 -}}
+	 {{xc28e9dc4 -}}}
+        {{{0 -}}
+	 {{0 -}}}
+        {{{0 -}}
+	 {{xbf800000 -}}}
+        {{{x4434ff7c 0 1 x418c924d 1}
+	  {x445dff7d -}
+	  {x443a7f7e -}
+	  {x4452ff7e x411ccccd 1 0 1}}
+	 {{xc2d067c0 0 1 xc180c07a 1}
+	  {xc38519f0 xc021af3d 1 xc021af3d 1}
+	  {xc38d19f1 xbfe96971 1 xbfe96971 1}
+	  {xc3a419f1 xc06c0c0a 1 0 1}}}
+        {{{0 -}}
+	 {{1 -}}}
+        {{{x420c0000 -}}
+	 {{xc1d00000 -}}}
+        {{{x4430a02c -}}
+	 {{x42c3999a -}}}
+        {{{xc20c0000 -}}
+	 {{x41d00000 -}}}}}
+      {cc
+       {f 8192}
+       {px
+        {1 x41700000 x42080000 x42440000}
+        {{{x42b00000 -}}
+	 {{x41500000 -}}}
+        {{{xc123ae00 -}}
+	 {{x428a7f3a -}}}
+        {{{xc2b00000 -}}
+	 {{xc1500000 -}}}
+        {{{0 -}}
+	 {{0 -}}}
+        {{{xc1ceb3ae -}}
+	 {{xc28880c9 -}}}
+        {{{0 -}}
+	 {{0 -}}}
+        {{{0 -}}
+	 {{xbf800000 -}}}
+        {{{x42a676f2 -}}
+	 {{xc04743c9 -}}}
+        {{{0 -}}
+	 {{1 -}}}
+        {{{x420c0000 -}}
+	 {{xc1d00000 -}}}
+        {{{x4226f8a0 -}}
+	 {{x4260c47e -}}}
+        {{{xc20c0000 -}}
+	 {{x41d00000 -}}}}}}
+     {tx x42080000 x43e3aaab x4228aaab}
+     {a osw x41200000 osf 0 str 1 spx x44800000 spy x44428000 sb 1 nv x40000000 view2 x40000000 ltn x42080000 ltm x42080000 tt x40800000}}}}}}
+ toolbox {selectAll {
+  { selectAll str 1 ssx 1 ssy 1 sf 1 }
+  { createBezier str 1 ssx 1 ssy 1 sf 1 sb 1 tt 4 }
+  { createBezierCusped str 1 ssx 1 ssy 1 sf 1 sb 1 }
+  { createBSpline str 1 ssx 1 ssy 1 sf 1 sb 1 }
+  { createEllipse str 1 ssx 1 ssy 1 sf 1 sb 1 }
+  { createRectangle str 1 ssx 1 ssy 1 sf 1 sb 1 }
+  { createRectangleCusped str 1 ssx 1 ssy 1 sf 1 sb 1 }
+  { brush str 1 ssx 1 ssy 1 sf 1 sb 1 }
+  { eraser src 2 str 1 ssx 1 ssy 1 sf 1 sb 1 }
+  { clone src 1 str 1 ssx 1 ssy 1 sf 1 sb 1 }
+  { reveal src 3 str 1 ssx 1 ssy 1 sf 1 sb 1 }
+  { dodge src 1 str 1 ssx 1 ssy 1 sf 1 sb 1 }
+  { burn src 1 str 1 ssx 1 ssy 1 sf 1 sb 1 }
+  { blur src 1 str 1 ssx 1 ssy 1 sf 1 sb 1 }
+  { sharpen src 1 str 1 ssx 1 ssy 1 sf 1 sb 1 }
+  { smear src 1 str 1 ssx 1 ssy 1 sf 1 sb 1 }
+} }
+ toolbar_brush_hardness 0.200000003
+ toolbar_source_transform_scale {1 1}
+ toolbar_source_transform_center {1024 778}
+ colorOverlay {0 0 0 0}
+ lifetime_type "all frames"
+ lifetime_start 34
+ lifetime_end 34
+ motionblur_shutter_offset_type centred
+ source_black_outside true
+ name Roto5
+ xpos 1495
+ ypos 533
+}
+push $N54efb400
+Read {
+ inputs 0
+ file C:/Users/greli/Downloads/plan_32.mp4
+ format "1066 458 0 0 1066 458 1 "
+ last 83
+ origlast 83
+ origset true
+ version 1
+ decoder mov32
+ name Read6
+ xpos 1353
+ ypos 348
+}
+Merge2 {
+ inputs 2+1
+ operation multiply
+ name Merge4
+ xpos 1353
+ ypos 558
+}
+set N54f63800 [stack 0]
+Viewer {
+ frame_range 1-36
+ frame_range_lock true
+ name Viewer1
+ xpos 1501
+ ypos 670
+}
+Read {
+ inputs 0
+ file C:/Users/greli/Downloads/plan_31.5.mp4
+ format "1066 458 0 0 1066 458 1 "
+ last 38
+ origlast 38
+ origset true
+ decoder mov32
+ name Read8
+ xpos 1353
+ ypos 193
+}
+Read {
+ inputs 0
+ file C:/Users/greli/Downloads/plan_33.mp4
+ format "1066 458 0 0 1066 458 1 "
+ last 37
+ origlast 37
+ origset true
+ decoder mov32
+ name Read9
+ xpos 1513
+ ypos 306
+}
+push $N54f63800
+Write {
+ file D:/siera/animatique/rework/32.mov
+ views {main}
+ file_type mov
+ meta_codec apch
+ mov64_codec apch
+ mov64_bitrate 20000
+ mov64_bitrate_tolerance 40000000
+ mov64_quality_min 2
+ mov64_quality_max 31
+ mov64_gop_size 12
+ mov64_b_frames 0
+ checkHashOnRead false
+ version 18
+ in_colorspace linear
+ out_colorspace linear
+ name Write3
+ xpos 1327
+ ypos 639
+ addUserKnob {20 view_presets l "View Presets"}
+ addUserKnob {4 viewPresets l "View Presets" M {main stereo cams "stereo cams" all}}
+ addUserKnob {22 set l Set -STARTLINE T "w = nuke.thisNode()\nscriptViews = nuke.views()\nviewPreset = w\['viewPresets'].getValue()\nselectedViews = None\nif viewPreset == 0:\n  selectedViews = \['main']\nif viewPreset == 1:\n  stereoViews = \['left', 'right']\n  if set(stereoViews).issubset(set(scriptViews)):\n    selectedViews = stereoViews\n  else:\n    selectedViews = None\nelif viewPreset == 2:\n  selectedViews = \[v for v in scriptViews if 'cam' in v and not ('_left' in v or '_right' in v)]\nelif viewPreset == 3:\n  selectedViews = \[v for v in scriptViews if 'cam' in v and ('_left' in v or '_right' in v)]\nelif viewPreset == 4:\n  selectedViews = scriptViews\nif selectedViews:\n  w\['views'].fromScript(' '.join(selectedViews))\n"}
+}
+Read {
+ inputs 0
+ file D:/siera/animatique/vrai_storyboard/15.jpg
+ format "1504 651 0 0 1504 651 1 "
+ origset true
+ name Read2
+ xpos -888
+ ypos -199
+}
+Roto {
+ inputs 0
+ output alpha
+ curves {{{v x3f99999a}
+  {f 0}
+  {n
+   {layer Root
+    {f 2097664}
+    {t x44800000 x44428000}
+    {a pt1x 0 pt1y 0 pt2x 0 pt2y 0 pt3x 0 pt3y 0 pt4x 0 pt4y 0 ptex00 0 ptex01 0 ptex02 0 ptex03 0 ptex10 0 ptex11 0 ptex12 0 ptex13 0 ptex20 0 ptex21 0 ptex22 0 ptex23 0 ptex30 0 ptex31 0 ptex32 0 ptex33 0 ptof1x 0 ptof1y 0 ptof2x 0 ptof2y 0 ptof3x 0 ptof3y 0 ptof4x 0 ptof4y 0 pterr 0 ptrefset 0 ptmot x40800000 ptref 0}
+    {curvegroup Bezier1 512 bezier
+     {{cc
+       {f 8192}
+       {px 1
+        {{{xc0e65b40 0 1 xbf1de195 1}}
+      {{x404ff600 0 1 xbe0aa400 1}}}
+        {{{x434cac02 0 1 xbd360b61 1}}
+      {{x44197a58 0 1 xbd360b61 1}}}
+        {{{x40e65b00 0 1 x3f1de1ab 1}}
+      {{xc04ff500 0 1 x3e0aa355 1}}}
+        {{{xc0e64000 0 1 xbf8ef555 1}}
+      {{x415ba540 0 1 x3edb23ab 1}}}
+        {{{x436a1f34 0 1 xbd360b61 1}}
+      {{x44170726 0 1 xbd360b61 1}}}
+        {{{x40e64000 0 1 x3f8ef555 1}}
+      {{xc15ba580 0 1 xbedb2355 1}}}
+        {{{xc0e64000 0 1 xbf8ef555 1}}
+      {{x415ba580 0 1 x3edb2355 1}}}
+        {{{x437a25d2 0 1 xbd360b61 1}}
+      {{x440f530f 0 1 xbd360b61 1}}}
+        {{{x40e64000 0 1 x3f8ef555 1}}
+      {{xc15ba540 0 1 xbedb23ab 1}}}
+        {{{xc0f0d180 0 1 xbf2fba2b 1}}
+      {{x4088a600 0 1 xbdc1baab 1}}}
+        {{{x439572b8 0 1 xbd360b61 1}}
+      {{x44053d05 0 1 xbd360b61 1}}}
+        {{{x40f0d140 0 1 x3f2fba40 1}}
+      {{xc088a600 0 1 x3dc1baab 1}}}
+        {{{xc14a0a20 0 1 xbf9b2d75 1}}
+      {{x4106eca0 0 1 xbdb98800 1}}}
+        {{{x43a2b2fa 0 1 xbd360b61 1}}
+      {{x4400b828 0 1 xbd360b61 1}}}
+        {{{x41c1b1f0 0 1 x4014c4b0 1}}
+      {{xc18159f0 0 1 x3e31dfab 1}}}
+        {{{x3ea84000 0 1 xbe38b000 1}}
+      {{x4086fcc0 0 1 x3e76af00 1}}}
+        {{{x43b3389e 0 1 xbd360b61 1}}
+      {{x43f36e4f 0 1 xbd360b61 1}}}
+        {{{xbea83c00 0 1 x3e38afab 1}}
+      {{xc086fcc0 0 1 xbe76af00 1}}}
+        {{{x409d1f80 0 1 x3e03d600 1}}
+      {{x40796880 0 1 x3ed787d5 1}}}
+        {{{x43b07002 0 1 xbd360b61 1}}
+      {{x43ed4398 0 1 xbd360b61 1}}}
+        {{{xc09d1f40 0 1 xbe03d655 1}}
+      {{xc0796900 0 1 xbed787ab 1}}}
+        {{{x415be280 0 1 x3f96b480 1}}
+      {{xc0c68180 0 1 x3e845655 1}}}
+        {{{x43a1b5fe 0 1 xbd360b61 1}}
+      {{x43ececbd 0 1 xbd360b61 1}}}
+        {{{xc15be2a0 0 1 xbf96b475 1}}
+      {{x40c68140 0 1 xbe84562b 1}}}
+        {{{x4156a300 0 1 x3fa31f00 1}}
+      {{xc10acdc0 0 1 x3de44955 1}}}
+        {{{x4391d7ab 0 1 xbd360b61 1}}
+      {{x43f8047d 0 1 xbd360b61 1}}}
+        {{{xc156a300 0 1 xbfa31f00 1}}
+      {{x410acde0 0 1 xbde44a00 1}}}
+        {{{x41881e80 0 1 x3fba9655 1}}
+      {{xc0f5c500 0 1 x3ea3d8ab 1}}}
+        {{{x437b7136 0 1 xbd360b61 1}}
+      {{x4403d334 0 1 xbd360b61 1}}}
+        {{{xc1881e90 0 1 xbfba964b 1}}
+      {{x40f5c500 0 1 xbea3d8ab 1}}}
+        {{{x40c6eb00 0 1 x3f285c55 1}}
+      {{xc0ada080 0 1 xbcc3faab 1}}}
+        {{{x4357731e 0 1 xbd360b61 1}}
+      {{x440852c4 0 1 xbd360b61 1}}}
+        {{{xc0c6eac0 0 1 xbf285c6b 1}}
+      {{x40ada100 0 1 x3cc3f555 1}}}
+        {{{x401289c0 0 1 x3ea47cc0 1}}
+      {{xc069d300 0 1 xbdc83c00 1}}}
+        {{{x43370fa7 0 1 xbd360b61 1}}
+      {{x44102067 0 1 xbd360b61 1}}}
+        {{{xc0128980 0 1 xbea47cd5 1}}
+      {{x4069d400 0 1 x3dc83aab 1}}}
+        {{{xbf7b8280 0 1 x3d27ac55 1}}
+      {{xc00b4c00 0 1 xbe2322ab 1}}}
+        {{{x433fe760 0 1 xbd360b61 1}}
+      {{x441575dc 0 1 xbd360b61 1}}}
+        {{{x3f7b8200 0 1 xbd27ac00 1}}
+      {{x400b4d00 0 1 x3e232200 1}}}}}
+      {cc
+       {f 8192}
+       {px 1
+        {{{xc0e65b40 0 1 xbf1de195 1}}
+      {{x404ff600 0 1 xbe0aa400 1}}}
+        {{{x4178e3a0 0 1 xbf25ed15 1}}
+      {{x4209d8f0 0 1 x40216f55 1}}}
+        {{{x40e65b00 0 1 x3f1de1ab 1}}
+      {{xc04ff500 0 1 x3e0aa355 1}}}
+        {{{xc0e64000 0 1 xbf8ef555 1}}
+      {{x415ba540 0 1 x3edb23ab 1}}}
+        {{{x41f51290 0 1 x3f80caf5 1}}
+      {{x41a081c0 0 1 x4019774b 1}}}
+        {{{x40e64000 0 1 x3f8ef555 1}}
+      {{xc15ba580 0 1 xbedb2355 1}}}
+        {{{xc0e63fc0 0 1 xbf8ef560 1}}
+      {{x415ba580 0 1 x3edb2400 1}}}
+        {{{x41f513a0 0 1 x3f80cd6b 1}}
+      {{x41a08020 0 1 x401976eb 1}}}
+        {{{x40e64000 0 1 x3f8ef555 1}}
+      {{xc15ba580 0 1 xbedb2355 1}}}
+        {{{xc0f0d180 0 1 xbf2fba2b 1}}
+      {{x4088a600 0 1 xbdc1baab 1}}}
+        {{{x4190a9c0 0 1 xbed97d55 1}}
+      {{x4204b600 0 1 x4023fbf5 1}}}
+        {{{x40f0d140 0 1 x3f2fba40 1}}
+      {{xc088a600 0 1 x3dc1baab 1}}}
+        {{{xc14a0a40 0 1 xbf9b2d6b 1}}
+      {{x4106ec80 0 1 xbdb98755 1}}}
+        {{{x419ff4f0 0 1 xbe7bd500 1}}
+      {{x41fffe20 0 1 x402532f0 1}}}
+        {{{x41c1b1e0 0 1 x4014c4b5 1}}
+      {{xc18159e0 0 1 x3e31df55 1}}}
+        {{{x3ea83c00 0 1 xbe38afab 1}}
+      {{x4086fcc0 0 1 x3e76af00 1}}}
+        {{{x420a8e00 0 1 x400ed775 1}}
+      {{xbe69f800 0 1 x3fbd64cb 1}}}
+        {{{xbea84000 0 1 x3e38b000 1}}
+      {{xc086fcc0 0 1 xbe76af00 1}}}
+        {{{x409d1f80 0 1 x3e03d600 1}}
+      {{x40796880 0 1 x3ed787d5 1}}}
+        {{{x419a2bc0 0 1 x40289035 1}}
+      {{xc1ea3e70 0 1 xbf3e6ec0 1}}}
+        {{{xc09d1f40 0 1 xbe03d655 1}}
+      {{xc0796880 0 1 xbed787d5 1}}}
+        {{{x415be280 0 1 x3f96b480 1}}
+      {{xc0c68180 0 1 x3e845655 1}}}
+        {{{xc178e3c0 0 1 x3f25ed2b 1}}
+      {{xc209d8f8 0 1 xc0216f65 1}}}
+        {{{xc15be2a0 0 1 xbf96b475 1}}
+      {{x40c68140 0 1 xbe84562b 1}}}
+        {{{x4156a2e0 0 1 x3fa31f0b 1}}
+      {{xc10acdc0 0 1 x3de44955 1}}}
+        {{{xc19ce6f0 0 1 x3e909680 1}}
+      {{xc2010030 0 1 xc02502a0 1}}}
+        {{{xc156a300 0 1 xbfa31f00 1}}
+      {{x410acde0 0 1 xbde44a00 1}}}
+        {{{x41881e80 0 1 x3fba9655 1}}
+      {{xc0f5c500 0 1 x3ea3d8ab 1}}}
+        {{{xc178e3a0 0 1 x3f25ed15 1}}
+      {{xc209d8f0 0 1 xc0216f60 1}}}
+        {{{xc1881e90 0 1 xbfba964b 1}}
+      {{x40f5c500 0 1 xbea3d8ab 1}}}
+        {{{x40c6eb00 0 1 x3f285c55 1}}
+      {{xc0ada100 0 1 xbcc3f555 1}}}
+        {{{xc1b97ed0 0 1 xbd9a8755 1}}
+      {{xc1ec7120 0 1 xc0259775 1}}}
+        {{{xc0c6ea90 0 1 xbf285c7b 1}}
+      {{x40ada0c0 0 1 x3cc3f800 1}}}
+        {{{x40128980 0 1 x3ea47cd5 1}}
+      {{xc069d300 0 1 xbdc83c00 1}}}
+        {{{xc1eaa7f0 0 1 xbf507cc0 1}}
+      {{xc1b2a700 0 1 xc01dae10 1}}}
+        {{{xc0128980 0 1 xbea47cd5 1}}
+      {{x4069d300 0 1 x3dc83c00 1}}}
+        {{{xbf7b8300 0 1 x3d27acab 1}}
+      {{xc00b4c00 0 1 xbe2322ab 1}}}
+        {{{xc1f8adf4 0 1 xc02a70af 1}}
+      {{x41608040 0 1 xbf15aad5 1}}}
+        {{{x3f7b8300 0 1 xbd27acab 1}}
+      {{x400b4c00 0 1 x3e2322ab 1}}}}}}
+     {tx x41c80000 x4433cec5 x43c9c4ec}
+     {a osw x41200000 osf 0 str 1 spx x44800000 spy x44428000 sb 1 nv x40000000 view2 x40000000 ltn x41c80000 ltm x41c80000 tt x40800000}}}}}}
+ toolbox {selectAll {
+  { selectAll str 1 ssx 1 ssy 1 sf 1 }
+  { createBezier str 1 ssx 1 ssy 1 sf 1 sb 1 tt 4 }
+  { createBezierCusped str 1 ssx 1 ssy 1 sf 1 sb 1 }
+  { createBSpline str 1 ssx 1 ssy 1 sf 1 sb 1 }
+  { createEllipse str 1 ssx 1 ssy 1 sf 1 sb 1 }
+  { createRectangle str 1 ssx 1 ssy 1 sf 1 sb 1 }
+  { createRectangleCusped str 1 ssx 1 ssy 1 sf 1 sb 1 }
+  { brush str 1 ssx 1 ssy 1 sf 1 sb 1 }
+  { eraser src 2 str 1 ssx 1 ssy 1 sf 1 sb 1 }
+  { clone src 1 str 1 ssx 1 ssy 1 sf 1 sb 1 }
+  { reveal src 3 str 1 ssx 1 ssy 1 sf 1 sb 1 }
+  { dodge src 1 str 1 ssx 1 ssy 1 sf 1 sb 1 }
+  { burn src 1 str 1 ssx 1 ssy 1 sf 1 sb 1 }
+  { blur src 1 str 1 ssx 1 ssy 1 sf 1 sb 1 }
+  { sharpen src 1 str 1 ssx 1 ssy 1 sf 1 sb 1 }
+  { smear src 1 str 1 ssx 1 ssy 1 sf 1 sb 1 }
+} }
+ toolbar_brush_hardness 0.200000003
+ toolbar_source_transform_scale {1 1}
+ toolbar_source_transform_center {1024 778}
+ colorOverlay {0 0 0 0}
+ lifetime_type "all frames"
+ lifetime_start 25
+ lifetime_end 25
+ motionblur_shutter_offset_type centred
+ source_black_outside true
+ name Roto4
+ xpos -1005
+ ypos 459
+}
+Constant {
+ inputs 0
+ channels rgb
+ color {0 0.3117823601 1 0}
+ name Constant1
+ xpos -637
+ ypos -99
+}
+Grade {
+ name Grade1
+ xpos -637
+ ypos -7
+}
+Glow2 {
+ brightness {{curve x1 3.111894624 x5 2.08 x11 2.76 x16 1.28 x24 2.62 x37 2.18 x45 1.7 x50 2.84 x59 1.94 x64 2.68 x80 2.34 x84 2.52 x94 2.24}}
+ name Glow2
+ xpos -637
+ ypos 43
+}
+TimeWarp {
+ lookup {{curve C x1 1 x100 100}}
+ time ""
+ name TimeWarp1
+ xpos -637
+ ypos 90
+}
+Noise {
+ size 21
+ zoffset {{curve x1 0 x99 20}}
+ lacunarity 2.1
+ gamma 0.285
+ center {1024 778}
+ name Noise1
+ xpos -637
+ ypos 155
+}
+Dot {
+ name Dot1
+ xpos -603
+ ypos 261
+}
+set N54e48800 [stack 0]
+Dot {
+ name Dot3
+ xpos -1070
+ ypos 261
+}
+Read {
+ inputs 0
+ file D:/siera/animatique/vrai_storyboard/17.0.jpg
+ format "1506 652 0 0 1506 652 1 "
+ origset true
+ name Read7
+ xpos -1311
+ ypos 130
+}
+Dot {
+ name Dot2
+ xpos -1277
+ ypos 422
+}
+Merge2 {
+ inputs 2+1
+ operation multiply
+ name Merge3
+ xpos -1104
+ ypos 418
+}
+Roto {
+ inputs 0
+ output alpha
+ curves {{{v x3f99999a}
+  {f 0}
+  {n
+   {layer Root
+    {f 2097664}
+    {t x44800000 x44428000}
+    {a pt1x 0 pt1y 0 pt2x 0 pt2y 0 pt3x 0 pt3y 0 pt4x 0 pt4y 0 ptex00 0 ptex01 0 ptex02 0 ptex03 0 ptex10 0 ptex11 0 ptex12 0 ptex13 0 ptex20 0 ptex21 0 ptex22 0 ptex23 0 ptex30 0 ptex31 0 ptex32 0 ptex33 0 ptof1x 0 ptof1y 0 ptof2x 0 ptof2y 0 ptof3x 0 ptof3y 0 ptof4x 0 ptof4y 0 pterr 0 ptrefset 0 ptmot x40800000 ptref 0}
+    {curvegroup Bezier1 512 bezier
+     {{cc
+       {f 8192}
+       {px
+        {1 x40000000 x40400000 x40800000 x40a00000 x40c00000 x40e00000}
+        {{{0 -}}
+	 {{0 -}}
+	 {{0 -}}}
+        {{{x 5
+	   {x438d8000 -}}
+	  {x 2
+	   {x43c1ad79 -}}}
+	 {{x 5
+	   {x43950000 -}}
+	  {x 2
+	   {x43b36a6f -}}}}
+        {{{0 -}}
+	 {{0 -}}
+	 {{0 -}}}
+        {{{0 -}}
+	 {{0 -}}
+	 {{0 -}}}
+        {{{x 5
+	   {x43860000 -}}
+	  {x 2
+	   {x43c786b8 -}}}
+	 {{x 5
+	   {x43894000 -}}
+	  {x 2
+	   {x43a6c330 -}}}}
+        {{{0 -}}
+	 {{0 -}}
+	 {{0 -}}}
+        {{{0 -}}
+	 {{0 -}}
+	 {{0 -}}}
+        {{{x 5
+	   {x43994925 -}}
+	  {x 2
+	   {x43e017eb -}}}
+	 {{x 5
+	   {x4370db6d -}}
+	  {x 2
+	   {x43adedb6 -}}}}
+        {{{0 -}}
+	 {{0 -}}
+	 {{0 -}}}
+        {{{0 -}}
+	 {{0 -}}
+	 {{0 -}}}
+        {{{x 5
+	   {x43a96492 -}}
+	  {x 2
+	   {x43de0ba2 -}}}
+	 {{x 5
+	   {x43852db7 -}}
+	  {x 2
+	   {x43c25e70 -}}}}
+        {{{0 -}}
+	 {{0 -}}
+	 {{0 -}}}
+        {{{0 -}}
+	 {{0 -}}
+	 {{0 -}}}
+        {{{x 5
+	   {x43b1edb7 -}}
+	  {x 2
+	   {x43daccec -}}}
+	 {{x 5
+	   {x438e8000 -}}
+	  {x 2
+	   {x43ce959b -}}}}
+        {{{0 -}}
+	 {{0 -}}
+	 {{0 -}}}
+        {{{0 -}}
+	 {{0 -}}
+	 {{0 -}}}
+        {{{x 5
+	   {x43bd0924 -}}
+	  {x 2
+	   {x43e4c2e4 -}}}
+	 {{x 5
+	   {x4389c925 -}}
+	  {x 2
+	   {x43d564f1 -}}}}
+        {{{0 -}}
+	 {{0 -}}
+	 {{0 -}}}
+        {{{0 -}}
+	 {{0 -}}
+	 {{0 -}}}
+        {{{x 5
+	   {x43c576db -}}
+	  {x 2
+	   {x43dcf293 -}}}
+	 {{x 5
+	   {x439876dc -}}
+	  {x 2
+	   {x43e468c0 -}}}}
+        {{{0 -}}
+	 {{0 -}}
+	 {{0 -}}}
+        {{{0 -}}
+	 {{0 -}}
+	 {{0 -}}}
+        {{{x 5
+	   {x43c81b6d -}}
+	  {x 2
+	   {x43d4bfea -}}}
+	 {{x 5
+	   {x43a3e493 -}}
+	  {x 2
+	   {x43eccc93 -}}}}
+        {{{0 -}}
+	 {{0 -}}
+	 {{0 -}}}
+        {{{0 -}}
+	 {{0 -}}
+	 {{0 -}}}
+        {{{x 5
+	   {x43a95b6e -}}
+	  {x 2
+	   {x43c56d20 -}}}
+	 {{x 5
+	   {x43a26492 -}}
+	  {x 2
+	   {x43d218d5 -}}}}
+        {{{0 -}}
+	 {{0 -}}
+	 {{0 -}}}
+        {{{0 -}}
+	 {{0 -}}
+	 {{0 -}}}
+        {{{x 5
+	   {x43a90924 -}}
+	  {x 2
+	   {x43cf53d2 -}}}
+	 {{x 5
+	   {x43966db7 -}}
+	  {x 2
+	   {x43cb5f71 -}}}}
+        {{{0 -}}
+	 {{0 -}}
+	 {{0 -}}}}}
+      {cc
+       {f 8192}
+       {px
+        {1 x40000000 x40400000 x40800000 x40a00000 x40c00000 x40e00000}
+        {{{0 -}}
+	 {{0 -}}}
+        {{{0 -}}
+	 {{0 -}}}
+        {{{0 -}}
+	 {{0 -}}}
+        {{{0 -}}
+	 {{0 -}}}
+        {{{0 -}}
+	 {{0 -}}}
+        {{{0 -}}
+	 {{0 -}}}
+        {{{0 -}}
+	 {{0 -}}}
+        {{{0 -}}
+	 {{0 -}}}
+        {{{0 -}}
+	 {{0 -}}}
+        {{{0 -}}
+	 {{0 -}}}
+        {{{0 -}}
+	 {{0 -}}}
+        {{{0 -}}
+	 {{0 -}}}
+        {{{0 -}}
+	 {{0 -}}}
+        {{{0 -}}
+	 {{0 -}}}
+        {{{0 -}}
+	 {{0 -}}}
+        {{{0 -}}
+	 {{0 -}}}
+        {{{0 -}}
+	 {{0 -}}}
+        {{{0 -}}
+	 {{0 -}}}
+        {{{0 -}}
+	 {{0 -}}}
+        {{{0 -}}
+	 {{0 -}}}
+        {{{0 -}}
+	 {{0 -}}}
+        {{{0 -}}
+	 {{0 -}}}
+        {{{0 -}}
+	 {{0 -}}}
+        {{{0 -}}
+	 {{0 -}}}
+        {{{0 -}}
+	 {{0 -}}}
+        {{{0 -}}
+	 {{0 -}}}
+        {{{0 -}}
+	 {{0 -}}}
+        {{{0 -}}
+	 {{0 -}}}
+        {{{0 -}}
+	 {{0 -}}}
+        {{{0 -}}
+	 {{0 -}}}}}}
+     {tx 1 x43a85333 x43915333}
+     {a fx x41d00000 fy x41d00000 osw x41200000 osf 0 str 1 spx x44800000 spy x44428000 sb 1 nv x40000000 view2 x40000000 tt x40800000}}}}}}
+ toolbox {selectAll {
+  { selectAll str 1 ssx 1 ssy 1 sf 1 }
+  { createBezier str 1 ssx 1 ssy 1 sf 1 sb 1 tt 4 }
+  { createBezierCusped str 1 ssx 1 ssy 1 sf 1 sb 1 }
+  { createBSpline str 1 ssx 1 ssy 1 sf 1 sb 1 }
+  { createEllipse str 1 ssx 1 ssy 1 sf 1 sb 1 }
+  { createRectangle str 1 ssx 1 ssy 1 sf 1 sb 1 }
+  { createRectangleCusped str 1 ssx 1 ssy 1 sf 1 sb 1 }
+  { addPoints str 1 ssx 1 ssy 1 sf 1 }
+  { brush str 1 ssx 1 ssy 1 sf 1 sb 1 }
+  { eraser src 2 str 1 ssx 1 ssy 1 sf 1 sb 1 }
+  { clone src 1 str 1 ssx 1 ssy 1 sf 1 sb 1 }
+  { reveal src 3 str 1 ssx 1 ssy 1 sf 1 sb 1 }
+  { dodge src 1 str 1 ssx 1 ssy 1 sf 1 sb 1 }
+  { burn src 1 str 1 ssx 1 ssy 1 sf 1 sb 1 }
+  { blur src 1 str 1 ssx 1 ssy 1 sf 1 sb 1 }
+  { sharpen src 1 str 1 ssx 1 ssy 1 sf 1 sb 1 }
+  { smear src 1 str 1 ssx 1 ssy 1 sf 1 sb 1 }
+} }
+ toolbar_brush_hardness 0.200000003
+ toolbar_source_transform_scale {1 1}
+ toolbar_source_transform_center {1024 778}
+ colorOverlay {0 0 0 0}
+ lifetime_type "all frames"
+ motionblur_shutter_offset_type centred
+ feather 26
+ source_black_outside true
+ name Roto7
+ xpos -633
+ ypos 337
+}
+Constant {
+ inputs 0
+ channels rgb
+ color {0.027034 0.143689 1 0}
+ color_panelDropped true
+ name Constant3
+ xpos -239
+ ypos 53
+}
+Grade {
+ name Grade3
+ xpos -239
+ ypos 159
+}
+Glow2 {
+ brightness {{curve x1 3.111894624 x5 2.08 x11 2.76 x16 1.28 x24 2.62 x37 2.18 x45 1.7 x50 2.84 x59 1.94 x64 2.68 x80 2.34 x84 2.52 x94 2.24}}
+ name Glow6
+ xpos -239
+ ypos 209
+}
+TimeWarp {
+ lookup {{curve C x1 1 x100 100}}
+ time ""
+ name TimeWarp3
+ xpos -239
+ ypos 256
+}
+Noise {
+ size 21
+ zoffset {{curve x1 0 x99 20}}
+ lacunarity 2.1
+ gamma 0.285
+ center {1024 778}
+ name Noise3
+ xpos -239
+ ypos 355
+}
+Roto {
+ inputs 0
+ output alpha
+ curves {{{v x3f99999a}
+  {f 0}
+  {n
+   {layer Root
+    {f 2097664}
+    {t x44800000 x44428000}
+    {a pt1x 0 pt1y 0 pt2x 0 pt2y 0 pt3x 0 pt3y 0 pt4x 0 pt4y 0 ptex00 0 ptex01 0 ptex02 0 ptex03 0 ptex10 0 ptex11 0 ptex12 0 ptex13 0 ptex20 0 ptex21 0 ptex22 0 ptex23 0 ptex30 0 ptex31 0 ptex32 0 ptex33 0 ptof1x 0 ptof1y 0 ptof2x 0 ptof2y 0 ptof3x 0 ptof3y 0 ptof4x 0 ptof4y 0 pterr 0 ptrefset 0 ptmot x40800000 ptref 0}
+    {curvegroup Bezier1 512 bezier
+     {{cc
+       {f 8192}
+       {px
+        {1 x41300000}
+        {{0}
+      {0}}
+        {{{x43a78000 0 1 xbfb33333 1}
+       {x43a18002 xbfb33333 1 0 1}}
+      {{x43b84000 0 1 xc0e33333 1}
+       {x43964000 xc0e33333 1 0 1}}}
+        {{0}
+      {0}}
+        {{0}
+      {0}}
+        {{{x43a08000 0 1 xbfb33333 1}
+       {x439a8002 xbfb33333 1 0 1}}
+      {{x43aa8000 0 1 xc0e33333 1}
+       {x43888000 xc0e33333 1 0 1}}}
+        {{0}
+      {0}}
+        {{0}
+      {0}}
+        {{{x43a3c000 0 1 xbfb33333 1}
+       {x439dc002 xbfb33333 1 0 1}}
+      {{x439e4000 0 1 xc0e33336 1}
+       {x43787fff xc0e33336 1 0 1}}}
+        {{0}
+      {0}}
+        {{0}
+      {0}}
+        {{{x43ad4000 0 1 xbfb33333 1}
+       {x43a74002 xbfb33333 1 0 1}}
+      {{x438fc000 0 1 xc0e33336 1}
+       {x435b7fff xc0e33336 1 0 1}}}
+        {{0}
+      {0}}
+        {{0}
+      {0}}
+        {{{x43b18000 0 1 xbfb33333 1}
+       {x43ab8002 xbfb33333 1 0 1}}
+      {{x438cc000 0 1 xc0e33336 1}
+       {x43557fff xc0e33336 1 0 1}}}
+        {{0}
+      {0}}
+        {{0}
+      {0}}
+        {{{x43b24000 0 1 xbfb33333 1}
+       {x43ac4002 xbfb33333 1 0 1}}
+      {{x43834000 0 1 xc0e33336 1}
+       {x43427fff xc0e33336 1 0 1}}}
+        {{0}
+      {0}}
+        {{0}
+      {0}}
+        {{{x43b68000 0 1 xbfb33333 1}
+       {x43b08002 xbfb33333 1 0 1}}
+      {{x436c8000 0 1 xc0e33336 1}
+       {x43287fff xc0e33336 1 0 1}}}
+        {{0}
+      {0}}
+        {{0}
+      {0}}
+        {{{x43b0c000 0 1 xbfb33333 1}
+       {x43aac002 xbfb33333 1 0 1}}
+      {{x43558000 0 1 xc0e33336 1}
+       {x43117fff xc0e33336 1 0 1}}}
+        {{0}
+      {0}}
+        {{0}
+      {x40a00000}}
+        {{{x43b24000 0 1 xbfb33333 1}
+       {x43ac4002 xbfb33333 1 0 1}}
+      {{x433e0000 0 1 xc0e33336 1}
+       {x42f3fffe xc0e33336 1 0 1}}}
+        {{0}
+      {xc0a00000}}
+        {{0}
+      {0}}
+        {{{x43b34000 0 1 xbfb33333 1}
+       {x43ad4002 xbfb33333 1 0 1}}
+      {{x43260000 0 1 xc0e33336 1}
+       {x42c3fffe xc0e33336 1 0 1}}}
+        {{0}
+      {0}}
+        {{0}
+      {x3fc00000}}
+        {{{x43b4c000 0 1 xbfb33333 1}
+       {x43aec002 xbfb33333 1 0 1}}
+      {{x43188000 0 1 xc0e33336 1}
+       {x42a8fffe xc0e33336 1 0 1}}}
+        {{0}
+      {xbfc00000}}
+        {{0}
+      {0}}
+        {{{x43b48000 0 1 xbf999966 1}
+       {x43a18002 xbf999966 1 0 1}}
+      {{x42fa0000 0 1 xc0d9999d 1}
+       {x427ffffc xc0d9999d 1 0 1}}}
+        {{0}
+      {0}}
+        {{xbfc00000}
+      {x3f000000}}
+        {{{x43b7c000 0 1 xc006664d 1}
+       {x43a04002 xc006664d 1 0 1}}
+      {{x42d50000 0 1 xc0d9999d 1}
+       {x4235fffc xc0d9999d 1 0 1}}}
+        {{x3fc00000}
+      {xbf000000}}
+        {{xbf800000}
+      {0}}
+        {{{x43bd8000 0 1 xbf999966 1}
+       {x43b10001 xbf999966 1 0 1}}
+      {{x42dc0000 0 1 xc0d9999d 1}
+       {x4243fffe xc0d9999d 1 0 1}}}
+        {{1}
+      {0}}
+        {{0}
+      {xbf000000}}
+        {{{x43be8000 0 1 xbf999966 1}
+       {x43b20001 xbf999966 1 0 1}}
+      {{x43058000 0 1 xc0d9999d 1}
+       {x4290ffff xc0d9999d 1 0 1}}}
+        {{0}
+      {x3f000000}}
+        {{0}
+      {xc0800000}}
+        {{{x43c08000 0 1 xbfb33333 1}
+       {x43ba8002 xbfb33333 1 0 1}}
+      {{x432a0000 0 1 xc0e33336 1}
+       {x42cbfffe xc0e33336 1 0 1}}}
+        {{0}
+      {x40800000}}
+        {{x3f000000}
+      {0}}
+        {{{x43c28000 0 1 xbfb33333 1}
+       {x43bc8002 xbfb33333 1 0 1}}
+      {{x43420000 0 1 xc0e33336 1}
+       {x42fbfffe xc0e33336 1 0 1}}}
+        {{xbf000000}
+      {0}}
+        {{0}
+      {0}}
+        {{{x43bb8000 0 1 xbfb33333 1}
+       {x43b58002 xbfb33333 1 0 1}}
+      {{x434e0000 0 1 xc0e33336 1}
+       {x4309ffff xc0e33336 1 0 1}}}
+        {{0}
+      {0}}
+        {{xc0200000}
+      {xc0a00000}}
+        {{{x43be8000 0 1 xbfb33333 1}
+       {x43b88002 xbfb33333 1 0 1}}
+      {{x43600000 0 1 xc0e33336 1}
+       {x431bffff xc0e33336 1 0 1}}}
+        {{x40200000}
+      {x40a00000}}
+        {{0}
+      {0}}
+        {{{x43bf0000 0 1 xbfb33333 1}
+       {x43b90002 xbfb33333 1 0 1}}
+      {{x43738000 0 1 xc0e33336 1}
+       {x432f7fff xc0e33336 1 0 1}}}
+        {{0}
+      {0}}
+        {{x3f000000}
+      {xc0200000}}
+        {{{x43bb8000 0 1 xbfb33333 1}
+       {x43b58002 xbfb33333 1 0 1}}
+      {{x43860000 0 1 xc0e33336 1}
+       {x4347ffff xc0e33336 1 0 1}}}
+        {{xbf000000}
+      {x40200000}}
+        {{x409b5580}
+      {xc0754480}}
+        {{{x43ba8000 0 1 xbfb33333 1}
+       {x43b48002 xbfb33333 1 0 1}}
+      {{x43948000 0 1 xc0e33336 1}
+       {x4364ffff xc0e33336 1 0 1}}}
+        {{xc1180000}
+      {x40f00000}}
+        {{x40600000}
+      {xc0e00000}}
+        {{{x43afc000 0 1 xbfb33333 1}
+       {x43a9c002 xbfb33333 1 0 1}}
+      {{x439b0000 0 1 xc0e33336 1}
+       {x4371ffff xc0e33336 1 0 1}}}
+        {{xc0600000}
+      {x40e00000}}
+        {{x40000000}
+      {xc1200000}}
+        {{{x43abc000 0 1 xbfb33333 1}
+       {x43a5c002 xbfb33333 1 0 1}}
+      {{x43a2c000 0 1 xc0e33336 1}
+       {x4380c000 xc0e33336 1 0 1}}}
+        {{xc0000000}
+      {x41200000}}
+        {{xc0096180}
+      {xc1260060}}
+        {{{x43aac000 0 1 xbfb33333 1}
+       {x43a4c002 xbfb33333 1 0 1}}
+      {{x43ab8000 0 1 xc0e33333 1}
+       {x43898000 xc0e33333 1 0 1}}}
+        {{x40400000}
+      {x41680000}}}}     idem}
+     {tx 1 x43b46e14 x436ae148}
+     {a osw x41200000 osf 0 str 1 spx x44800000 spy x44428000 sb 1 nv x40000000 view2 x40000000 tt x40800000 fx x41900000 fy x41900000 opc x3f47ae14}}}}}}
+ toolbox {selectAll {
+  { selectAll str 1 ssx 1 ssy 1 sf 1 }
+  { createBezier str 1 ssx 1 ssy 1 sf 1 sb 1 tt 4 }
+  { createBezierCusped str 1 ssx 1 ssy 1 sf 1 sb 1 }
+  { createBSpline str 1 ssx 1 ssy 1 sf 1 sb 1 }
+  { createEllipse str 1 ssx 1 ssy 1 sf 1 sb 1 }
+  { createRectangle str 1 ssx 1 ssy 1 sf 1 sb 1 }
+  { createRectangleCusped str 1 ssx 1 ssy 1 sf 1 sb 1 }
+  { brush str 1 ssx 1 ssy 1 sf 1 sb 1 }
+  { eraser src 2 str 1 ssx 1 ssy 1 sf 1 sb 1 }
+  { clone src 1 str 1 ssx 1 ssy 1 sf 1 sb 1 }
+  { reveal src 3 str 1 ssx 1 ssy 1 sf 1 sb 1 }
+  { dodge src 1 str 1 ssx 1 ssy 1 sf 1 sb 1 }
+  { burn src 1 str 1 ssx 1 ssy 1 sf 1 sb 1 }
+  { blur src 1 str 1 ssx 1 ssy 1 sf 1 sb 1 }
+  { sharpen src 1 str 1 ssx 1 ssy 1 sf 1 sb 1 }
+  { smear src 1 str 1 ssx 1 ssy 1 sf 1 sb 1 }
+} }
+ toolbar_brush_hardness 0.200000003
+ toolbar_source_transform_scale {1 1}
+ toolbar_source_transform_center {1024 778}
+ colorOverlay {0 0 0 0}
+ opacity 0.7799999714
+ lifetime_type "all frames"
+ motionblur_shutter_offset_type centred
+ feather 18
+ source_black_outside true
+ name Roto2
+ xpos -380
+ ypos 164
+}
+push $N54e48800
+Read {
+ inputs 0
+ file D:/GRLCK3eme/04_storyboard/storyboard/fx/plan_46.3.mp4
+ format "1066 458 0 0 1066 458 1 "
+ last 22
+ origlast 22
+ origset true
+ name Read14
+ xpos -457
+ ypos -62
+}
+Merge2 {
+ inputs 2+1
+ operation multiply
+ name Merge1
+ xpos -448
+ ypos 257
+}
+Merge2 {
+ inputs 2+1
+ operation multiply
+ name Merge6
+ xpos -420
+ ypos 343
+ disable true
+}
+set N57066400 [stack 0]
+Viewer {
+ frame 11
+ frame_range 1-83
+ frame_range_lock true
+ name Viewer2
+ xpos -448
+ ypos 515
+}
+Read {
+ inputs 0
+ file D:/GRLCK3eme/04_storyboard/storyboard/fx/plan_46.2.mp4
+ format "1066 458 0 0 1066 458 1 "
+ last 14
+ origlast 14
+ origset true
+ name Read12
+ xpos -498
+ ypos -220
+}
+Read {
+ inputs 0
+ file D:/GRLCK3eme/04_storyboard/storyboard/fx/plan_46.1.mp4
+ format "1066 458 0 0 1066 458 1 "
+ last 7
+ origlast 7
+ origset true
+ name Read11
+ xpos -945
+ ypos 55
+}
+push $N57066400
+Write {
+ file "D:/GRLCK3eme/04_storyboard/storyboard/fx/46_3 .mov"
+ views {main}
+ file_type mov
+ mov64_codec mp4v
+ mov64_bitrate 20000
+ mov64_bitrate_tolerance 40000000
+ mov64_quality_min 2
+ mov64_quality_max 31
+ mov64_gop_size 12
+ mov64_b_frames 0
+ checkHashOnRead false
+ version 12
+ name Write1
+ selected true
+ xpos -787
+ ypos 571
+ addUserKnob {20 view_presets l "View Presets"}
+ addUserKnob {4 viewPresets l "View Presets" M {main stereo cams "stereo cams" all}}
+ addUserKnob {22 set l Set -STARTLINE T "w = nuke.thisNode()\nscriptViews = nuke.views()\nviewPreset = w\['viewPresets'].getValue()\nselectedViews = None\nif viewPreset == 0:\n  selectedViews = \['main']\nif viewPreset == 1:\n  stereoViews = \['left', 'right']\n  if set(stereoViews).issubset(set(scriptViews)):\n    selectedViews = stereoViews\n  else:\n    selectedViews = None\nelif viewPreset == 2:\n  selectedViews = \[v for v in scriptViews if 'cam' in v and not ('_left' in v or '_right' in v)]\nelif viewPreset == 3:\n  selectedViews = \[v for v in scriptViews if 'cam' in v and ('_left' in v or '_right' in v)]\nelif viewPreset == 4:\n  selectedViews = scriptViews\nif selectedViews:\n  w\['views'].fromScript(' '.join(selectedViews))\n"}
+}
