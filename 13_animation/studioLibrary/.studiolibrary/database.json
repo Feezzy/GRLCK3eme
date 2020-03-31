@@ -1,1 +1,20 @@
-{}
+{
+    "../../la-d": {
+        "category": "studioLibrary", 
+        "name": "la-d", 
+        "modified": 1585660496.709542, 
+        "__class__": "studiolibrary.folderitem.FolderItem", 
+        "path": "../../la-d", 
+        "folder": "../..", 
+        "type": "Folder"
+    }, 
+    "../../la-d/walk_cycle.pose": {
+        "category": "la-d", 
+        "name": "walk_cycle.pose", 
+        "path": "../../la-d/walk_cycle.pose", 
+        "folder": "../../la-d", 
+        "type": ".pose", 
+        "modified": 1585660524.472506, 
+        "__class__": "studiolibrarymaya.poseitem.PoseItem"
+    }
+}
