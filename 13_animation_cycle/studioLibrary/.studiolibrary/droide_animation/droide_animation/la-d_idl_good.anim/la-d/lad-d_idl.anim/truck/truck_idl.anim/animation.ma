@@ -1,0 +1,75 @@
+//Maya ASCII 2018ff09 scene
+//Name: animation.ma
+//Last modified: Wed, Apr 22, 2020 02:03:53 PM
+//Codeset: 1252
+requires maya "2018ff09";
+requires "mtoa" "3.1.2.1";
+requires "stereoCamera" "10.0";
+currentUnit -l meter -a degree -t film;
+fileInfo "application" "maya";
+fileInfo "product" "Maya 2018";
+fileInfo "version" "2018";
+fileInfo "cutIdentifier" "201903222215-65bada0e52";
+fileInfo "osv" "Microsoft Windows 8 Business Edition, 64-bit  (Build 9200)\n";
+fileInfo "license" "student";
+createNode animCurveTL -n "CURVE1";
+	rename -uid "3F6F0928-4735-7FC1-6CC7-C482B3364296";
+	setAttr ".tan" 18;
+	setAttr ".wgt" no;
+	setAttr -s 2 ".ktv[0:1]"  1 0 74 0;
+createNode animCurveTL -n "CURVE2";
+	rename -uid "10013608-40D0-C274-41A2-E1B3D776769C";
+	setAttr ".tan" 18;
+	setAttr ".wgt" no;
+	setAttr -s 3 ".ktv[0:2]"  1 0.032055272926782834 37 0.051306024865806099
+		 74 0.032055272926782834;
+	setAttr -s 3 ".kit[2]"  1;
+	setAttr -s 3 ".kot[2]"  1;
+	setAttr -s 3 ".kix[2]"  1;
+	setAttr -s 3 ".kiy[2]"  0;
+	setAttr -s 3 ".kox[2]"  1;
+	setAttr -s 3 ".koy[2]"  0;
+	setAttr ".pre" 3;
+	setAttr ".pst" 3;
+createNode animCurveTL -n "CURVE3";
+	rename -uid "1532A51A-4A78-813D-9D83-B4B1AF2AFC72";
+	setAttr ".tan" 18;
+	setAttr ".wgt" no;
+	setAttr -s 2 ".ktv[0:1]"  1 0 74 0;
+createNode animCurveTU -n "CURVE4";
+	rename -uid "245E57E7-493D-9532-0626-48808B2524A5";
+	setAttr ".tan" 18;
+	setAttr ".wgt" no;
+	setAttr -s 2 ".ktv[0:1]"  1 1 74 1;
+createNode animCurveTU -n "CURVE5";
+	rename -uid "6FAB6FBF-4322-154A-C4E5-57B9E2423DE8";
+	setAttr ".tan" 18;
+	setAttr ".wgt" no;
+	setAttr -s 2 ".ktv[0:1]"  1 1 74 1;
+createNode animCurveTU -n "CURVE6";
+	rename -uid "6E50CEED-454A-C818-E791-7788555B9B44";
+	setAttr ".tan" 9;
+	setAttr ".wgt" no;
+	setAttr -s 2 ".ktv[0:1]"  1 1 74 1;
+	setAttr -s 2 ".kot[0:1]"  5 5;
+createNode animCurveTA -n "CURVE7";
+	rename -uid "5F85449D-42D6-87D3-7D7A-37B63E511A52";
+	setAttr ".tan" 18;
+	setAttr ".wgt" no;
+	setAttr -s 2 ".ktv[0:1]"  1 0 74 0;
+createNode animCurveTA -n "CURVE8";
+	rename -uid "16FB4224-4643-0105-FBE5-D0A5FAB9EB5D";
+	setAttr ".tan" 18;
+	setAttr ".wgt" no;
+	setAttr -s 2 ".ktv[0:1]"  1 0 74 0;
+createNode animCurveTA -n "CURVE9";
+	rename -uid "A17D2000-4527-1058-7948-EFBA9125DE63";
+	setAttr ".tan" 18;
+	setAttr ".wgt" no;
+	setAttr -s 2 ".ktv[0:1]"  1 0 74 0;
+createNode animCurveTU -n "CURVE10";
+	rename -uid "920B9657-45CC-A47C-669D-6B81B7C2A37D";
+	setAttr ".tan" 18;
+	setAttr ".wgt" no;
+	setAttr -s 2 ".ktv[0:1]"  1 1 74 1;
+// End
