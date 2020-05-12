@@ -1,0 +1,74 @@
+{
+    "../../droide": {
+        "category": "lad-d_idl.anim", 
+        "name": "droide", 
+        "modified": 1587635974.697077, 
+        "__class__": "studiolibrary.folderitem.FolderItem", 
+        "path": "../../droide", 
+        "folder": "../..", 
+        "type": "Folder"
+    }, 
+    "../../droide/walk_cycle.anim": {
+        "category": "droide", 
+        "name": "walk_cycle.anim", 
+        "path": "../../droide/walk_cycle.anim", 
+        "folder": "../../droide", 
+        "type": ".anim", 
+        "modified": 1587647154.536928, 
+        "__class__": "studiolibrarymaya.animitem.AnimItem"
+    }, 
+    "../../siera": {
+        "category": "lad-d_idl.anim", 
+        "name": "siera", 
+        "modified": 1587041407.167434, 
+        "__class__": "studiolibrary.folderitem.FolderItem", 
+        "path": "../../siera", 
+        "folder": "../..", 
+        "type": "Folder"
+    }, 
+    "../../siera/siera_pose.anim": {
+        "category": "siera", 
+        "name": "siera_pose.anim", 
+        "__class__": "studiolibrarymaya.animitem.AnimItem", 
+        "modified": 1587114945.456026, 
+        "path": "../../siera/siera_pose.anim", 
+        "folder": "../../siera", 
+        "type": ".anim"
+    }, 
+    "../../siera/siera_transfer-2.anim": {
+        "category": "siera", 
+        "name": "siera_transfer-2.anim", 
+        "modified": 1587041583.767739, 
+        "__class__": "studiolibrarymaya.animitem.AnimItem", 
+        "path": "../../siera/siera_transfer-2.anim", 
+        "folder": "../../siera", 
+        "type": ".anim"
+    }, 
+    "../../siera/siera_transfer_walk.anim": {
+        "category": "siera", 
+        "name": "siera_transfer_walk.anim", 
+        "__class__": "studiolibrarymaya.animitem.AnimItem", 
+        "modified": 1587041434.221594, 
+        "path": "../../siera/siera_transfer_walk.anim", 
+        "folder": "../../siera", 
+        "type": ".anim"
+    }, 
+    "../../truck": {
+        "category": "lad-d_idl.anim", 
+        "name": "truck", 
+        "modified": 1587556996.353825, 
+        "__class__": "studiolibrary.folderitem.FolderItem", 
+        "path": "../../truck", 
+        "folder": "../..", 
+        "type": "Folder"
+    }, 
+    "../../truck/truck_idl.anim": {
+        "category": "truck", 
+        "name": "truck_idl.anim", 
+        "__class__": "studiolibrarymaya.animitem.AnimItem", 
+        "modified": 1587557033.109107, 
+        "path": "../../truck/truck_idl.anim", 
+        "folder": "../../truck", 
+        "type": ".anim"
+    }
+}
