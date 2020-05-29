@@ -1,0 +1,5203 @@
+{
+  "metadata": {
+    "mayaSceneFile": "D:/GRLCK3eme/13_animation_cycle/siera/run_cycle/siera_run_cycle_12.mb", 
+    "angularUnit": "deg", 
+    "description": "", 
+    "endFrame": 23, 
+    "linearUnit": "m", 
+    "version": "1.0.0", 
+    "references": [
+      {
+        "node": "siera_rig_170RN", 
+        "unresolved": "D:/GRLCK3eme/06_character/wip/siera/rig/siera_rig_173.mb", 
+        "namespace": ":siera_rig_170", 
+        "filename": "D:/GRLCK3eme/06_character/wip/siera/rig/siera_rig_173.mb"
+      }
+    ], 
+    "user": "Feezzy", 
+    "startFrame": 1, 
+    "timeUnit": "film", 
+    "mayaVersion": "2020", 
+    "ctime": "1590416699"
+  }
+,
+  "objects": {
+    "siera_rig_170:FK_wrist_L_ctl": {
+      "attrs": {
+        "scaleX": {
+          "curve": "CURVE1", 
+          "type": "double", 
+          "value": 1.0
+        }, 
+        "scaleY": {
+          "curve": "CURVE2", 
+          "type": "double", 
+          "value": 1.0
+        }, 
+        "visibility": {
+          "curve": "CURVE3", 
+          "type": "bool", 
+          "value": true
+        }, 
+        "rotateX": {
+          "curve": "CURVE4", 
+          "type": "doubleAngle", 
+          "value": 0.0
+        }, 
+        "rotateY": {
+          "curve": "CURVE5", 
+          "type": "doubleAngle", 
+          "value": 0.0
+        }, 
+        "rotateZ": {
+          "curve": "CURVE6", 
+          "type": "doubleAngle", 
+          "value": 0.0
+        }, 
+        "scaleZ": {
+          "curve": "CURVE7", 
+          "type": "double", 
+          "value": 1.0
+        }
+      }
+    }, 
+    "siera_rig_170:shoulder_L_ctl": {
+      "attrs": {
+        "translateX": {
+          "curve": "CURVE9", 
+          "type": "doubleLinear", 
+          "value": 0.004964315533152504
+        }, 
+        "translateY": {
+          "curve": "CURVE10", 
+          "type": "doubleLinear", 
+          "value": 0.02656942983485272
+        }, 
+        "translateZ": {
+          "curve": "CURVE11", 
+          "type": "doubleLinear", 
+          "value": 0.04315420580010319
+        }, 
+        "scaleX": {
+          "curve": "CURVE12", 
+          "type": "double", 
+          "value": 1.0
+        }, 
+        "scaleY": {
+          "curve": "CURVE13", 
+          "type": "double", 
+          "value": 1.0
+        }, 
+        "visibility": {
+          "curve": "CURVE14", 
+          "type": "bool", 
+          "value": true
+        }, 
+        "scaleZ": {
+          "curve": "CURVE15", 
+          "type": "double", 
+          "value": 1.0
+        }
+      }
+    }, 
+    "siera_rig_170:IK_wrist_R_ctl": {
+      "attrs": {
+        "translateX": {
+          "curve": "CURVE17", 
+          "type": "doubleLinear", 
+          "value": -0.403
+        }, 
+        "translateY": {
+          "curve": "CURVE18", 
+          "type": "doubleLinear", 
+          "value": 0.05901329127894929
+        }, 
+        "translateZ": {
+          "curve": "CURVE19", 
+          "type": "doubleLinear", 
+          "value": 0.45119215956398706
+        }, 
+        "scaleX": {
+          "curve": "CURVE20", 
+          "type": "double", 
+          "value": 1.0
+        }, 
+        "scaleY": {
+          "curve": "CURVE21", 
+          "type": "double", 
+          "value": 1.0
+        }, 
+        "visibility": {
+          "curve": "CURVE22", 
+          "type": "bool", 
+          "value": true
+        }, 
+        "rotateX": {
+          "curve": "CURVE23", 
+          "type": "doubleAngle", 
+          "value": -29.21453646157063
+        }, 
+        "rotateY": {
+          "curve": "CURVE24", 
+          "type": "doubleAngle", 
+          "value": 177.118
+        }, 
+        "rotateZ": {
+          "curve": "CURVE25", 
+          "type": "doubleAngle", 
+          "value": -39.689
+        }, 
+        "scaleZ": {
+          "curve": "CURVE26", 
+          "type": "double", 
+          "value": 1.0
+        }
+      }
+    }, 
+    "siera_rig_170:finger_03_03_R_ctl": {
+      "attrs": {
+        "translateX": {
+          "curve": "CURVE28", 
+          "type": "doubleLinear", 
+          "value": 0.0
+        }, 
+        "translateY": {
+          "curve": "CURVE29", 
+          "type": "doubleLinear", 
+          "value": 0.0
+        }, 
+        "translateZ": {
+          "curve": "CURVE30", 
+          "type": "doubleLinear", 
+          "value": 0.0
+        }, 
+        "scaleX": {
+          "curve": "CURVE31", 
+          "type": "double", 
+          "value": 0.9999999999999999
+        }, 
+        "scaleY": {
+          "curve": "CURVE32", 
+          "type": "double", 
+          "value": 0.9999999999999999
+        }, 
+        "visibility": {
+          "curve": "CURVE33", 
+          "type": "bool", 
+          "value": true
+        }, 
+        "rotateX": {
+          "curve": "CURVE34", 
+          "type": "doubleAngle", 
+          "value": -2.525572738679828
+        }, 
+        "rotateY": {
+          "curve": "CURVE35", 
+          "type": "doubleAngle", 
+          "value": -11.38525006708935
+        }, 
+        "rotateZ": {
+          "curve": "CURVE36", 
+          "type": "doubleAngle", 
+          "value": -121.79194676032115
+        }, 
+        "scaleZ": {
+          "curve": "CURVE37", 
+          "type": "double", 
+          "value": 1.0000000000000002
+        }
+      }
+    }, 
+    "siera_rig_170:hood_08_ctl": {
+      "attrs": {
+        "translateX": {
+          "curve": "CURVE39", 
+          "type": "doubleLinear", 
+          "value": -0.010770369331753307
+        }, 
+        "translateY": {
+          "curve": "CURVE40", 
+          "type": "doubleLinear", 
+          "value": -0.04773176107615865
+        }, 
+        "translateZ": {
+          "curve": "CURVE41", 
+          "type": "doubleLinear", 
+          "value": -0.01171024300796345
+        }, 
+        "scaleX": {
+          "curve": "CURVE42", 
+          "type": "double", 
+          "value": 1.0
+        }, 
+        "scaleY": {
+          "curve": "CURVE43", 
+          "type": "double", 
+          "value": 1.0
+        }, 
+        "visibility": {
+          "curve": "CURVE44", 
+          "type": "bool", 
+          "value": true
+        }, 
+        "rotateX": {
+          "curve": "CURVE45", 
+          "type": "doubleAngle", 
+          "value": 0.0
+        }, 
+        "rotateY": {
+          "curve": "CURVE46", 
+          "type": "doubleAngle", 
+          "value": 0.0
+        }, 
+        "rotateZ": {
+          "curve": "CURVE47", 
+          "type": "doubleAngle", 
+          "value": 0.0
+        }, 
+        "scaleZ": {
+          "curve": "CURVE48", 
+          "type": "double", 
+          "value": 1.0
+        }
+      }
+    }, 
+    "siera_rig_170:hood_15_ctl": {
+      "attrs": {
+        "translateX": {
+          "curve": "CURVE50", 
+          "type": "doubleLinear", 
+          "value": 0.0
+        }, 
+        "translateY": {
+          "curve": "CURVE51", 
+          "type": "doubleLinear", 
+          "value": 0.0
+        }, 
+        "translateZ": {
+          "curve": "CURVE52", 
+          "type": "doubleLinear", 
+          "value": 0.0
+        }, 
+        "scaleX": {
+          "curve": "CURVE53", 
+          "type": "double", 
+          "value": 1.0
+        }, 
+        "scaleY": {
+          "curve": "CURVE54", 
+          "type": "double", 
+          "value": 1.0
+        }, 
+        "visibility": {
+          "curve": "CURVE55", 
+          "type": "bool", 
+          "value": true
+        }, 
+        "rotateX": {
+          "curve": "CURVE56", 
+          "type": "doubleAngle", 
+          "value": 0.0
+        }, 
+        "rotateY": {
+          "curve": "CURVE57", 
+          "type": "doubleAngle", 
+          "value": 0.0
+        }, 
+        "rotateZ": {
+          "curve": "CURVE58", 
+          "type": "doubleAngle", 
+          "value": 0.0
+        }, 
+        "scaleZ": {
+          "curve": "CURVE59", 
+          "type": "double", 
+          "value": 1.0
+        }
+      }
+    }, 
+    "siera_rig_170:elbow_R_aim_ctl": {
+      "attrs": {
+        "translateX": {
+          "curve": "CURVE61", 
+          "type": "doubleLinear", 
+          "value": -0.236
+        }, 
+        "translateY": {
+          "curve": "CURVE62", 
+          "type": "doubleLinear", 
+          "value": -0.4318956890327661
+        }, 
+        "translateZ": {
+          "curve": "CURVE63", 
+          "type": "doubleLinear", 
+          "value": 0.6241386614706691
+        }, 
+        "scaleX": {
+          "curve": "CURVE64", 
+          "type": "double", 
+          "value": 1.0
+        }, 
+        "scaleY": {
+          "curve": "CURVE65", 
+          "type": "double", 
+          "value": 1.0
+        }, 
+        "visibility": {
+          "curve": "CURVE66", 
+          "type": "bool", 
+          "value": true
+        }, 
+        "rotateX": {
+          "curve": "CURVE67", 
+          "type": "doubleAngle", 
+          "value": 0.0
+        }, 
+        "rotateY": {
+          "curve": "CURVE68", 
+          "type": "doubleAngle", 
+          "value": 0.0
+        }, 
+        "rotateZ": {
+          "curve": "CURVE69", 
+          "type": "doubleAngle", 
+          "value": 0.0
+        }, 
+        "scaleZ": {
+          "curve": "CURVE70", 
+          "type": "double", 
+          "value": 1.0
+        }
+      }
+    }, 
+    "siera_rig_170:chest_L_ctl": {
+      "attrs": {
+        "translateX": {
+          "type": "doubleLinear", 
+          "value": 0.0
+        }, 
+        "translateY": {
+          "type": "doubleLinear", 
+          "value": 0.0
+        }, 
+        "translateZ": {
+          "type": "doubleLinear", 
+          "value": 0.0
+        }, 
+        "scaleX": {
+          "type": "double", 
+          "value": 1.0
+        }, 
+        "scaleY": {
+          "type": "double", 
+          "value": 1.0
+        }, 
+        "visibility": {
+          "type": "bool", 
+          "value": true
+        }, 
+        "rotateX": {
+          "type": "doubleAngle", 
+          "value": 0.0
+        }, 
+        "rotateY": {
+          "type": "doubleAngle", 
+          "value": 0.0
+        }, 
+        "rotateZ": {
+          "type": "doubleAngle", 
+          "value": 0.0
+        }, 
+        "scaleZ": {
+          "type": "double", 
+          "value": 1.0
+        }
+      }
+    }, 
+    "siera_rig_170:finger_05_03_L_ctl": {
+      "attrs": {
+        "translateX": {
+          "curve": "CURVE72", 
+          "type": "doubleLinear", 
+          "value": 0.0
+        }, 
+        "translateY": {
+          "curve": "CURVE73", 
+          "type": "doubleLinear", 
+          "value": 0.0
+        }, 
+        "translateZ": {
+          "curve": "CURVE74", 
+          "type": "doubleLinear", 
+          "value": 0.0
+        }, 
+        "scaleX": {
+          "curve": "CURVE75", 
+          "type": "double", 
+          "value": 1.0000000000000002
+        }, 
+        "scaleY": {
+          "curve": "CURVE76", 
+          "type": "double", 
+          "value": 1.0000000000000004
+        }, 
+        "visibility": {
+          "curve": "CURVE77", 
+          "type": "bool", 
+          "value": true
+        }, 
+        "rotateX": {
+          "curve": "CURVE78", 
+          "type": "doubleAngle", 
+          "value": -6.694639892982612
+        }, 
+        "rotateY": {
+          "curve": "CURVE79", 
+          "type": "doubleAngle", 
+          "value": -3.2424307985172067
+        }, 
+        "rotateZ": {
+          "curve": "CURVE80", 
+          "type": "doubleAngle", 
+          "value": -56.854417634537306
+        }, 
+        "scaleZ": {
+          "curve": "CURVE81", 
+          "type": "double", 
+          "value": 1.0000000000000002
+        }
+      }
+    }, 
+    "siera_rig_170:IK_wrist_L_ctl": {
+      "attrs": {
+        "translateX": {
+          "curve": "CURVE83", 
+          "type": "doubleLinear", 
+          "value": -0.1830852206317194
+        }, 
+        "translateY": {
+          "curve": "CURVE84", 
+          "type": "doubleLinear", 
+          "value": -0.12517758093349504
+        }, 
+        "translateZ": {
+          "curve": "CURVE85", 
+          "type": "doubleLinear", 
+          "value": 0.19709556632640826
+        }, 
+        "scaleX": {
+          "curve": "CURVE86", 
+          "type": "double", 
+          "value": 0.9999999999999999
+        }, 
+        "scaleY": {
+          "curve": "CURVE87", 
+          "type": "double", 
+          "value": 1.0
+        }, 
+        "visibility": {
+          "curve": "CURVE88", 
+          "type": "bool", 
+          "value": true
+        }, 
+        "rotateX": {
+          "curve": "CURVE89", 
+          "type": "doubleAngle", 
+          "value": -18.17315702361856
+        }, 
+        "rotateY": {
+          "curve": "CURVE90", 
+          "type": "doubleAngle", 
+          "value": -8.314450286428983
+        }, 
+        "rotateZ": {
+          "curve": "CURVE91", 
+          "type": "doubleAngle", 
+          "value": 2.2788848240279274
+        }, 
+        "scaleZ": {
+          "curve": "CURVE92", 
+          "type": "double", 
+          "value": 1.0
+        }
+      }
+    }, 
+    "siera_rig_170:ctl_grp|siera_rig_170:master_ctl_grp|siera_rig_170:master_ctl|siera_rig_170:general_ctl_grp|siera_rig_170:general_ctl": {
+      "attrs": {
+        "translateX": {
+          "curve": "CURVE94", 
+          "type": "doubleLinear", 
+          "value": 0.0
+        }, 
+        "translateY": {
+          "curve": "CURVE95", 
+          "type": "doubleLinear", 
+          "value": 0.0
+        }, 
+        "translateZ": {
+          "curve": "CURVE96", 
+          "type": "doubleLinear", 
+          "value": 0.0
+        }, 
+        "scaleX": {
+          "curve": "CURVE97", 
+          "type": "double", 
+          "value": 1.0
+        }, 
+        "scaleY": {
+          "curve": "CURVE98", 
+          "type": "double", 
+          "value": 1.0
+        }, 
+        "visibility": {
+          "curve": "CURVE99", 
+          "type": "bool", 
+          "value": true
+        }, 
+        "rotateX": {
+          "curve": "CURVE100", 
+          "type": "doubleAngle", 
+          "value": 0.0
+        }, 
+        "rotateY": {
+          "curve": "CURVE101", 
+          "type": "doubleAngle", 
+          "value": 0.0
+        }, 
+        "rotateZ": {
+          "curve": "CURVE102", 
+          "type": "doubleAngle", 
+          "value": 0.0
+        }, 
+        "scaleZ": {
+          "curve": "CURVE103", 
+          "type": "double", 
+          "value": 1.0
+        }
+      }
+    }, 
+    "siera_rig_170:eye_pupil_R_ctl": {
+      "attrs": {
+        "translateX": {
+          "curve": "CURVE105", 
+          "type": "doubleLinear", 
+          "value": 0.0
+        }, 
+        "translateY": {
+          "curve": "CURVE106", 
+          "type": "doubleLinear", 
+          "value": 0.0
+        }, 
+        "translateZ": {
+          "curve": "CURVE107", 
+          "type": "doubleLinear", 
+          "value": 0.0
+        }, 
+        "scaleX": {
+          "curve": "CURVE108", 
+          "type": "double", 
+          "value": 1.0
+        }, 
+        "scaleY": {
+          "curve": "CURVE109", 
+          "type": "double", 
+          "value": 1.0
+        }, 
+        "visibility": {
+          "curve": "CURVE110", 
+          "type": "bool", 
+          "value": true
+        }, 
+        "rotateX": {
+          "curve": "CURVE111", 
+          "type": "doubleAngle", 
+          "value": 0.0
+        }, 
+        "rotateY": {
+          "curve": "CURVE112", 
+          "type": "doubleAngle", 
+          "value": 0.0
+        }, 
+        "rotateZ": {
+          "curve": "CURVE113", 
+          "type": "doubleAngle", 
+          "value": 0.0
+        }, 
+        "scaleZ": {
+          "curve": "CURVE114", 
+          "type": "double", 
+          "value": 1.0
+        }
+      }
+    }, 
+    "siera_rig_170:hair_L_02_ctl_grp|siera_rig_170:hair_R_02_ctl": {
+      "attrs": {
+        "translateX": {
+          "curve": "CURVE116", 
+          "type": "doubleLinear", 
+          "value": 0.0
+        }, 
+        "translateY": {
+          "curve": "CURVE117", 
+          "type": "doubleLinear", 
+          "value": 0.0
+        }, 
+        "translateZ": {
+          "curve": "CURVE118", 
+          "type": "doubleLinear", 
+          "value": 0.0
+        }, 
+        "scaleX": {
+          "curve": "CURVE119", 
+          "type": "double", 
+          "value": 1.0
+        }, 
+        "scaleY": {
+          "curve": "CURVE120", 
+          "type": "double", 
+          "value": 1.0
+        }, 
+        "visibility": {
+          "curve": "CURVE121", 
+          "type": "bool", 
+          "value": true
+        }, 
+        "rotateX": {
+          "curve": "CURVE122", 
+          "type": "doubleAngle", 
+          "value": 0.0
+        }, 
+        "rotateY": {
+          "curve": "CURVE123", 
+          "type": "doubleAngle", 
+          "value": 0.0
+        }, 
+        "rotateZ": {
+          "curve": "CURVE124", 
+          "type": "doubleAngle", 
+          "value": 0.0
+        }, 
+        "scaleZ": {
+          "curve": "CURVE125", 
+          "type": "double", 
+          "value": 1.0
+        }
+      }
+    }, 
+    "siera_rig_170:Element_ctl": {
+      "attrs": {
+        "translateX": {
+          "curve": "CURVE127", 
+          "type": "doubleLinear", 
+          "value": 0.0
+        }, 
+        "translateY": {
+          "curve": "CURVE128", 
+          "type": "doubleLinear", 
+          "value": 0.0
+        }, 
+        "translateZ": {
+          "curve": "CURVE129", 
+          "type": "doubleLinear", 
+          "value": 0.0
+        }, 
+        "scaleX": {
+          "curve": "CURVE130", 
+          "type": "double", 
+          "value": 1.0
+        }, 
+        "scaleY": {
+          "curve": "CURVE131", 
+          "type": "double", 
+          "value": 0.9999999999999999
+        }, 
+        "visibility": {
+          "curve": "CURVE132", 
+          "type": "bool", 
+          "value": true
+        }, 
+        "rotateX": {
+          "curve": "CURVE133", 
+          "type": "doubleAngle", 
+          "value": 0.0
+        }, 
+        "rotateY": {
+          "curve": "CURVE134", 
+          "type": "doubleAngle", 
+          "value": 0.0
+        }, 
+        "rotateZ": {
+          "curve": "CURVE135", 
+          "type": "doubleAngle", 
+          "value": 0.0
+        }, 
+        "scaleZ": {
+          "curve": "CURVE136", 
+          "type": "double", 
+          "value": 1.0
+        }
+      }
+    }, 
+    "siera_rig_170:finger_03_04_L_ctl": {
+      "attrs": {
+        "translateX": {
+          "curve": "CURVE138", 
+          "type": "doubleLinear", 
+          "value": 0.0
+        }, 
+        "translateY": {
+          "curve": "CURVE139", 
+          "type": "doubleLinear", 
+          "value": 0.0
+        }, 
+        "translateZ": {
+          "curve": "CURVE140", 
+          "type": "doubleLinear", 
+          "value": 0.0
+        }, 
+        "scaleX": {
+          "curve": "CURVE141", 
+          "type": "double", 
+          "value": 1.0000000000000002
+        }, 
+        "scaleY": {
+          "curve": "CURVE142", 
+          "type": "double", 
+          "value": 1.0000000000000002
+        }, 
+        "visibility": {
+          "curve": "CURVE143", 
+          "type": "bool", 
+          "value": true
+        }, 
+        "rotateX": {
+          "curve": "CURVE144", 
+          "type": "doubleAngle", 
+          "value": 0.0
+        }, 
+        "rotateY": {
+          "curve": "CURVE145", 
+          "type": "doubleAngle", 
+          "value": 0.0
+        }, 
+        "rotateZ": {
+          "curve": "CURVE146", 
+          "type": "doubleAngle", 
+          "value": 0.0
+        }, 
+        "scaleZ": {
+          "curve": "CURVE147", 
+          "type": "double", 
+          "value": 1.0
+        }
+      }
+    }, 
+    "siera_rig_170:palm_R_ctl": {
+      "attrs": {
+        "translateX": {
+          "curve": "CURVE149", 
+          "type": "doubleLinear", 
+          "value": 0.0
+        }, 
+        "translateY": {
+          "curve": "CURVE150", 
+          "type": "doubleLinear", 
+          "value": 0.0
+        }, 
+        "translateZ": {
+          "curve": "CURVE151", 
+          "type": "doubleLinear", 
+          "value": 0.0
+        }, 
+        "scaleX": {
+          "curve": "CURVE152", 
+          "type": "double", 
+          "value": 1.0
+        }, 
+        "scaleY": {
+          "curve": "CURVE153", 
+          "type": "double", 
+          "value": 1.0
+        }, 
+        "visibility": {
+          "curve": "CURVE154", 
+          "type": "bool", 
+          "value": true
+        }, 
+        "rotateX": {
+          "curve": "CURVE155", 
+          "type": "doubleAngle", 
+          "value": 0.0
+        }, 
+        "rotateY": {
+          "curve": "CURVE156", 
+          "type": "doubleAngle", 
+          "value": 0.0
+        }, 
+        "rotateZ": {
+          "curve": "CURVE157", 
+          "type": "doubleAngle", 
+          "value": 0.0
+        }, 
+        "scaleZ": {
+          "curve": "CURVE158", 
+          "type": "double", 
+          "value": 1.0
+        }
+      }
+    }, 
+    "siera_rig_170:finger_01_03_L_ctl": {
+      "attrs": {
+        "translateX": {
+          "curve": "CURVE160", 
+          "type": "doubleLinear", 
+          "value": 0.0
+        }, 
+        "translateY": {
+          "curve": "CURVE161", 
+          "type": "doubleLinear", 
+          "value": 0.0
+        }, 
+        "translateZ": {
+          "curve": "CURVE162", 
+          "type": "doubleLinear", 
+          "value": 0.0
+        }, 
+        "scaleX": {
+          "curve": "CURVE163", 
+          "type": "double", 
+          "value": 1.0
+        }, 
+        "scaleY": {
+          "curve": "CURVE164", 
+          "type": "double", 
+          "value": 1.0
+        }, 
+        "visibility": {
+          "curve": "CURVE165", 
+          "type": "bool", 
+          "value": true
+        }, 
+        "rotateX": {
+          "curve": "CURVE166", 
+          "type": "doubleAngle", 
+          "value": 0.0
+        }, 
+        "rotateY": {
+          "curve": "CURVE167", 
+          "type": "doubleAngle", 
+          "value": 0.0
+        }, 
+        "rotateZ": {
+          "curve": "CURVE168", 
+          "type": "doubleAngle", 
+          "value": -112.04664530229255
+        }, 
+        "scaleZ": {
+          "curve": "CURVE169", 
+          "type": "double", 
+          "value": 1.0000000000000002
+        }
+      }
+    }, 
+    "siera_rig_170:hood_06_ctl": {
+      "attrs": {
+        "translateX": {
+          "curve": "CURVE171", 
+          "type": "doubleLinear", 
+          "value": -0.02033222599764446
+        }, 
+        "translateY": {
+          "curve": "CURVE172", 
+          "type": "doubleLinear", 
+          "value": 0.018789046482894645
+        }, 
+        "translateZ": {
+          "curve": "CURVE173", 
+          "type": "doubleLinear", 
+          "value": 0.01743600249442172
+        }, 
+        "scaleX": {
+          "curve": "CURVE174", 
+          "type": "double", 
+          "value": 1.0
+        }, 
+        "scaleY": {
+          "curve": "CURVE175", 
+          "type": "double", 
+          "value": 1.0
+        }, 
+        "visibility": {
+          "curve": "CURVE176", 
+          "type": "bool", 
+          "value": true
+        }, 
+        "rotateX": {
+          "curve": "CURVE177", 
+          "type": "doubleAngle", 
+          "value": 0.0
+        }, 
+        "rotateY": {
+          "curve": "CURVE178", 
+          "type": "doubleAngle", 
+          "value": 0.0
+        }, 
+        "rotateZ": {
+          "curve": "CURVE179", 
+          "type": "doubleAngle", 
+          "value": 0.0
+        }, 
+        "scaleZ": {
+          "curve": "CURVE180", 
+          "type": "double", 
+          "value": 1.0
+        }
+      }
+    }, 
+    "siera_rig_170:toes_R_ctl": {
+      "attrs": {
+        "translateX": {
+          "curve": "CURVE182", 
+          "type": "doubleLinear", 
+          "value": 0.0
+        }, 
+        "translateY": {
+          "curve": "CURVE183", 
+          "type": "doubleLinear", 
+          "value": 0.0
+        }, 
+        "translateZ": {
+          "curve": "CURVE184", 
+          "type": "doubleLinear", 
+          "value": 0.0
+        }, 
+        "scaleX": {
+          "curve": "CURVE185", 
+          "type": "double", 
+          "value": 1.0
+        }, 
+        "scaleY": {
+          "curve": "CURVE186", 
+          "type": "double", 
+          "value": 1.0
+        }, 
+        "visibility": {
+          "curve": "CURVE187", 
+          "type": "bool", 
+          "value": true
+        }, 
+        "rotateX": {
+          "curve": "CURVE188", 
+          "type": "doubleAngle", 
+          "value": 2.9923584165140107
+        }, 
+        "rotateY": {
+          "curve": "CURVE189", 
+          "type": "doubleAngle", 
+          "value": 0.0
+        }, 
+        "rotateZ": {
+          "curve": "CURVE190", 
+          "type": "doubleAngle", 
+          "value": 0.0
+        }, 
+        "scaleZ": {
+          "curve": "CURVE191", 
+          "type": "double", 
+          "value": 1.0
+        }
+      }
+    }, 
+    "siera_rig_170:finger_05_01_L_ctl": {
+      "attrs": {
+        "translateX": {
+          "curve": "CURVE193", 
+          "type": "doubleLinear", 
+          "value": 0.0031944306277506417
+        }, 
+        "translateY": {
+          "curve": "CURVE194", 
+          "type": "doubleLinear", 
+          "value": 0.0027221472738568333
+        }, 
+        "translateZ": {
+          "curve": "CURVE195", 
+          "type": "doubleLinear", 
+          "value": -0.002268817142709988
+        }, 
+        "scaleX": {
+          "curve": "CURVE196", 
+          "type": "double", 
+          "value": 0.9999999999999997
+        }, 
+        "scaleY": {
+          "curve": "CURVE197", 
+          "type": "double", 
+          "value": 0.9999999999999996
+        }, 
+        "visibility": {
+          "curve": "CURVE198", 
+          "type": "bool", 
+          "value": true
+        }, 
+        "rotateX": {
+          "curve": "CURVE199", 
+          "type": "doubleAngle", 
+          "value": -7.367329378081023
+        }, 
+        "rotateY": {
+          "curve": "CURVE200", 
+          "type": "doubleAngle", 
+          "value": 5.077602621052987
+        }, 
+        "rotateZ": {
+          "curve": "CURVE201", 
+          "type": "doubleAngle", 
+          "value": -41.10040105680578
+        }, 
+        "scaleZ": {
+          "curve": "CURVE202", 
+          "type": "double", 
+          "value": 0.9999999999999999
+        }
+      }
+    }, 
+    "siera_rig_170:hair_L_06_ctl_grp|siera_rig_170:hair_R_06_ctl": {
+      "attrs": {
+        "translateX": {
+          "curve": "CURVE204", 
+          "type": "doubleLinear", 
+          "value": -0.016819075349723288
+        }, 
+        "translateY": {
+          "curve": "CURVE205", 
+          "type": "doubleLinear", 
+          "value": -0.034487420897649834
+        }, 
+        "translateZ": {
+          "curve": "CURVE206", 
+          "type": "doubleLinear", 
+          "value": -0.09646855665186738
+        }, 
+        "scaleX": {
+          "curve": "CURVE207", 
+          "type": "double", 
+          "value": 1.0
+        }, 
+        "scaleY": {
+          "curve": "CURVE208", 
+          "type": "double", 
+          "value": 1.0
+        }, 
+        "visibility": {
+          "curve": "CURVE209", 
+          "type": "bool", 
+          "value": true
+        }, 
+        "rotateX": {
+          "curve": "CURVE210", 
+          "type": "doubleAngle", 
+          "value": 0.0
+        }, 
+        "rotateY": {
+          "curve": "CURVE211", 
+          "type": "doubleAngle", 
+          "value": 0.0
+        }, 
+        "rotateZ": {
+          "curve": "CURVE212", 
+          "type": "doubleAngle", 
+          "value": 0.0
+        }, 
+        "scaleZ": {
+          "curve": "CURVE213", 
+          "type": "double", 
+          "value": 1.0
+        }
+      }
+    }, 
+    "siera_rig_170:hood_01_ctl": {
+      "attrs": {
+        "translateX": {
+          "curve": "CURVE215", 
+          "type": "doubleLinear", 
+          "value": -0.01277525753078481
+        }, 
+        "translateY": {
+          "curve": "CURVE216", 
+          "type": "doubleLinear", 
+          "value": -0.05006238431536821
+        }, 
+        "translateZ": {
+          "curve": "CURVE217", 
+          "type": "doubleLinear", 
+          "value": -0.004782375019763224
+        }, 
+        "scaleX": {
+          "curve": "CURVE218", 
+          "type": "double", 
+          "value": 1.0
+        }, 
+        "scaleY": {
+          "curve": "CURVE219", 
+          "type": "double", 
+          "value": 1.0
+        }, 
+        "visibility": {
+          "curve": "CURVE220", 
+          "type": "bool", 
+          "value": true
+        }, 
+        "rotateX": {
+          "curve": "CURVE221", 
+          "type": "doubleAngle", 
+          "value": 0.0
+        }, 
+        "rotateY": {
+          "curve": "CURVE222", 
+          "type": "doubleAngle", 
+          "value": 0.0
+        }, 
+        "rotateZ": {
+          "curve": "CURVE223", 
+          "type": "doubleAngle", 
+          "value": 0.0
+        }, 
+        "scaleZ": {
+          "curve": "CURVE224", 
+          "type": "double", 
+          "value": 1.0
+        }
+      }
+    }, 
+    "siera_rig_170:finger_03_01_L_ctl": {
+      "attrs": {
+        "translateX": {
+          "curve": "CURVE226", 
+          "type": "doubleLinear", 
+          "value": 0.0
+        }, 
+        "translateY": {
+          "curve": "CURVE227", 
+          "type": "doubleLinear", 
+          "value": 0.0
+        }, 
+        "translateZ": {
+          "curve": "CURVE228", 
+          "type": "doubleLinear", 
+          "value": 0.0
+        }, 
+        "scaleX": {
+          "curve": "CURVE229", 
+          "type": "double", 
+          "value": 0.9999999999999999
+        }, 
+        "scaleY": {
+          "curve": "CURVE230", 
+          "type": "double", 
+          "value": 0.9999999999999996
+        }, 
+        "visibility": {
+          "curve": "CURVE231", 
+          "type": "bool", 
+          "value": true
+        }, 
+        "rotateX": {
+          "curve": "CURVE232", 
+          "type": "doubleAngle", 
+          "value": 0.0
+        }, 
+        "rotateY": {
+          "curve": "CURVE233", 
+          "type": "doubleAngle", 
+          "value": 19.314260848094886
+        }, 
+        "rotateZ": {
+          "curve": "CURVE234", 
+          "type": "doubleAngle", 
+          "value": -69.33163609744848
+        }, 
+        "scaleZ": {
+          "curve": "CURVE235", 
+          "type": "double", 
+          "value": 0.9999999999999999
+        }
+      }
+    }, 
+    "siera_rig_170:finger_02_02_L_ctl": {
+      "attrs": {
+        "translateX": {
+          "curve": "CURVE237", 
+          "type": "doubleLinear", 
+          "value": 0.0
+        }, 
+        "translateY": {
+          "curve": "CURVE238", 
+          "type": "doubleLinear", 
+          "value": 0.0
+        }, 
+        "translateZ": {
+          "curve": "CURVE239", 
+          "type": "doubleLinear", 
+          "value": 0.0
+        }, 
+        "scaleX": {
+          "curve": "CURVE240", 
+          "type": "double", 
+          "value": 0.9999999999999998
+        }, 
+        "scaleY": {
+          "curve": "CURVE241", 
+          "type": "double", 
+          "value": 0.9999999999999999
+        }, 
+        "visibility": {
+          "curve": "CURVE242", 
+          "type": "bool", 
+          "value": true
+        }, 
+        "rotateX": {
+          "curve": "CURVE243", 
+          "type": "doubleAngle", 
+          "value": 11.45851261306742
+        }, 
+        "rotateY": {
+          "curve": "CURVE244", 
+          "type": "doubleAngle", 
+          "value": -0.07453674096816926
+        }, 
+        "rotateZ": {
+          "curve": "CURVE245", 
+          "type": "doubleAngle", 
+          "value": -91.86648999172807
+        }, 
+        "scaleZ": {
+          "curve": "CURVE246", 
+          "type": "double", 
+          "value": 1.0000000000000002
+        }
+      }
+    }, 
+    "siera_rig_170:hair_L_05_ctl_grp|siera_rig_170:hair_R_05_ctl": {
+      "attrs": {
+        "translateX": {
+          "curve": "CURVE248", 
+          "type": "doubleLinear", 
+          "value": 7.523440860655383e-05
+        }, 
+        "translateY": {
+          "curve": "CURVE249", 
+          "type": "doubleLinear", 
+          "value": 0.002710618962905979
+        }, 
+        "translateZ": {
+          "curve": "CURVE250", 
+          "type": "doubleLinear", 
+          "value": 0.013766902445229282
+        }, 
+        "scaleX": {
+          "curve": "CURVE251", 
+          "type": "double", 
+          "value": 1.0
+        }, 
+        "scaleY": {
+          "curve": "CURVE252", 
+          "type": "double", 
+          "value": 1.0
+        }, 
+        "visibility": {
+          "curve": "CURVE253", 
+          "type": "bool", 
+          "value": true
+        }, 
+        "rotateX": {
+          "curve": "CURVE254", 
+          "type": "doubleAngle", 
+          "value": 0.0
+        }, 
+        "rotateY": {
+          "curve": "CURVE255", 
+          "type": "doubleAngle", 
+          "value": 0.0
+        }, 
+        "rotateZ": {
+          "curve": "CURVE256", 
+          "type": "doubleAngle", 
+          "value": 0.0
+        }, 
+        "scaleZ": {
+          "curve": "CURVE257", 
+          "type": "double", 
+          "value": 1.0
+        }
+      }
+    }, 
+    "siera_rig_170:hood_04_ctl": {
+      "attrs": {
+        "translateX": {
+          "curve": "CURVE259", 
+          "type": "doubleLinear", 
+          "value": 0.0
+        }, 
+        "translateY": {
+          "curve": "CURVE260", 
+          "type": "doubleLinear", 
+          "value": 0.0
+        }, 
+        "translateZ": {
+          "curve": "CURVE261", 
+          "type": "doubleLinear", 
+          "value": 0.0
+        }, 
+        "scaleX": {
+          "curve": "CURVE262", 
+          "type": "double", 
+          "value": 1.0
+        }, 
+        "scaleY": {
+          "curve": "CURVE263", 
+          "type": "double", 
+          "value": 1.0
+        }, 
+        "visibility": {
+          "curve": "CURVE264", 
+          "type": "bool", 
+          "value": true
+        }, 
+        "rotateX": {
+          "curve": "CURVE265", 
+          "type": "doubleAngle", 
+          "value": 0.0
+        }, 
+        "rotateY": {
+          "curve": "CURVE266", 
+          "type": "doubleAngle", 
+          "value": 0.0
+        }, 
+        "rotateZ": {
+          "curve": "CURVE267", 
+          "type": "doubleAngle", 
+          "value": 0.0
+        }, 
+        "scaleZ": {
+          "curve": "CURVE268", 
+          "type": "double", 
+          "value": 1.0
+        }
+      }
+    }, 
+    "siera_rig_170:finger_01_04_R_ctl": {
+      "attrs": {
+        "translateX": {
+          "curve": "CURVE270", 
+          "type": "doubleLinear", 
+          "value": 0.0
+        }, 
+        "translateY": {
+          "curve": "CURVE271", 
+          "type": "doubleLinear", 
+          "value": 0.0
+        }, 
+        "translateZ": {
+          "curve": "CURVE272", 
+          "type": "doubleLinear", 
+          "value": 0.0
+        }, 
+        "scaleX": {
+          "curve": "CURVE273", 
+          "type": "double", 
+          "value": 1.0
+        }, 
+        "scaleY": {
+          "curve": "CURVE274", 
+          "type": "double", 
+          "value": 0.9999999999999999
+        }, 
+        "visibility": {
+          "curve": "CURVE275", 
+          "type": "bool", 
+          "value": true
+        }, 
+        "rotateX": {
+          "curve": "CURVE276", 
+          "type": "doubleAngle", 
+          "value": 0.0
+        }, 
+        "rotateY": {
+          "curve": "CURVE277", 
+          "type": "doubleAngle", 
+          "value": 0.0
+        }, 
+        "rotateZ": {
+          "curve": "CURVE278", 
+          "type": "doubleAngle", 
+          "value": 0.0
+        }, 
+        "scaleZ": {
+          "curve": "CURVE279", 
+          "type": "double", 
+          "value": 0.9999999999999998
+        }
+      }
+    }, 
+    "siera_rig_170:hood_02_ctl": {
+      "attrs": {
+        "translateX": {
+          "curve": "CURVE281", 
+          "type": "doubleLinear", 
+          "value": 0.01630849057956883
+        }, 
+        "translateY": {
+          "curve": "CURVE282", 
+          "type": "doubleLinear", 
+          "value": 0.027106593664789246
+        }, 
+        "translateZ": {
+          "curve": "CURVE283", 
+          "type": "doubleLinear", 
+          "value": -0.0015620254683864191
+        }, 
+        "scaleX": {
+          "curve": "CURVE284", 
+          "type": "double", 
+          "value": 1.0
+        }, 
+        "scaleY": {
+          "curve": "CURVE285", 
+          "type": "double", 
+          "value": 1.0
+        }, 
+        "visibility": {
+          "curve": "CURVE286", 
+          "type": "bool", 
+          "value": true
+        }, 
+        "rotateX": {
+          "curve": "CURVE287", 
+          "type": "doubleAngle", 
+          "value": 0.0
+        }, 
+        "rotateY": {
+          "curve": "CURVE288", 
+          "type": "doubleAngle", 
+          "value": 0.0
+        }, 
+        "rotateZ": {
+          "curve": "CURVE289", 
+          "type": "doubleAngle", 
+          "value": 0.0
+        }, 
+        "scaleZ": {
+          "curve": "CURVE290", 
+          "type": "double", 
+          "value": 1.0
+        }
+      }
+    }, 
+    "siera_rig_170:finger_05_02_R_ctl": {
+      "attrs": {
+        "translateX": {
+          "curve": "CURVE292", 
+          "type": "doubleLinear", 
+          "value": 0.0
+        }, 
+        "translateY": {
+          "curve": "CURVE293", 
+          "type": "doubleLinear", 
+          "value": 0.0
+        }, 
+        "translateZ": {
+          "curve": "CURVE294", 
+          "type": "doubleLinear", 
+          "value": 0.0
+        }, 
+        "scaleX": {
+          "curve": "CURVE295", 
+          "type": "double", 
+          "value": 1.0000000000000002
+        }, 
+        "scaleY": {
+          "curve": "CURVE296", 
+          "type": "double", 
+          "value": 1.0
+        }, 
+        "visibility": {
+          "curve": "CURVE297", 
+          "type": "bool", 
+          "value": true
+        }, 
+        "rotateX": {
+          "curve": "CURVE298", 
+          "type": "doubleAngle", 
+          "value": 0.0
+        }, 
+        "rotateY": {
+          "curve": "CURVE299", 
+          "type": "doubleAngle", 
+          "value": 0.0
+        }, 
+        "rotateZ": {
+          "curve": "CURVE300", 
+          "type": "doubleAngle", 
+          "value": -40.54421847593237
+        }, 
+        "scaleZ": {
+          "curve": "CURVE301", 
+          "type": "double", 
+          "value": 1.0
+        }
+      }
+    }, 
+    "siera_rig_170:ik_spine_02_ctl": {
+      "attrs": {
+        "translateX": {
+          "curve": "CURVE303", 
+          "type": "doubleLinear", 
+          "value": 0.0
+        }, 
+        "translateY": {
+          "curve": "CURVE304", 
+          "type": "doubleLinear", 
+          "value": 0.0
+        }, 
+        "translateZ": {
+          "curve": "CURVE305", 
+          "type": "doubleLinear", 
+          "value": 0.0
+        }, 
+        "scaleX": {
+          "curve": "CURVE306", 
+          "type": "double", 
+          "value": 1.0
+        }, 
+        "scaleY": {
+          "curve": "CURVE307", 
+          "type": "double", 
+          "value": 1.0
+        }, 
+        "visibility": {
+          "curve": "CURVE308", 
+          "type": "bool", 
+          "value": true
+        }, 
+        "rotateX": {
+          "curve": "CURVE309", 
+          "type": "doubleAngle", 
+          "value": 28.432176345418934
+        }, 
+        "rotateY": {
+          "curve": "CURVE310", 
+          "type": "doubleAngle", 
+          "value": 0.9230940078817674
+        }, 
+        "rotateZ": {
+          "curve": "CURVE311", 
+          "type": "doubleAngle", 
+          "value": -1.0093958641733252
+        }, 
+        "scaleZ": {
+          "curve": "CURVE312", 
+          "type": "double", 
+          "value": 1.0
+        }
+      }
+    }, 
+    "siera_rig_170:feet_R_ctl": {
+      "attrs": {
+        "translateX": {
+          "curve": "CURVE314", 
+          "type": "doubleLinear", 
+          "value": 0.118
+        }, 
+        "translateY": {
+          "curve": "CURVE315", 
+          "type": "doubleLinear", 
+          "value": 0.276671957167335
+        }, 
+        "translateZ": {
+          "curve": "CURVE316", 
+          "type": "doubleLinear", 
+          "value": -0.6514409118294644
+        }, 
+        "scaleX": {
+          "curve": "CURVE317", 
+          "type": "double", 
+          "value": 1.0
+        }, 
+        "scaleY": {
+          "curve": "CURVE318", 
+          "type": "double", 
+          "value": 1.0
+        }, 
+        "visibility": {
+          "curve": "CURVE319", 
+          "type": "bool", 
+          "value": true
+        }, 
+        "rotateX": {
+          "curve": "CURVE320", 
+          "type": "doubleAngle", 
+          "value": 102.61962890774731
+        }, 
+        "rotateY": {
+          "curve": "CURVE321", 
+          "type": "doubleAngle", 
+          "value": 0.0
+        }, 
+        "rotateZ": {
+          "curve": "CURVE322", 
+          "type": "doubleAngle", 
+          "value": 0.0
+        }, 
+        "scaleZ": {
+          "curve": "CURVE323", 
+          "type": "double", 
+          "value": 1.0
+        }
+      }
+    }, 
+    "siera_rig_170:neck_ctl": {
+      "attrs": {
+        "translateX": {
+          "curve": "CURVE325", 
+          "type": "doubleLinear", 
+          "value": 0.0
+        }, 
+        "translateY": {
+          "curve": "CURVE326", 
+          "type": "doubleLinear", 
+          "value": 0.0
+        }, 
+        "translateZ": {
+          "curve": "CURVE327", 
+          "type": "doubleLinear", 
+          "value": 0.0
+        }, 
+        "scaleX": {
+          "curve": "CURVE328", 
+          "type": "double", 
+          "value": 1.0
+        }, 
+        "scaleY": {
+          "curve": "CURVE329", 
+          "type": "double", 
+          "value": 1.0
+        }, 
+        "visibility": {
+          "curve": "CURVE330", 
+          "type": "bool", 
+          "value": true
+        }, 
+        "rotateX": {
+          "curve": "CURVE331", 
+          "type": "doubleAngle", 
+          "value": -35.25777550268967
+        }, 
+        "rotateY": {
+          "curve": "CURVE332", 
+          "type": "doubleAngle", 
+          "value": -27.395806281370724
+        }, 
+        "rotateZ": {
+          "curve": "CURVE333", 
+          "type": "doubleAngle", 
+          "value": -2.0021303812296383
+        }, 
+        "scaleZ": {
+          "curve": "CURVE334", 
+          "type": "double", 
+          "value": 1.0
+        }
+      }
+    }, 
+    "siera_rig_170:hip_translate_ctl": {
+      "attrs": {
+        "translateX": {
+          "curve": "CURVE336", 
+          "type": "doubleLinear", 
+          "value": -8.131516293641283e-22
+        }, 
+        "translateY": {
+          "curve": "CURVE337", 
+          "type": "doubleLinear", 
+          "value": -0.1722897337468956
+        }, 
+        "translateZ": {
+          "curve": "CURVE338", 
+          "type": "doubleLinear", 
+          "value": 0.0725951210574145
+        }, 
+        "scaleX": {
+          "curve": "CURVE339", 
+          "type": "double", 
+          "value": 1.0
+        }, 
+        "scaleY": {
+          "curve": "CURVE340", 
+          "type": "double", 
+          "value": 1.0
+        }, 
+        "visibility": {
+          "curve": "CURVE341", 
+          "type": "bool", 
+          "value": true
+        }, 
+        "scaleZ": {
+          "curve": "CURVE342", 
+          "type": "double", 
+          "value": 1.0
+        }
+      }
+    }, 
+    "siera_rig_170:hair_R_06_ctl_grp|siera_rig_170:hair_R_06_ctl": {
+      "attrs": {
+        "translateX": {
+          "curve": "CURVE344", 
+          "type": "doubleLinear", 
+          "value": -0.029586313686047028
+        }, 
+        "translateY": {
+          "curve": "CURVE345", 
+          "type": "doubleLinear", 
+          "value": -0.028475764581066026
+        }, 
+        "translateZ": {
+          "curve": "CURVE346", 
+          "type": "doubleLinear", 
+          "value": -0.0412922935492894
+        }, 
+        "scaleX": {
+          "curve": "CURVE347", 
+          "type": "double", 
+          "value": 1.0
+        }, 
+        "scaleY": {
+          "curve": "CURVE348", 
+          "type": "double", 
+          "value": 1.0
+        }, 
+        "visibility": {
+          "curve": "CURVE349", 
+          "type": "bool", 
+          "value": true
+        }, 
+        "rotateX": {
+          "curve": "CURVE350", 
+          "type": "doubleAngle", 
+          "value": 0.0
+        }, 
+        "rotateY": {
+          "curve": "CURVE351", 
+          "type": "doubleAngle", 
+          "value": 0.0
+        }, 
+        "rotateZ": {
+          "curve": "CURVE352", 
+          "type": "doubleAngle", 
+          "value": 0.0
+        }, 
+        "scaleZ": {
+          "curve": "CURVE353", 
+          "type": "double", 
+          "value": 1.0
+        }
+      }
+    }, 
+    "siera_rig_170:finger_05_01_R_ctl": {
+      "attrs": {
+        "translateX": {
+          "curve": "CURVE355", 
+          "type": "doubleLinear", 
+          "value": 0.0
+        }, 
+        "translateY": {
+          "curve": "CURVE356", 
+          "type": "doubleLinear", 
+          "value": 0.0
+        }, 
+        "translateZ": {
+          "curve": "CURVE357", 
+          "type": "doubleLinear", 
+          "value": 0.0
+        }, 
+        "scaleX": {
+          "curve": "CURVE358", 
+          "type": "double", 
+          "value": 0.9999999999999994
+        }, 
+        "scaleY": {
+          "curve": "CURVE359", 
+          "type": "double", 
+          "value": 0.9999999999999999
+        }, 
+        "visibility": {
+          "curve": "CURVE360", 
+          "type": "bool", 
+          "value": true
+        }, 
+        "rotateX": {
+          "curve": "CURVE361", 
+          "type": "doubleAngle", 
+          "value": 0.0
+        }, 
+        "rotateY": {
+          "curve": "CURVE362", 
+          "type": "doubleAngle", 
+          "value": 0.0
+        }, 
+        "rotateZ": {
+          "curve": "CURVE363", 
+          "type": "doubleAngle", 
+          "value": -40.54421847593237
+        }, 
+        "scaleZ": {
+          "curve": "CURVE364", 
+          "type": "double", 
+          "value": 0.9999999999999999
+        }
+      }
+    }, 
+    "siera_rig_170:ik_spine_01_ctl": {
+      "attrs": {
+        "translateX": {
+          "curve": "CURVE366", 
+          "type": "doubleLinear", 
+          "value": 0.0
+        }, 
+        "translateY": {
+          "curve": "CURVE367", 
+          "type": "doubleLinear", 
+          "value": 0.0
+        }, 
+        "translateZ": {
+          "curve": "CURVE368", 
+          "type": "doubleLinear", 
+          "value": 0.0
+        }, 
+        "scaleX": {
+          "curve": "CURVE369", 
+          "type": "double", 
+          "value": 1.0
+        }, 
+        "scaleY": {
+          "curve": "CURVE370", 
+          "type": "double", 
+          "value": 1.0
+        }, 
+        "visibility": {
+          "curve": "CURVE371", 
+          "type": "bool", 
+          "value": true
+        }, 
+        "rotateX": {
+          "curve": "CURVE372", 
+          "type": "doubleAngle", 
+          "value": 0.0
+        }, 
+        "rotateY": {
+          "curve": "CURVE373", 
+          "type": "doubleAngle", 
+          "value": -11.894925707140473
+        }, 
+        "rotateZ": {
+          "curve": "CURVE374", 
+          "type": "doubleAngle", 
+          "value": 0.0
+        }, 
+        "scaleZ": {
+          "curve": "CURVE375", 
+          "type": "double", 
+          "value": 1.0
+        }
+      }
+    }, 
+    "siera_rig_170:finger_01_01_R_ctl": {
+      "attrs": {
+        "translateX": {
+          "curve": "CURVE377", 
+          "type": "doubleLinear", 
+          "value": 0.0013844876976405048
+        }, 
+        "translateY": {
+          "curve": "CURVE378", 
+          "type": "doubleLinear", 
+          "value": -0.004476878190947849
+        }, 
+        "translateZ": {
+          "curve": "CURVE379", 
+          "type": "doubleLinear", 
+          "value": -0.0011731313209891751
+        }, 
+        "scaleX": {
+          "curve": "CURVE380", 
+          "type": "double", 
+          "value": 0.9999999999999996
+        }, 
+        "scaleY": {
+          "curve": "CURVE381", 
+          "type": "double", 
+          "value": 1.0
+        }, 
+        "visibility": {
+          "curve": "CURVE382", 
+          "type": "bool", 
+          "value": true
+        }, 
+        "rotateX": {
+          "curve": "CURVE383", 
+          "type": "doubleAngle", 
+          "value": 2.0846871427050098
+        }, 
+        "rotateY": {
+          "curve": "CURVE384", 
+          "type": "doubleAngle", 
+          "value": 8.56582348674897
+        }, 
+        "rotateZ": {
+          "curve": "CURVE385", 
+          "type": "doubleAngle", 
+          "value": -62.24855531383932
+        }, 
+        "scaleZ": {
+          "curve": "CURVE386", 
+          "type": "double", 
+          "value": 0.9999999999999999
+        }
+      }
+    }, 
+    "siera_rig_170:finger_03_02_L_ctl": {
+      "attrs": {
+        "translateX": {
+          "curve": "CURVE388", 
+          "type": "doubleLinear", 
+          "value": 0.0
+        }, 
+        "translateY": {
+          "curve": "CURVE389", 
+          "type": "doubleLinear", 
+          "value": 0.0
+        }, 
+        "translateZ": {
+          "curve": "CURVE390", 
+          "type": "doubleLinear", 
+          "value": 0.0
+        }, 
+        "scaleX": {
+          "curve": "CURVE391", 
+          "type": "double", 
+          "value": 0.9999999999999999
+        }, 
+        "scaleY": {
+          "curve": "CURVE392", 
+          "type": "double", 
+          "value": 0.9999999999999999
+        }, 
+        "visibility": {
+          "curve": "CURVE393", 
+          "type": "bool", 
+          "value": true
+        }, 
+        "rotateX": {
+          "curve": "CURVE394", 
+          "type": "doubleAngle", 
+          "value": 0.0
+        }, 
+        "rotateY": {
+          "curve": "CURVE395", 
+          "type": "doubleAngle", 
+          "value": 0.0
+        }, 
+        "rotateZ": {
+          "curve": "CURVE396", 
+          "type": "doubleAngle", 
+          "value": -92.29582452277373
+        }, 
+        "scaleZ": {
+          "curve": "CURVE397", 
+          "type": "double", 
+          "value": 1.0
+        }
+      }
+    }, 
+    "siera_rig_170:toes_L_ctl": {
+      "attrs": {
+        "translateX": {
+          "curve": "CURVE399", 
+          "type": "doubleLinear", 
+          "value": 0.0
+        }, 
+        "translateY": {
+          "curve": "CURVE400", 
+          "type": "doubleLinear", 
+          "value": 0.0
+        }, 
+        "translateZ": {
+          "curve": "CURVE401", 
+          "type": "doubleLinear", 
+          "value": 0.0
+        }, 
+        "scaleX": {
+          "curve": "CURVE402", 
+          "type": "double", 
+          "value": 1.0
+        }, 
+        "scaleY": {
+          "curve": "CURVE403", 
+          "type": "double", 
+          "value": 1.0
+        }, 
+        "visibility": {
+          "curve": "CURVE404", 
+          "type": "bool", 
+          "value": true
+        }, 
+        "rotateX": {
+          "curve": "CURVE405", 
+          "type": "doubleAngle", 
+          "value": 0.0
+        }, 
+        "rotateY": {
+          "curve": "CURVE406", 
+          "type": "doubleAngle", 
+          "value": 0.0
+        }, 
+        "rotateZ": {
+          "curve": "CURVE407", 
+          "type": "doubleAngle", 
+          "value": 0.0
+        }, 
+        "scaleZ": {
+          "curve": "CURVE408", 
+          "type": "double", 
+          "value": 1.0
+        }
+      }
+    }, 
+    "siera_rig_170:finger_04_02_L_ctl": {
+      "attrs": {
+        "translateX": {
+          "curve": "CURVE410", 
+          "type": "doubleLinear", 
+          "value": 0.0
+        }, 
+        "translateY": {
+          "curve": "CURVE411", 
+          "type": "doubleLinear", 
+          "value": 0.0
+        }, 
+        "translateZ": {
+          "curve": "CURVE412", 
+          "type": "doubleLinear", 
+          "value": 0.0
+        }, 
+        "scaleX": {
+          "curve": "CURVE413", 
+          "type": "double", 
+          "value": 0.9999999999999998
+        }, 
+        "scaleY": {
+          "curve": "CURVE414", 
+          "type": "double", 
+          "value": 1.0
+        }, 
+        "visibility": {
+          "curve": "CURVE415", 
+          "type": "bool", 
+          "value": true
+        }, 
+        "rotateX": {
+          "curve": "CURVE416", 
+          "type": "doubleAngle", 
+          "value": 1.999981326873296
+        }, 
+        "rotateY": {
+          "curve": "CURVE417", 
+          "type": "doubleAngle", 
+          "value": -4.562144256529079
+        }, 
+        "rotateZ": {
+          "curve": "CURVE418", 
+          "type": "doubleAngle", 
+          "value": -104.17408197531671
+        }, 
+        "scaleZ": {
+          "curve": "CURVE419", 
+          "type": "double", 
+          "value": 1.0
+        }
+      }
+    }, 
+    "siera_rig_170:finger_02_01_L_ctl": {
+      "attrs": {
+        "translateX": {
+          "curve": "CURVE421", 
+          "type": "doubleLinear", 
+          "value": 0.0
+        }, 
+        "translateY": {
+          "curve": "CURVE422", 
+          "type": "doubleLinear", 
+          "value": 0.0
+        }, 
+        "translateZ": {
+          "curve": "CURVE423", 
+          "type": "doubleLinear", 
+          "value": 0.0
+        }, 
+        "scaleX": {
+          "curve": "CURVE424", 
+          "type": "double", 
+          "value": 1.0
+        }, 
+        "scaleY": {
+          "curve": "CURVE425", 
+          "type": "double", 
+          "value": 0.9999999999999998
+        }, 
+        "visibility": {
+          "curve": "CURVE426", 
+          "type": "bool", 
+          "value": true
+        }, 
+        "rotateX": {
+          "curve": "CURVE427", 
+          "type": "doubleAngle", 
+          "value": -3.9851508260171056e-16
+        }, 
+        "rotateY": {
+          "curve": "CURVE428", 
+          "type": "doubleAngle", 
+          "value": 3.9481055684264845
+        }, 
+        "rotateZ": {
+          "curve": "CURVE429", 
+          "type": "doubleAngle", 
+          "value": -65.74081999717775
+        }, 
+        "scaleZ": {
+          "curve": "CURVE430", 
+          "type": "double", 
+          "value": 1.0
+        }
+      }
+    }, 
+    "siera_rig_170:finger_01_01_L_ctl": {
+      "attrs": {
+        "translateX": {
+          "curve": "CURVE432", 
+          "type": "doubleLinear", 
+          "value": 0.002895723226449264
+        }, 
+        "translateY": {
+          "curve": "CURVE433", 
+          "type": "doubleLinear", 
+          "value": -0.004180244207461517
+        }, 
+        "translateZ": {
+          "curve": "CURVE434", 
+          "type": "doubleLinear", 
+          "value": 0.0023339070971655543
+        }, 
+        "scaleX": {
+          "curve": "CURVE435", 
+          "type": "double", 
+          "value": 1.0
+        }, 
+        "scaleY": {
+          "curve": "CURVE436", 
+          "type": "double", 
+          "value": 0.9999999999999998
+        }, 
+        "visibility": {
+          "curve": "CURVE437", 
+          "type": "bool", 
+          "value": true
+        }, 
+        "rotateX": {
+          "curve": "CURVE438", 
+          "type": "doubleAngle", 
+          "value": 8.106807123467625e-16
+        }, 
+        "rotateY": {
+          "curve": "CURVE439", 
+          "type": "doubleAngle", 
+          "value": -11.237327644945385
+        }, 
+        "rotateZ": {
+          "curve": "CURVE440", 
+          "type": "doubleAngle", 
+          "value": -60.259656264413586
+        }, 
+        "scaleZ": {
+          "curve": "CURVE441", 
+          "type": "double", 
+          "value": 1.0000000000000002
+        }
+      }
+    }, 
+    "siera_rig_170:hood_05_ctl": {
+      "attrs": {
+        "translateX": {
+          "curve": "CURVE443", 
+          "type": "doubleLinear", 
+          "value": 0.025474397451446355
+        }, 
+        "translateY": {
+          "curve": "CURVE444", 
+          "type": "doubleLinear", 
+          "value": -0.01862200720340618
+        }, 
+        "translateZ": {
+          "curve": "CURVE445", 
+          "type": "doubleLinear", 
+          "value": -0.04802165786606058
+        }, 
+        "scaleX": {
+          "curve": "CURVE446", 
+          "type": "double", 
+          "value": 1.0
+        }, 
+        "scaleY": {
+          "curve": "CURVE447", 
+          "type": "double", 
+          "value": 1.0
+        }, 
+        "visibility": {
+          "curve": "CURVE448", 
+          "type": "bool", 
+          "value": true
+        }, 
+        "rotateX": {
+          "curve": "CURVE449", 
+          "type": "doubleAngle", 
+          "value": 0.0
+        }, 
+        "rotateY": {
+          "curve": "CURVE450", 
+          "type": "doubleAngle", 
+          "value": 0.0
+        }, 
+        "rotateZ": {
+          "curve": "CURVE451", 
+          "type": "doubleAngle", 
+          "value": 0.0
+        }, 
+        "scaleZ": {
+          "curve": "CURVE452", 
+          "type": "double", 
+          "value": 1.0
+        }
+      }
+    }, 
+    "siera_rig_170:shoulder_R_ctl": {
+      "attrs": {
+        "translateX": {
+          "curve": "CURVE454", 
+          "type": "doubleLinear", 
+          "value": 0.0021200896878800844
+        }, 
+        "translateY": {
+          "curve": "CURVE455", 
+          "type": "doubleLinear", 
+          "value": 0.013302764589259553
+        }, 
+        "translateZ": {
+          "curve": "CURVE456", 
+          "type": "doubleLinear", 
+          "value": -0.014527822743367835
+        }, 
+        "scaleX": {
+          "curve": "CURVE457", 
+          "type": "double", 
+          "value": 1.0
+        }, 
+        "scaleY": {
+          "curve": "CURVE458", 
+          "type": "double", 
+          "value": 1.0
+        }, 
+        "visibility": {
+          "curve": "CURVE459", 
+          "type": "bool", 
+          "value": true
+        }, 
+        "scaleZ": {
+          "curve": "CURVE460", 
+          "type": "double", 
+          "value": 1.0
+        }
+      }
+    }, 
+    "siera_rig_170:finger_05_03_R_ctl": {
+      "attrs": {
+        "translateX": {
+          "curve": "CURVE462", 
+          "type": "doubleLinear", 
+          "value": 0.0
+        }, 
+        "translateY": {
+          "curve": "CURVE463", 
+          "type": "doubleLinear", 
+          "value": 0.0
+        }, 
+        "translateZ": {
+          "curve": "CURVE464", 
+          "type": "doubleLinear", 
+          "value": 0.0
+        }, 
+        "scaleX": {
+          "curve": "CURVE465", 
+          "type": "double", 
+          "value": 1.0000000000000002
+        }, 
+        "scaleY": {
+          "curve": "CURVE466", 
+          "type": "double", 
+          "value": 1.0000000000000002
+        }, 
+        "visibility": {
+          "curve": "CURVE467", 
+          "type": "bool", 
+          "value": true
+        }, 
+        "rotateX": {
+          "curve": "CURVE468", 
+          "type": "doubleAngle", 
+          "value": 0.0
+        }, 
+        "rotateY": {
+          "curve": "CURVE469", 
+          "type": "doubleAngle", 
+          "value": 0.0
+        }, 
+        "rotateZ": {
+          "curve": "CURVE470", 
+          "type": "doubleAngle", 
+          "value": -59.0900965084659
+        }, 
+        "scaleZ": {
+          "curve": "CURVE471", 
+          "type": "double", 
+          "value": 1.0000000000000002
+        }
+      }
+    }, 
+    "siera_rig_170:finger_04_03_L_ctl": {
+      "attrs": {
+        "translateX": {
+          "curve": "CURVE473", 
+          "type": "doubleLinear", 
+          "value": 0.0
+        }, 
+        "translateY": {
+          "curve": "CURVE474", 
+          "type": "doubleLinear", 
+          "value": 0.0
+        }, 
+        "translateZ": {
+          "curve": "CURVE475", 
+          "type": "doubleLinear", 
+          "value": 0.0
+        }, 
+        "scaleX": {
+          "curve": "CURVE476", 
+          "type": "double", 
+          "value": 1.0
+        }, 
+        "scaleY": {
+          "curve": "CURVE477", 
+          "type": "double", 
+          "value": 1.0
+        }, 
+        "visibility": {
+          "curve": "CURVE478", 
+          "type": "bool", 
+          "value": true
+        }, 
+        "rotateX": {
+          "curve": "CURVE479", 
+          "type": "doubleAngle", 
+          "value": 2.7594232235600407
+        }, 
+        "rotateY": {
+          "curve": "CURVE480", 
+          "type": "doubleAngle", 
+          "value": -4.147712537493863
+        }, 
+        "rotateZ": {
+          "curve": "CURVE481", 
+          "type": "doubleAngle", 
+          "value": -114.1501364904184
+        }, 
+        "scaleZ": {
+          "curve": "CURVE482", 
+          "type": "double", 
+          "value": 1.0000000000000002
+        }
+      }
+    }, 
+    "siera_rig_170:Element_01_ctl": {
+      "attrs": {
+        "translateX": {
+          "curve": "CURVE484", 
+          "type": "doubleLinear", 
+          "value": 0.0
+        }, 
+        "translateY": {
+          "curve": "CURVE485", 
+          "type": "doubleLinear", 
+          "value": 0.0
+        }, 
+        "translateZ": {
+          "curve": "CURVE486", 
+          "type": "doubleLinear", 
+          "value": 0.0
+        }, 
+        "scaleX": {
+          "curve": "CURVE487", 
+          "type": "double", 
+          "value": 1.0
+        }, 
+        "scaleY": {
+          "curve": "CURVE488", 
+          "type": "double", 
+          "value": 1.0000000000000002
+        }, 
+        "visibility": {
+          "curve": "CURVE489", 
+          "type": "bool", 
+          "value": true
+        }, 
+        "rotateX": {
+          "curve": "CURVE490", 
+          "type": "doubleAngle", 
+          "value": 0.0
+        }, 
+        "rotateY": {
+          "curve": "CURVE491", 
+          "type": "doubleAngle", 
+          "value": 0.0
+        }, 
+        "rotateZ": {
+          "curve": "CURVE492", 
+          "type": "doubleAngle", 
+          "value": 0.0
+        }, 
+        "scaleZ": {
+          "curve": "CURVE493", 
+          "type": "double", 
+          "value": 1.0
+        }
+      }
+    }, 
+    "siera_rig_170:hip_rota_ctl": {
+      "attrs": {
+        "scaleX": {
+          "curve": "CURVE495", 
+          "type": "double", 
+          "value": 1.0
+        }, 
+        "scaleY": {
+          "curve": "CURVE496", 
+          "type": "double", 
+          "value": 1.0
+        }, 
+        "visibility": {
+          "curve": "CURVE497", 
+          "type": "bool", 
+          "value": true
+        }, 
+        "rotateX": {
+          "curve": "CURVE498", 
+          "type": "doubleAngle", 
+          "value": 15.105354637712422
+        }, 
+        "rotateY": {
+          "curve": "CURVE499", 
+          "type": "doubleAngle", 
+          "value": 18.588498537263124
+        }, 
+        "rotateZ": {
+          "curve": "CURVE500", 
+          "type": "doubleAngle", 
+          "value": 12.451053952333496
+        }, 
+        "scaleZ": {
+          "curve": "CURVE501", 
+          "type": "double", 
+          "value": 1.0
+        }
+      }
+    }, 
+    "siera_rig_170:finger_04_03_R_ctl": {
+      "attrs": {
+        "translateX": {
+          "curve": "CURVE503", 
+          "type": "doubleLinear", 
+          "value": 0.0
+        }, 
+        "translateY": {
+          "curve": "CURVE504", 
+          "type": "doubleLinear", 
+          "value": 0.0
+        }, 
+        "translateZ": {
+          "curve": "CURVE505", 
+          "type": "doubleLinear", 
+          "value": 0.0
+        }, 
+        "scaleX": {
+          "curve": "CURVE506", 
+          "type": "double", 
+          "value": 1.0
+        }, 
+        "scaleY": {
+          "curve": "CURVE507", 
+          "type": "double", 
+          "value": 0.9999999999999998
+        }, 
+        "visibility": {
+          "curve": "CURVE508", 
+          "type": "bool", 
+          "value": true
+        }, 
+        "rotateX": {
+          "curve": "CURVE509", 
+          "type": "doubleAngle", 
+          "value": 0.0
+        }, 
+        "rotateY": {
+          "curve": "CURVE510", 
+          "type": "doubleAngle", 
+          "value": 0.0
+        }, 
+        "rotateZ": {
+          "curve": "CURVE511", 
+          "type": "doubleAngle", 
+          "value": -120.21252124700045
+        }, 
+        "scaleZ": {
+          "curve": "CURVE512", 
+          "type": "double", 
+          "value": 1.0
+        }
+      }
+    }, 
+    "siera_rig_170:knee_R_ctl": {
+      "attrs": {
+        "translateX": {
+          "curve": "CURVE514", 
+          "type": "doubleLinear", 
+          "value": -0.038417428633304655
+        }, 
+        "translateY": {
+          "curve": "CURVE515", 
+          "type": "doubleLinear", 
+          "value": -3.552713678800501e-17
+        }, 
+        "translateZ": {
+          "curve": "CURVE516", 
+          "type": "doubleLinear", 
+          "value": 0.0
+        }, 
+        "scaleX": {
+          "curve": "CURVE517", 
+          "type": "double", 
+          "value": 1.0
+        }, 
+        "scaleY": {
+          "curve": "CURVE518", 
+          "type": "double", 
+          "value": 1.0
+        }, 
+        "visibility": {
+          "curve": "CURVE519", 
+          "type": "bool", 
+          "value": true
+        }, 
+        "rotateX": {
+          "curve": "CURVE520", 
+          "type": "doubleAngle", 
+          "value": 0.0
+        }, 
+        "rotateY": {
+          "curve": "CURVE521", 
+          "type": "doubleAngle", 
+          "value": 0.0
+        }, 
+        "rotateZ": {
+          "curve": "CURVE522", 
+          "type": "doubleAngle", 
+          "value": 0.0
+        }, 
+        "scaleZ": {
+          "curve": "CURVE523", 
+          "type": "double", 
+          "value": 1.0
+        }
+      }
+    }, 
+    "siera_rig_170:finger_01_02_R_ctl": {
+      "attrs": {
+        "translateX": {
+          "curve": "CURVE525", 
+          "type": "doubleLinear", 
+          "value": 0.0
+        }, 
+        "translateY": {
+          "curve": "CURVE526", 
+          "type": "doubleLinear", 
+          "value": 0.0
+        }, 
+        "translateZ": {
+          "curve": "CURVE527", 
+          "type": "doubleLinear", 
+          "value": 0.0
+        }, 
+        "scaleX": {
+          "curve": "CURVE528", 
+          "type": "double", 
+          "value": 0.9999999999999999
+        }, 
+        "scaleY": {
+          "curve": "CURVE529", 
+          "type": "double", 
+          "value": 0.9999999999999999
+        }, 
+        "visibility": {
+          "curve": "CURVE530", 
+          "type": "bool", 
+          "value": true
+        }, 
+        "rotateX": {
+          "curve": "CURVE531", 
+          "type": "doubleAngle", 
+          "value": 11.105520446864316
+        }, 
+        "rotateY": {
+          "curve": "CURVE532", 
+          "type": "doubleAngle", 
+          "value": -1.6339167802049979
+        }, 
+        "rotateZ": {
+          "curve": "CURVE533", 
+          "type": "doubleAngle", 
+          "value": -72.60405744997944
+        }, 
+        "scaleZ": {
+          "curve": "CURVE534", 
+          "type": "double", 
+          "value": 0.9999999999999998
+        }
+      }
+    }, 
+    "siera_rig_170:hood_13_ctl": {
+      "attrs": {
+        "translateX": {
+          "curve": "CURVE536", 
+          "type": "doubleLinear", 
+          "value": -5.145879419543165e-05
+        }, 
+        "translateY": {
+          "curve": "CURVE537", 
+          "type": "doubleLinear", 
+          "value": 0.0004040317582348191
+        }, 
+        "translateZ": {
+          "curve": "CURVE538", 
+          "type": "doubleLinear", 
+          "value": 0.0038259060428302584
+        }, 
+        "scaleX": {
+          "curve": "CURVE539", 
+          "type": "double", 
+          "value": 1.0
+        }, 
+        "scaleY": {
+          "curve": "CURVE540", 
+          "type": "double", 
+          "value": 1.0
+        }, 
+        "visibility": {
+          "curve": "CURVE541", 
+          "type": "bool", 
+          "value": true
+        }, 
+        "rotateX": {
+          "curve": "CURVE542", 
+          "type": "doubleAngle", 
+          "value": 0.0
+        }, 
+        "rotateY": {
+          "curve": "CURVE543", 
+          "type": "doubleAngle", 
+          "value": 0.0
+        }, 
+        "rotateZ": {
+          "curve": "CURVE544", 
+          "type": "doubleAngle", 
+          "value": 0.0
+        }, 
+        "scaleZ": {
+          "curve": "CURVE545", 
+          "type": "double", 
+          "value": 1.0
+        }
+      }
+    }, 
+    "siera_rig_170:hood_12_ctl": {
+      "attrs": {
+        "translateX": {
+          "curve": "CURVE547", 
+          "type": "doubleLinear", 
+          "value": 0.006794588347054963
+        }, 
+        "translateY": {
+          "curve": "CURVE548", 
+          "type": "doubleLinear", 
+          "value": 0.007576907322076732
+        }, 
+        "translateZ": {
+          "curve": "CURVE549", 
+          "type": "doubleLinear", 
+          "value": -0.00928769335450924
+        }, 
+        "scaleX": {
+          "curve": "CURVE550", 
+          "type": "double", 
+          "value": 1.0
+        }, 
+        "scaleY": {
+          "curve": "CURVE551", 
+          "type": "double", 
+          "value": 1.0
+        }, 
+        "visibility": {
+          "curve": "CURVE552", 
+          "type": "bool", 
+          "value": true
+        }, 
+        "rotateX": {
+          "curve": "CURVE553", 
+          "type": "doubleAngle", 
+          "value": 0.0
+        }, 
+        "rotateY": {
+          "curve": "CURVE554", 
+          "type": "doubleAngle", 
+          "value": 0.0
+        }, 
+        "rotateZ": {
+          "curve": "CURVE555", 
+          "type": "doubleAngle", 
+          "value": 0.0
+        }, 
+        "scaleZ": {
+          "curve": "CURVE556", 
+          "type": "double", 
+          "value": 1.0
+        }
+      }
+    }, 
+    "siera_rig_170:palm_L_ctl": {
+      "attrs": {
+        "translateX": {
+          "curve": "CURVE558", 
+          "type": "doubleLinear", 
+          "value": 0.0
+        }, 
+        "translateY": {
+          "curve": "CURVE559", 
+          "type": "doubleLinear", 
+          "value": 0.0
+        }, 
+        "translateZ": {
+          "curve": "CURVE560", 
+          "type": "doubleLinear", 
+          "value": 0.0
+        }, 
+        "scaleX": {
+          "curve": "CURVE561", 
+          "type": "double", 
+          "value": 1.0
+        }, 
+        "scaleY": {
+          "curve": "CURVE562", 
+          "type": "double", 
+          "value": 1.0
+        }, 
+        "visibility": {
+          "curve": "CURVE563", 
+          "type": "bool", 
+          "value": true
+        }, 
+        "rotateX": {
+          "curve": "CURVE564", 
+          "type": "doubleAngle", 
+          "value": 0.0
+        }, 
+        "rotateY": {
+          "curve": "CURVE565", 
+          "type": "doubleAngle", 
+          "value": 0.0
+        }, 
+        "rotateZ": {
+          "curve": "CURVE566", 
+          "type": "doubleAngle", 
+          "value": 0.0
+        }, 
+        "scaleZ": {
+          "curve": "CURVE567", 
+          "type": "double", 
+          "value": 1.0
+        }
+      }
+    }, 
+    "siera_rig_170:finger_02_02_R_ctl": {
+      "attrs": {
+        "translateX": {
+          "curve": "CURVE569", 
+          "type": "doubleLinear", 
+          "value": 0.0
+        }, 
+        "translateY": {
+          "curve": "CURVE570", 
+          "type": "doubleLinear", 
+          "value": 0.0
+        }, 
+        "translateZ": {
+          "curve": "CURVE571", 
+          "type": "doubleLinear", 
+          "value": 0.0
+        }, 
+        "scaleX": {
+          "curve": "CURVE572", 
+          "type": "double", 
+          "value": 1.0
+        }, 
+        "scaleY": {
+          "curve": "CURVE573", 
+          "type": "double", 
+          "value": 1.0000000000000002
+        }, 
+        "visibility": {
+          "curve": "CURVE574", 
+          "type": "bool", 
+          "value": true
+        }, 
+        "rotateX": {
+          "curve": "CURVE575", 
+          "type": "doubleAngle", 
+          "value": 18.577934211995085
+        }, 
+        "rotateY": {
+          "curve": "CURVE576", 
+          "type": "doubleAngle", 
+          "value": -12.681167490187326
+        }, 
+        "rotateZ": {
+          "curve": "CURVE577", 
+          "type": "doubleAngle", 
+          "value": -72.16338679634208
+        }, 
+        "scaleZ": {
+          "curve": "CURVE578", 
+          "type": "double", 
+          "value": 1.0000000000000004
+        }
+      }
+    }, 
+    "siera_rig_170:hood_17_ctl": {
+      "attrs": {
+        "translateX": {
+          "curve": "CURVE580", 
+          "type": "doubleLinear", 
+          "value": -0.02514575795562473
+        }, 
+        "translateY": {
+          "curve": "CURVE581", 
+          "type": "doubleLinear", 
+          "value": 0.0019300073394443173
+        }, 
+        "translateZ": {
+          "curve": "CURVE582", 
+          "type": "doubleLinear", 
+          "value": 0.020579174563591058
+        }, 
+        "scaleX": {
+          "curve": "CURVE583", 
+          "type": "double", 
+          "value": 1.0
+        }, 
+        "scaleY": {
+          "curve": "CURVE584", 
+          "type": "double", 
+          "value": 1.0
+        }, 
+        "visibility": {
+          "curve": "CURVE585", 
+          "type": "bool", 
+          "value": true
+        }, 
+        "rotateX": {
+          "curve": "CURVE586", 
+          "type": "doubleAngle", 
+          "value": 0.0
+        }, 
+        "rotateY": {
+          "curve": "CURVE587", 
+          "type": "doubleAngle", 
+          "value": 0.0
+        }, 
+        "rotateZ": {
+          "curve": "CURVE588", 
+          "type": "doubleAngle", 
+          "value": 0.0
+        }, 
+        "scaleZ": {
+          "curve": "CURVE589", 
+          "type": "double", 
+          "value": 1.0
+        }
+      }
+    }, 
+    "siera_rig_170:hood_16_ctl": {
+      "attrs": {
+        "translateX": {
+          "curve": "CURVE591", 
+          "type": "doubleLinear", 
+          "value": -0.01614931197211119
+        }, 
+        "translateY": {
+          "curve": "CURVE592", 
+          "type": "doubleLinear", 
+          "value": 0.007296547120379327
+        }, 
+        "translateZ": {
+          "curve": "CURVE593", 
+          "type": "doubleLinear", 
+          "value": -0.005625517207889091
+        }, 
+        "scaleX": {
+          "curve": "CURVE594", 
+          "type": "double", 
+          "value": 1.0
+        }, 
+        "scaleY": {
+          "curve": "CURVE595", 
+          "type": "double", 
+          "value": 1.0
+        }, 
+        "visibility": {
+          "curve": "CURVE596", 
+          "type": "bool", 
+          "value": true
+        }, 
+        "rotateX": {
+          "curve": "CURVE597", 
+          "type": "doubleAngle", 
+          "value": 0.0
+        }, 
+        "rotateY": {
+          "curve": "CURVE598", 
+          "type": "doubleAngle", 
+          "value": 0.0
+        }, 
+        "rotateZ": {
+          "curve": "CURVE599", 
+          "type": "doubleAngle", 
+          "value": 0.0
+        }, 
+        "scaleZ": {
+          "curve": "CURVE600", 
+          "type": "double", 
+          "value": 1.0
+        }
+      }
+    }, 
+    "siera_rig_170:hood_11_ctl": {
+      "attrs": {
+        "translateX": {
+          "curve": "CURVE602", 
+          "type": "doubleLinear", 
+          "value": 0.0
+        }, 
+        "translateY": {
+          "curve": "CURVE603", 
+          "type": "doubleLinear", 
+          "value": 0.0
+        }, 
+        "translateZ": {
+          "curve": "CURVE604", 
+          "type": "doubleLinear", 
+          "value": 0.0
+        }, 
+        "scaleX": {
+          "curve": "CURVE605", 
+          "type": "double", 
+          "value": 1.0
+        }, 
+        "scaleY": {
+          "curve": "CURVE606", 
+          "type": "double", 
+          "value": 1.0
+        }, 
+        "visibility": {
+          "curve": "CURVE607", 
+          "type": "bool", 
+          "value": true
+        }, 
+        "rotateX": {
+          "curve": "CURVE608", 
+          "type": "doubleAngle", 
+          "value": 0.0
+        }, 
+        "rotateY": {
+          "curve": "CURVE609", 
+          "type": "doubleAngle", 
+          "value": 0.0
+        }, 
+        "rotateZ": {
+          "curve": "CURVE610", 
+          "type": "doubleAngle", 
+          "value": 0.0
+        }, 
+        "scaleZ": {
+          "curve": "CURVE611", 
+          "type": "double", 
+          "value": 1.0
+        }
+      }
+    }, 
+    "siera_rig_170:finger_03_03_L_ctl": {
+      "attrs": {
+        "translateX": {
+          "curve": "CURVE613", 
+          "type": "doubleLinear", 
+          "value": 0.0
+        }, 
+        "translateY": {
+          "curve": "CURVE614", 
+          "type": "doubleLinear", 
+          "value": 0.0
+        }, 
+        "translateZ": {
+          "curve": "CURVE615", 
+          "type": "doubleLinear", 
+          "value": 0.0
+        }, 
+        "scaleX": {
+          "curve": "CURVE616", 
+          "type": "double", 
+          "value": 0.9999999999999999
+        }, 
+        "scaleY": {
+          "curve": "CURVE617", 
+          "type": "double", 
+          "value": 1.0
+        }, 
+        "visibility": {
+          "curve": "CURVE618", 
+          "type": "bool", 
+          "value": true
+        }, 
+        "rotateX": {
+          "curve": "CURVE619", 
+          "type": "doubleAngle", 
+          "value": 0.0
+        }, 
+        "rotateY": {
+          "curve": "CURVE620", 
+          "type": "doubleAngle", 
+          "value": 0.0
+        }, 
+        "rotateZ": {
+          "curve": "CURVE621", 
+          "type": "doubleAngle", 
+          "value": -127.80065671607701
+        }, 
+        "scaleZ": {
+          "curve": "CURVE622", 
+          "type": "double", 
+          "value": 0.9999999999999999
+        }
+      }
+    }, 
+    "siera_rig_170:hood_09_ctl": {
+      "attrs": {
+        "translateX": {
+          "curve": "CURVE624", 
+          "type": "doubleLinear", 
+          "value": -0.01838202497145502
+        }, 
+        "translateY": {
+          "curve": "CURVE625", 
+          "type": "doubleLinear", 
+          "value": -0.00020366010181761867
+        }, 
+        "translateZ": {
+          "curve": "CURVE626", 
+          "type": "doubleLinear", 
+          "value": -0.00022573259280646621
+        }, 
+        "scaleX": {
+          "curve": "CURVE627", 
+          "type": "double", 
+          "value": 1.0
+        }, 
+        "scaleY": {
+          "curve": "CURVE628", 
+          "type": "double", 
+          "value": 1.0
+        }, 
+        "visibility": {
+          "curve": "CURVE629", 
+          "type": "bool", 
+          "value": true
+        }, 
+        "rotateX": {
+          "curve": "CURVE630", 
+          "type": "doubleAngle", 
+          "value": 0.0
+        }, 
+        "rotateY": {
+          "curve": "CURVE631", 
+          "type": "doubleAngle", 
+          "value": 0.0
+        }, 
+        "rotateZ": {
+          "curve": "CURVE632", 
+          "type": "doubleAngle", 
+          "value": 0.0
+        }, 
+        "scaleZ": {
+          "curve": "CURVE633", 
+          "type": "double", 
+          "value": 1.0
+        }
+      }
+    }, 
+    "siera_rig_170:inger_03_01_R_ctl": {
+      "attrs": {
+        "translateX": {
+          "curve": "CURVE635", 
+          "type": "doubleLinear", 
+          "value": 0.0
+        }, 
+        "translateY": {
+          "curve": "CURVE636", 
+          "type": "doubleLinear", 
+          "value": 0.0
+        }, 
+        "translateZ": {
+          "curve": "CURVE637", 
+          "type": "doubleLinear", 
+          "value": 0.0
+        }, 
+        "scaleX": {
+          "curve": "CURVE638", 
+          "type": "double", 
+          "value": 0.9999999999999994
+        }, 
+        "scaleY": {
+          "curve": "CURVE639", 
+          "type": "double", 
+          "value": 1.0
+        }, 
+        "visibility": {
+          "curve": "CURVE640", 
+          "type": "bool", 
+          "value": true
+        }, 
+        "rotateX": {
+          "curve": "CURVE641", 
+          "type": "doubleAngle", 
+          "value": -4.3235749263482015
+        }, 
+        "rotateY": {
+          "curve": "CURVE642", 
+          "type": "doubleAngle", 
+          "value": -18.979390540482296
+        }, 
+        "rotateZ": {
+          "curve": "CURVE643", 
+          "type": "doubleAngle", 
+          "value": -67.67879620136797
+        }, 
+        "scaleZ": {
+          "curve": "CURVE644", 
+          "type": "double", 
+          "value": 0.9999999999999997
+        }
+      }
+    }, 
+    "siera_rig_170:finger_04_01_R_ctl": {
+      "attrs": {
+        "translateX": {
+          "curve": "CURVE646", 
+          "type": "doubleLinear", 
+          "value": 0.0
+        }, 
+        "translateY": {
+          "curve": "CURVE647", 
+          "type": "doubleLinear", 
+          "value": 0.0
+        }, 
+        "translateZ": {
+          "curve": "CURVE648", 
+          "type": "doubleLinear", 
+          "value": 0.0
+        }, 
+        "scaleX": {
+          "curve": "CURVE649", 
+          "type": "double", 
+          "value": 0.9999999999999994
+        }, 
+        "scaleY": {
+          "curve": "CURVE650", 
+          "type": "double", 
+          "value": 1.0
+        }, 
+        "visibility": {
+          "curve": "CURVE651", 
+          "type": "bool", 
+          "value": true
+        }, 
+        "rotateX": {
+          "curve": "CURVE652", 
+          "type": "doubleAngle", 
+          "value": 1.9888727639402698e-16
+        }, 
+        "rotateY": {
+          "curve": "CURVE653", 
+          "type": "doubleAngle", 
+          "value": 1.8405393759475264
+        }, 
+        "rotateZ": {
+          "curve": "CURVE654", 
+          "type": "doubleAngle", 
+          "value": -81.86872597872888
+        }, 
+        "scaleZ": {
+          "curve": "CURVE655", 
+          "type": "double", 
+          "value": 0.9999999999999996
+        }
+      }
+    }, 
+    "siera_rig_170:finger_04_01_L_ctl": {
+      "attrs": {
+        "translateX": {
+          "curve": "CURVE657", 
+          "type": "doubleLinear", 
+          "value": 0.0
+        }, 
+        "translateY": {
+          "curve": "CURVE658", 
+          "type": "doubleLinear", 
+          "value": 0.0
+        }, 
+        "translateZ": {
+          "curve": "CURVE659", 
+          "type": "doubleLinear", 
+          "value": 0.0
+        }, 
+        "scaleX": {
+          "curve": "CURVE660", 
+          "type": "double", 
+          "value": 1.0000000000000002
+        }, 
+        "scaleY": {
+          "curve": "CURVE661", 
+          "type": "double", 
+          "value": 0.9999999999999998
+        }, 
+        "visibility": {
+          "curve": "CURVE662", 
+          "type": "bool", 
+          "value": true
+        }, 
+        "rotateX": {
+          "curve": "CURVE663", 
+          "type": "doubleAngle", 
+          "value": 3.991330768874966e-16
+        }, 
+        "rotateY": {
+          "curve": "CURVE664", 
+          "type": "doubleAngle", 
+          "value": -5.073447529008828
+        }, 
+        "rotateZ": {
+          "curve": "CURVE665", 
+          "type": "doubleAngle", 
+          "value": -80.47125526334804
+        }, 
+        "scaleZ": {
+          "curve": "CURVE666", 
+          "type": "double", 
+          "value": 1.0000000000000002
+        }
+      }
+    }, 
+    "siera_rig_170:eye_R_ctl": {
+      "attrs": {
+        "translateX": {
+          "curve": "CURVE668", 
+          "type": "doubleLinear", 
+          "value": 0.0
+        }, 
+        "translateY": {
+          "curve": "CURVE669", 
+          "type": "doubleLinear", 
+          "value": 0.0
+        }, 
+        "translateZ": {
+          "curve": "CURVE670", 
+          "type": "doubleLinear", 
+          "value": 0.0
+        }, 
+        "scaleX": {
+          "curve": "CURVE671", 
+          "type": "double", 
+          "value": 1.0
+        }, 
+        "scaleY": {
+          "curve": "CURVE672", 
+          "type": "double", 
+          "value": 1.0
+        }, 
+        "visibility": {
+          "curve": "CURVE673", 
+          "type": "bool", 
+          "value": true
+        }, 
+        "rotateX": {
+          "curve": "CURVE674", 
+          "type": "doubleAngle", 
+          "value": 0.0
+        }, 
+        "rotateY": {
+          "curve": "CURVE675", 
+          "type": "doubleAngle", 
+          "value": 0.0
+        }, 
+        "rotateZ": {
+          "curve": "CURVE676", 
+          "type": "doubleAngle", 
+          "value": 0.0
+        }, 
+        "scaleZ": {
+          "curve": "CURVE677", 
+          "type": "double", 
+          "value": 1.0
+        }
+      }
+    }, 
+    "siera_rig_170:chest_R_ctl": {
+      "attrs": {
+        "translateX": {
+          "type": "doubleLinear", 
+          "value": 0.0
+        }, 
+        "translateY": {
+          "type": "doubleLinear", 
+          "value": 0.0
+        }, 
+        "translateZ": {
+          "type": "doubleLinear", 
+          "value": 0.0
+        }, 
+        "scaleX": {
+          "type": "double", 
+          "value": 1.0
+        }, 
+        "scaleY": {
+          "type": "double", 
+          "value": 1.0
+        }, 
+        "visibility": {
+          "type": "bool", 
+          "value": true
+        }, 
+        "rotateX": {
+          "type": "doubleAngle", 
+          "value": 0.0
+        }, 
+        "rotateY": {
+          "type": "doubleAngle", 
+          "value": 0.0
+        }, 
+        "rotateZ": {
+          "type": "doubleAngle", 
+          "value": 0.0
+        }, 
+        "scaleZ": {
+          "type": "double", 
+          "value": 1.0
+        }
+      }
+    }, 
+    "siera_rig_170:finger_05_04_L_ctl": {
+      "attrs": {
+        "translateX": {
+          "curve": "CURVE679", 
+          "type": "doubleLinear", 
+          "value": 0.0
+        }, 
+        "translateY": {
+          "curve": "CURVE680", 
+          "type": "doubleLinear", 
+          "value": 0.0
+        }, 
+        "translateZ": {
+          "curve": "CURVE681", 
+          "type": "doubleLinear", 
+          "value": 0.0
+        }, 
+        "scaleX": {
+          "curve": "CURVE682", 
+          "type": "double", 
+          "value": 1.0
+        }, 
+        "scaleY": {
+          "curve": "CURVE683", 
+          "type": "double", 
+          "value": 1.0
+        }, 
+        "visibility": {
+          "curve": "CURVE684", 
+          "type": "bool", 
+          "value": true
+        }, 
+        "rotateX": {
+          "curve": "CURVE685", 
+          "type": "doubleAngle", 
+          "value": 0.0
+        }, 
+        "rotateY": {
+          "curve": "CURVE686", 
+          "type": "doubleAngle", 
+          "value": 0.0
+        }, 
+        "rotateZ": {
+          "curve": "CURVE687", 
+          "type": "doubleAngle", 
+          "value": 0.0
+        }, 
+        "scaleZ": {
+          "curve": "CURVE688", 
+          "type": "double", 
+          "value": 1.0000000000000002
+        }
+      }
+    }, 
+    "siera_rig_170:finger_02_01_R_ctl": {
+      "attrs": {
+        "translateX": {
+          "curve": "CURVE690", 
+          "type": "doubleLinear", 
+          "value": 0.00013515899263389988
+        }, 
+        "translateY": {
+          "curve": "CURVE691", 
+          "type": "doubleLinear", 
+          "value": -0.0003927012887483063
+        }, 
+        "translateZ": {
+          "curve": "CURVE692", 
+          "type": "doubleLinear", 
+          "value": -7.764946149181087e-05
+        }, 
+        "scaleX": {
+          "curve": "CURVE693", 
+          "type": "double", 
+          "value": 0.9999999999999994
+        }, 
+        "scaleY": {
+          "curve": "CURVE694", 
+          "type": "double", 
+          "value": 0.9999999999999999
+        }, 
+        "visibility": {
+          "curve": "CURVE695", 
+          "type": "bool", 
+          "value": true
+        }, 
+        "rotateX": {
+          "curve": "CURVE696", 
+          "type": "doubleAngle", 
+          "value": 17.846361896156044
+        }, 
+        "rotateY": {
+          "curve": "CURVE697", 
+          "type": "doubleAngle", 
+          "value": -7.7518779524233805
+        }, 
+        "rotateZ": {
+          "curve": "CURVE698", 
+          "type": "doubleAngle", 
+          "value": -68.5641688325232
+        }, 
+        "scaleZ": {
+          "curve": "CURVE699", 
+          "type": "double", 
+          "value": 0.9999999999999997
+        }
+      }
+    }, 
+    "siera_rig_170:FK_wrist_R_ctl": {
+      "attrs": {
+        "scaleX": {
+          "curve": "CURVE701", 
+          "type": "double", 
+          "value": 0.9999999999999997
+        }, 
+        "scaleY": {
+          "curve": "CURVE702", 
+          "type": "double", 
+          "value": 1.0
+        }, 
+        "visibility": {
+          "curve": "CURVE703", 
+          "type": "bool", 
+          "value": true
+        }, 
+        "rotateX": {
+          "curve": "CURVE704", 
+          "type": "doubleAngle", 
+          "value": 0.0
+        }, 
+        "rotateY": {
+          "curve": "CURVE705", 
+          "type": "doubleAngle", 
+          "value": 0.0
+        }, 
+        "rotateZ": {
+          "curve": "CURVE706", 
+          "type": "doubleAngle", 
+          "value": 0.0
+        }, 
+        "scaleZ": {
+          "curve": "CURVE707", 
+          "type": "double", 
+          "value": 0.9999999999999999
+        }
+      }
+    }, 
+    "siera_rig_170:finger_01_02_L_ctl": {
+      "attrs": {
+        "translateX": {
+          "curve": "CURVE709", 
+          "type": "doubleLinear", 
+          "value": 0.0
+        }, 
+        "translateY": {
+          "curve": "CURVE710", 
+          "type": "doubleLinear", 
+          "value": 0.0
+        }, 
+        "translateZ": {
+          "curve": "CURVE711", 
+          "type": "doubleLinear", 
+          "value": 0.0
+        }, 
+        "scaleX": {
+          "curve": "CURVE712", 
+          "type": "double", 
+          "value": 0.9999999999999999
+        }, 
+        "scaleY": {
+          "curve": "CURVE713", 
+          "type": "double", 
+          "value": 0.9999999999999998
+        }, 
+        "visibility": {
+          "curve": "CURVE714", 
+          "type": "bool", 
+          "value": true
+        }, 
+        "rotateX": {
+          "curve": "CURVE715", 
+          "type": "doubleAngle", 
+          "value": 0.0
+        }, 
+        "rotateY": {
+          "curve": "CURVE716", 
+          "type": "doubleAngle", 
+          "value": 0.0
+        }, 
+        "rotateZ": {
+          "curve": "CURVE717", 
+          "type": "doubleAngle", 
+          "value": -83.17230187666658
+        }, 
+        "scaleZ": {
+          "curve": "CURVE718", 
+          "type": "double", 
+          "value": 0.9999999999999998
+        }
+      }
+    }, 
+    "siera_rig_170:finger_01_03_R_ctl": {
+      "attrs": {
+        "translateX": {
+          "curve": "CURVE720", 
+          "type": "doubleLinear", 
+          "value": 0.0
+        }, 
+        "translateY": {
+          "curve": "CURVE721", 
+          "type": "doubleLinear", 
+          "value": 0.0
+        }, 
+        "translateZ": {
+          "curve": "CURVE722", 
+          "type": "doubleLinear", 
+          "value": 0.0
+        }, 
+        "scaleX": {
+          "curve": "CURVE723", 
+          "type": "double", 
+          "value": 1.0
+        }, 
+        "scaleY": {
+          "curve": "CURVE724", 
+          "type": "double", 
+          "value": 1.0000000000000002
+        }, 
+        "visibility": {
+          "curve": "CURVE725", 
+          "type": "bool", 
+          "value": true
+        }, 
+        "rotateX": {
+          "curve": "CURVE726", 
+          "type": "doubleAngle", 
+          "value": 8.901591329156727
+        }, 
+        "rotateY": {
+          "curve": "CURVE727", 
+          "type": "doubleAngle", 
+          "value": 9.676534139481257
+        }, 
+        "rotateZ": {
+          "curve": "CURVE728", 
+          "type": "doubleAngle", 
+          "value": -101.31226707395251
+        }, 
+        "scaleZ": {
+          "curve": "CURVE729", 
+          "type": "double", 
+          "value": 1.0000000000000002
+        }
+      }
+    }, 
+    "siera_rig_170:elbow_L_aim_ctl": {
+      "attrs": {
+        "translateX": {
+          "curve": "CURVE731", 
+          "type": "doubleLinear", 
+          "value": 7.105427357601002e-17
+        }, 
+        "translateY": {
+          "curve": "CURVE732", 
+          "type": "doubleLinear", 
+          "value": 0.030955477420824308
+        }, 
+        "translateZ": {
+          "curve": "CURVE733", 
+          "type": "doubleLinear", 
+          "value": 0.0
+        }, 
+        "scaleX": {
+          "curve": "CURVE734", 
+          "type": "double", 
+          "value": 1.0
+        }, 
+        "scaleY": {
+          "curve": "CURVE735", 
+          "type": "double", 
+          "value": 1.0
+        }, 
+        "visibility": {
+          "curve": "CURVE736", 
+          "type": "bool", 
+          "value": true
+        }, 
+        "rotateX": {
+          "curve": "CURVE737", 
+          "type": "doubleAngle", 
+          "value": 0.0
+        }, 
+        "rotateY": {
+          "curve": "CURVE738", 
+          "type": "doubleAngle", 
+          "value": 0.0
+        }, 
+        "rotateZ": {
+          "curve": "CURVE739", 
+          "type": "doubleAngle", 
+          "value": 0.0
+        }, 
+        "scaleZ": {
+          "curve": "CURVE740", 
+          "type": "double", 
+          "value": 1.0
+        }
+      }
+    }, 
+    "siera_rig_170:finger_04_02_R_ctl": {
+      "attrs": {
+        "translateX": {
+          "curve": "CURVE742", 
+          "type": "doubleLinear", 
+          "value": 0.0
+        }, 
+        "translateY": {
+          "curve": "CURVE743", 
+          "type": "doubleLinear", 
+          "value": 0.0
+        }, 
+        "translateZ": {
+          "curve": "CURVE744", 
+          "type": "doubleLinear", 
+          "value": 0.0
+        }, 
+        "scaleX": {
+          "curve": "CURVE745", 
+          "type": "double", 
+          "value": 0.9999999999999999
+        }, 
+        "scaleY": {
+          "curve": "CURVE746", 
+          "type": "double", 
+          "value": 1.0
+        }, 
+        "visibility": {
+          "curve": "CURVE747", 
+          "type": "bool", 
+          "value": true
+        }, 
+        "rotateX": {
+          "curve": "CURVE748", 
+          "type": "doubleAngle", 
+          "value": 0.0
+        }, 
+        "rotateY": {
+          "curve": "CURVE749", 
+          "type": "doubleAngle", 
+          "value": 0.0
+        }, 
+        "rotateZ": {
+          "curve": "CURVE750", 
+          "type": "doubleAngle", 
+          "value": -81.86872597872892
+        }, 
+        "scaleZ": {
+          "curve": "CURVE751", 
+          "type": "double", 
+          "value": 1.0
+        }
+      }
+    }, 
+    "siera_rig_170:ctl_grp|siera_rig_170:master_ctl_grp|siera_rig_170:master_ctl": {
+      "attrs": {
+        "translateX": {
+          "curve": "CURVE753", 
+          "type": "doubleLinear", 
+          "value": 0.0
+        }, 
+        "translateY": {
+          "curve": "CURVE754", 
+          "type": "doubleLinear", 
+          "value": -0.01455839211263907
+        }, 
+        "translateZ": {
+          "curve": "CURVE755", 
+          "type": "doubleLinear", 
+          "value": 0.0
+        }, 
+        "scaleX": {
+          "curve": "CURVE756", 
+          "type": "double", 
+          "value": 1.0
+        }, 
+        "scaleY": {
+          "curve": "CURVE757", 
+          "type": "double", 
+          "value": 1.0
+        }, 
+        "visibility": {
+          "curve": "CURVE758", 
+          "type": "bool", 
+          "value": true
+        }, 
+        "rotateX": {
+          "curve": "CURVE759", 
+          "type": "doubleAngle", 
+          "value": 0.0
+        }, 
+        "rotateY": {
+          "curve": "CURVE760", 
+          "type": "doubleAngle", 
+          "value": 0.0
+        }, 
+        "rotateZ": {
+          "curve": "CURVE761", 
+          "type": "doubleAngle", 
+          "value": 0.0
+        }, 
+        "scaleZ": {
+          "curve": "CURVE762", 
+          "type": "double", 
+          "value": 1.0
+        }, 
+        "BowVisibility": {
+          "curve": "CURVE763", 
+          "type": "double", 
+          "value": 0.0
+        }
+      }
+    }, 
+    "siera_rig_170:finger_04_04_R_ctl": {
+      "attrs": {
+        "translateX": {
+          "curve": "CURVE765", 
+          "type": "doubleLinear", 
+          "value": 0.0
+        }, 
+        "translateY": {
+          "curve": "CURVE766", 
+          "type": "doubleLinear", 
+          "value": 0.0
+        }, 
+        "translateZ": {
+          "curve": "CURVE767", 
+          "type": "doubleLinear", 
+          "value": 0.0
+        }, 
+        "scaleX": {
+          "curve": "CURVE768", 
+          "type": "double", 
+          "value": 0.9999999999999999
+        }, 
+        "scaleY": {
+          "curve": "CURVE769", 
+          "type": "double", 
+          "value": 0.9999999999999999
+        }, 
+        "visibility": {
+          "curve": "CURVE770", 
+          "type": "bool", 
+          "value": true
+        }, 
+        "rotateX": {
+          "curve": "CURVE771", 
+          "type": "doubleAngle", 
+          "value": 0.0
+        }, 
+        "rotateY": {
+          "curve": "CURVE772", 
+          "type": "doubleAngle", 
+          "value": 0.0
+        }, 
+        "rotateZ": {
+          "curve": "CURVE773", 
+          "type": "doubleAngle", 
+          "value": 0.0
+        }, 
+        "scaleZ": {
+          "curve": "CURVE774", 
+          "type": "double", 
+          "value": 1.0
+        }
+      }
+    }, 
+    "siera_rig_170:capuche_ctl": {
+      "attrs": {
+        "translateX": {
+          "type": "doubleLinear", 
+          "value": 0.003940848025413637
+        }, 
+        "translateY": {
+          "type": "doubleLinear", 
+          "value": -0.01688381887540899
+        }, 
+        "translateZ": {
+          "type": "doubleLinear", 
+          "value": 0.028994569364875922
+        }, 
+        "scaleX": {
+          "type": "double", 
+          "value": 1.0
+        }, 
+        "scaleY": {
+          "type": "double", 
+          "value": 1.0
+        }, 
+        "visibility": {
+          "type": "bool", 
+          "value": true
+        }, 
+        "rotateX": {
+          "type": "doubleAngle", 
+          "value": -35.25777550268967
+        }, 
+        "rotateY": {
+          "type": "doubleAngle", 
+          "value": -27.39580628137073
+        }, 
+        "rotateZ": {
+          "type": "doubleAngle", 
+          "value": -2.0021303812296374
+        }, 
+        "scaleZ": {
+          "type": "double", 
+          "value": 1.0000000000000002
+        }
+      }
+    }, 
+    "siera_rig_170:knee_L_ctl": {
+      "attrs": {
+        "translateX": {
+          "curve": "CURVE776", 
+          "type": "doubleLinear", 
+          "value": 0.03982893846437841
+        }, 
+        "translateY": {
+          "curve": "CURVE777", 
+          "type": "doubleLinear", 
+          "value": 0.0
+        }, 
+        "translateZ": {
+          "curve": "CURVE778", 
+          "type": "doubleLinear", 
+          "value": 0.0
+        }, 
+        "scaleX": {
+          "curve": "CURVE779", 
+          "type": "double", 
+          "value": 1.0
+        }, 
+        "scaleY": {
+          "curve": "CURVE780", 
+          "type": "double", 
+          "value": 1.0
+        }, 
+        "visibility": {
+          "curve": "CURVE781", 
+          "type": "bool", 
+          "value": true
+        }, 
+        "rotateX": {
+          "curve": "CURVE782", 
+          "type": "doubleAngle", 
+          "value": 0.0
+        }, 
+        "rotateY": {
+          "curve": "CURVE783", 
+          "type": "doubleAngle", 
+          "value": 0.0
+        }, 
+        "rotateZ": {
+          "curve": "CURVE784", 
+          "type": "doubleAngle", 
+          "value": 0.0
+        }, 
+        "scaleZ": {
+          "curve": "CURVE785", 
+          "type": "double", 
+          "value": 1.0
+        }
+      }
+    }, 
+    "siera_rig_170:hood_14_ctl": {
+      "attrs": {
+        "translateX": {
+          "curve": "CURVE787", 
+          "type": "doubleLinear", 
+          "value": -0.00242132499211076
+        }, 
+        "translateY": {
+          "curve": "CURVE788", 
+          "type": "doubleLinear", 
+          "value": -0.0006596080571973107
+        }, 
+        "translateZ": {
+          "curve": "CURVE789", 
+          "type": "doubleLinear", 
+          "value": 0.010464258173769036
+        }, 
+        "scaleX": {
+          "curve": "CURVE790", 
+          "type": "double", 
+          "value": 1.0
+        }, 
+        "scaleY": {
+          "curve": "CURVE791", 
+          "type": "double", 
+          "value": 1.0
+        }, 
+        "visibility": {
+          "curve": "CURVE792", 
+          "type": "bool", 
+          "value": true
+        }, 
+        "rotateX": {
+          "curve": "CURVE793", 
+          "type": "doubleAngle", 
+          "value": 0.0
+        }, 
+        "rotateY": {
+          "curve": "CURVE794", 
+          "type": "doubleAngle", 
+          "value": 0.0
+        }, 
+        "rotateZ": {
+          "curve": "CURVE795", 
+          "type": "doubleAngle", 
+          "value": 0.0
+        }, 
+        "scaleZ": {
+          "curve": "CURVE796", 
+          "type": "double", 
+          "value": 1.0
+        }
+      }
+    }, 
+    "siera_rig_170:finger_02_04_R_ctl": {
+      "attrs": {
+        "translateX": {
+          "curve": "CURVE798", 
+          "type": "doubleLinear", 
+          "value": 0.0
+        }, 
+        "translateY": {
+          "curve": "CURVE799", 
+          "type": "doubleLinear", 
+          "value": 0.0
+        }, 
+        "translateZ": {
+          "curve": "CURVE800", 
+          "type": "doubleLinear", 
+          "value": 0.0
+        }, 
+        "scaleX": {
+          "curve": "CURVE801", 
+          "type": "double", 
+          "value": 1.0
+        }, 
+        "scaleY": {
+          "curve": "CURVE802", 
+          "type": "double", 
+          "value": 1.0
+        }, 
+        "visibility": {
+          "curve": "CURVE803", 
+          "type": "bool", 
+          "value": true
+        }, 
+        "rotateX": {
+          "curve": "CURVE804", 
+          "type": "doubleAngle", 
+          "value": 0.0
+        }, 
+        "rotateY": {
+          "curve": "CURVE805", 
+          "type": "doubleAngle", 
+          "value": 0.0
+        }, 
+        "rotateZ": {
+          "curve": "CURVE806", 
+          "type": "doubleAngle", 
+          "value": 0.0
+        }, 
+        "scaleZ": {
+          "curve": "CURVE807", 
+          "type": "double", 
+          "value": 1.0000000000000002
+        }
+      }
+    }, 
+    "siera_rig_170:finger_05_04_R_ctl": {
+      "attrs": {
+        "translateX": {
+          "curve": "CURVE809", 
+          "type": "doubleLinear", 
+          "value": 0.0
+        }, 
+        "translateY": {
+          "curve": "CURVE810", 
+          "type": "doubleLinear", 
+          "value": 0.0
+        }, 
+        "translateZ": {
+          "curve": "CURVE811", 
+          "type": "doubleLinear", 
+          "value": 0.0
+        }, 
+        "scaleX": {
+          "curve": "CURVE812", 
+          "type": "double", 
+          "value": 1.0
+        }, 
+        "scaleY": {
+          "curve": "CURVE813", 
+          "type": "double", 
+          "value": 1.0
+        }, 
+        "visibility": {
+          "curve": "CURVE814", 
+          "type": "bool", 
+          "value": true
+        }, 
+        "rotateX": {
+          "curve": "CURVE815", 
+          "type": "doubleAngle", 
+          "value": 0.0
+        }, 
+        "rotateY": {
+          "curve": "CURVE816", 
+          "type": "doubleAngle", 
+          "value": 0.0
+        }, 
+        "rotateZ": {
+          "curve": "CURVE817", 
+          "type": "doubleAngle", 
+          "value": 0.0
+        }, 
+        "scaleZ": {
+          "curve": "CURVE818", 
+          "type": "double", 
+          "value": 1.0
+        }
+      }
+    }, 
+    "siera_rig_170:finger_03_04_R_ctl": {
+      "attrs": {
+        "translateX": {
+          "curve": "CURVE820", 
+          "type": "doubleLinear", 
+          "value": 0.0
+        }, 
+        "translateY": {
+          "curve": "CURVE821", 
+          "type": "doubleLinear", 
+          "value": 0.0
+        }, 
+        "translateZ": {
+          "curve": "CURVE822", 
+          "type": "doubleLinear", 
+          "value": 0.0
+        }, 
+        "scaleX": {
+          "curve": "CURVE823", 
+          "type": "double", 
+          "value": 1.0000000000000002
+        }, 
+        "scaleY": {
+          "curve": "CURVE824", 
+          "type": "double", 
+          "value": 1.0000000000000002
+        }, 
+        "visibility": {
+          "curve": "CURVE825", 
+          "type": "bool", 
+          "value": true
+        }, 
+        "rotateX": {
+          "curve": "CURVE826", 
+          "type": "doubleAngle", 
+          "value": 0.0
+        }, 
+        "rotateY": {
+          "curve": "CURVE827", 
+          "type": "doubleAngle", 
+          "value": 0.0
+        }, 
+        "rotateZ": {
+          "curve": "CURVE828", 
+          "type": "doubleAngle", 
+          "value": 0.0
+        }, 
+        "scaleZ": {
+          "curve": "CURVE829", 
+          "type": "double", 
+          "value": 1.0000000000000002
+        }
+      }
+    }, 
+    "siera_rig_170:finger_02_03_R_ctl": {
+      "attrs": {
+        "translateX": {
+          "curve": "CURVE831", 
+          "type": "doubleLinear", 
+          "value": 0.0
+        }, 
+        "translateY": {
+          "curve": "CURVE832", 
+          "type": "doubleLinear", 
+          "value": 0.0
+        }, 
+        "translateZ": {
+          "curve": "CURVE833", 
+          "type": "doubleLinear", 
+          "value": 0.0
+        }, 
+        "scaleX": {
+          "curve": "CURVE834", 
+          "type": "double", 
+          "value": 1.0
+        }, 
+        "scaleY": {
+          "curve": "CURVE835", 
+          "type": "double", 
+          "value": 0.9999999999999999
+        }, 
+        "visibility": {
+          "curve": "CURVE836", 
+          "type": "bool", 
+          "value": true
+        }, 
+        "rotateX": {
+          "curve": "CURVE837", 
+          "type": "doubleAngle", 
+          "value": 25.490103211429933
+        }, 
+        "rotateY": {
+          "curve": "CURVE838", 
+          "type": "doubleAngle", 
+          "value": -0.916439096404893
+        }, 
+        "rotateZ": {
+          "curve": "CURVE839", 
+          "type": "doubleAngle", 
+          "value": -108.11918127245619
+        }, 
+        "scaleZ": {
+          "curve": "CURVE840", 
+          "type": "double", 
+          "value": 0.9999999999999999
+        }
+      }
+    }, 
+    "siera_rig_170:finger_02_03_L_ctl": {
+      "attrs": {
+        "translateX": {
+          "curve": "CURVE842", 
+          "type": "doubleLinear", 
+          "value": 0.0
+        }, 
+        "translateY": {
+          "curve": "CURVE843", 
+          "type": "doubleLinear", 
+          "value": 0.0
+        }, 
+        "translateZ": {
+          "curve": "CURVE844", 
+          "type": "doubleLinear", 
+          "value": 0.0
+        }, 
+        "scaleX": {
+          "curve": "CURVE845", 
+          "type": "double", 
+          "value": 1.0000000000000002
+        }, 
+        "scaleY": {
+          "curve": "CURVE846", 
+          "type": "double", 
+          "value": 1.0000000000000002
+        }, 
+        "visibility": {
+          "curve": "CURVE847", 
+          "type": "bool", 
+          "value": true
+        }, 
+        "rotateX": {
+          "curve": "CURVE848", 
+          "type": "doubleAngle", 
+          "value": -2.2249661266277143
+        }, 
+        "rotateY": {
+          "curve": "CURVE849", 
+          "type": "doubleAngle", 
+          "value": 3.7710237588662032
+        }, 
+        "rotateZ": {
+          "curve": "CURVE850", 
+          "type": "doubleAngle", 
+          "value": -96.31285010585741
+        }, 
+        "scaleZ": {
+          "curve": "CURVE851", 
+          "type": "double", 
+          "value": 1.0000000000000002
+        }
+      }
+    }, 
+    "siera_rig_170:hair_R_02_ctl_grp|siera_rig_170:hair_R_02_ctl": {
+      "attrs": {
+        "translateX": {
+          "curve": "CURVE853", 
+          "type": "doubleLinear", 
+          "value": 0.0
+        }, 
+        "translateY": {
+          "curve": "CURVE854", 
+          "type": "doubleLinear", 
+          "value": 0.0
+        }, 
+        "translateZ": {
+          "curve": "CURVE855", 
+          "type": "doubleLinear", 
+          "value": 0.0
+        }, 
+        "scaleX": {
+          "curve": "CURVE856", 
+          "type": "double", 
+          "value": 1.0
+        }, 
+        "scaleY": {
+          "curve": "CURVE857", 
+          "type": "double", 
+          "value": 1.0
+        }, 
+        "visibility": {
+          "curve": "CURVE858", 
+          "type": "bool", 
+          "value": true
+        }, 
+        "rotateX": {
+          "curve": "CURVE859", 
+          "type": "doubleAngle", 
+          "value": 0.0
+        }, 
+        "rotateY": {
+          "curve": "CURVE860", 
+          "type": "doubleAngle", 
+          "value": 0.0
+        }, 
+        "rotateZ": {
+          "curve": "CURVE861", 
+          "type": "doubleAngle", 
+          "value": 0.0
+        }, 
+        "scaleZ": {
+          "curve": "CURVE862", 
+          "type": "double", 
+          "value": 1.0
+        }
+      }
+    }, 
+    "siera_rig_170:eye_pupil_L_ctl": {
+      "attrs": {
+        "translateX": {
+          "curve": "CURVE864", 
+          "type": "doubleLinear", 
+          "value": 0.0
+        }, 
+        "translateY": {
+          "curve": "CURVE865", 
+          "type": "doubleLinear", 
+          "value": 0.0
+        }, 
+        "translateZ": {
+          "curve": "CURVE866", 
+          "type": "doubleLinear", 
+          "value": 0.0
+        }, 
+        "scaleX": {
+          "curve": "CURVE867", 
+          "type": "double", 
+          "value": 1.0
+        }, 
+        "scaleY": {
+          "curve": "CURVE868", 
+          "type": "double", 
+          "value": 1.0
+        }, 
+        "visibility": {
+          "curve": "CURVE869", 
+          "type": "bool", 
+          "value": true
+        }, 
+        "rotateX": {
+          "curve": "CURVE870", 
+          "type": "doubleAngle", 
+          "value": 0.0
+        }, 
+        "rotateY": {
+          "curve": "CURVE871", 
+          "type": "doubleAngle", 
+          "value": 0.0
+        }, 
+        "rotateZ": {
+          "curve": "CURVE872", 
+          "type": "doubleAngle", 
+          "value": 0.0
+        }, 
+        "scaleZ": {
+          "curve": "CURVE873", 
+          "type": "double", 
+          "value": 1.0
+        }
+      }
+    }, 
+    "siera_rig_170:eye_L_ctl": {
+      "attrs": {
+        "translateX": {
+          "curve": "CURVE875", 
+          "type": "doubleLinear", 
+          "value": 0.0
+        }, 
+        "translateY": {
+          "curve": "CURVE876", 
+          "type": "doubleLinear", 
+          "value": 0.0
+        }, 
+        "translateZ": {
+          "curve": "CURVE877", 
+          "type": "doubleLinear", 
+          "value": 0.0
+        }, 
+        "scaleX": {
+          "curve": "CURVE878", 
+          "type": "double", 
+          "value": 1.0
+        }, 
+        "scaleY": {
+          "curve": "CURVE879", 
+          "type": "double", 
+          "value": 1.0
+        }, 
+        "visibility": {
+          "curve": "CURVE880", 
+          "type": "bool", 
+          "value": true
+        }, 
+        "rotateX": {
+          "curve": "CURVE881", 
+          "type": "doubleAngle", 
+          "value": 0.0
+        }, 
+        "rotateY": {
+          "curve": "CURVE882", 
+          "type": "doubleAngle", 
+          "value": 0.0
+        }, 
+        "rotateZ": {
+          "curve": "CURVE883", 
+          "type": "doubleAngle", 
+          "value": 0.0
+        }, 
+        "scaleZ": {
+          "curve": "CURVE884", 
+          "type": "double", 
+          "value": 1.0
+        }
+      }
+    }, 
+    "siera_rig_170:finger_01_04_L_ctl": {
+      "attrs": {
+        "translateX": {
+          "curve": "CURVE886", 
+          "type": "doubleLinear", 
+          "value": 0.0
+        }, 
+        "translateY": {
+          "curve": "CURVE887", 
+          "type": "doubleLinear", 
+          "value": 0.0
+        }, 
+        "translateZ": {
+          "curve": "CURVE888", 
+          "type": "doubleLinear", 
+          "value": 0.0
+        }, 
+        "scaleX": {
+          "curve": "CURVE889", 
+          "type": "double", 
+          "value": 1.0
+        }, 
+        "scaleY": {
+          "curve": "CURVE890", 
+          "type": "double", 
+          "value": 1.0000000000000002
+        }, 
+        "visibility": {
+          "curve": "CURVE891", 
+          "type": "bool", 
+          "value": true
+        }, 
+        "rotateX": {
+          "curve": "CURVE892", 
+          "type": "doubleAngle", 
+          "value": 0.0
+        }, 
+        "rotateY": {
+          "curve": "CURVE893", 
+          "type": "doubleAngle", 
+          "value": 0.0
+        }, 
+        "rotateZ": {
+          "curve": "CURVE894", 
+          "type": "doubleAngle", 
+          "value": 0.0
+        }, 
+        "scaleZ": {
+          "curve": "CURVE895", 
+          "type": "double", 
+          "value": 1.0
+        }
+      }
+    }, 
+    "siera_rig_170:hood_10_ctl": {
+      "attrs": {
+        "translateX": {
+          "curve": "CURVE897", 
+          "type": "doubleLinear", 
+          "value": -0.005193099033112266
+        }, 
+        "translateY": {
+          "curve": "CURVE898", 
+          "type": "doubleLinear", 
+          "value": 0.004785408908722063
+        }, 
+        "translateZ": {
+          "curve": "CURVE899", 
+          "type": "doubleLinear", 
+          "value": -0.0019033463277911662
+        }, 
+        "scaleX": {
+          "curve": "CURVE900", 
+          "type": "double", 
+          "value": 1.0
+        }, 
+        "scaleY": {
+          "curve": "CURVE901", 
+          "type": "double", 
+          "value": 1.0
+        }, 
+        "visibility": {
+          "curve": "CURVE902", 
+          "type": "bool", 
+          "value": true
+        }, 
+        "rotateX": {
+          "curve": "CURVE903", 
+          "type": "doubleAngle", 
+          "value": 0.0
+        }, 
+        "rotateY": {
+          "curve": "CURVE904", 
+          "type": "doubleAngle", 
+          "value": 0.0
+        }, 
+        "rotateZ": {
+          "curve": "CURVE905", 
+          "type": "doubleAngle", 
+          "value": 0.0
+        }, 
+        "scaleZ": {
+          "curve": "CURVE906", 
+          "type": "double", 
+          "value": 1.0
+        }
+      }
+    }, 
+    "siera_rig_170:finger_02_04_L_ctl": {
+      "attrs": {
+        "translateX": {
+          "curve": "CURVE908", 
+          "type": "doubleLinear", 
+          "value": 0.0
+        }, 
+        "translateY": {
+          "curve": "CURVE909", 
+          "type": "doubleLinear", 
+          "value": 0.0
+        }, 
+        "translateZ": {
+          "curve": "CURVE910", 
+          "type": "doubleLinear", 
+          "value": 0.0
+        }, 
+        "scaleX": {
+          "curve": "CURVE911", 
+          "type": "double", 
+          "value": 1.0
+        }, 
+        "scaleY": {
+          "curve": "CURVE912", 
+          "type": "double", 
+          "value": 1.0000000000000002
+        }, 
+        "visibility": {
+          "curve": "CURVE913", 
+          "type": "bool", 
+          "value": true
+        }, 
+        "rotateX": {
+          "curve": "CURVE914", 
+          "type": "doubleAngle", 
+          "value": 0.0
+        }, 
+        "rotateY": {
+          "curve": "CURVE915", 
+          "type": "doubleAngle", 
+          "value": 0.0
+        }, 
+        "rotateZ": {
+          "curve": "CURVE916", 
+          "type": "doubleAngle", 
+          "value": 0.0
+        }, 
+        "scaleZ": {
+          "curve": "CURVE917", 
+          "type": "double", 
+          "value": 1.0000000000000002
+        }
+      }
+    }, 
+    "siera_rig_170:eye_aim_ctl": {
+      "attrs": {
+        "translateX": {
+          "curve": "CURVE919", 
+          "type": "doubleLinear", 
+          "value": 0.0
+        }, 
+        "translateY": {
+          "curve": "CURVE920", 
+          "type": "doubleLinear", 
+          "value": 0.0
+        }, 
+        "translateZ": {
+          "curve": "CURVE921", 
+          "type": "doubleLinear", 
+          "value": 0.0
+        }, 
+        "scaleX": {
+          "curve": "CURVE922", 
+          "type": "double", 
+          "value": 1.0
+        }, 
+        "scaleY": {
+          "curve": "CURVE923", 
+          "type": "double", 
+          "value": 1.0
+        }, 
+        "visibility": {
+          "curve": "CURVE924", 
+          "type": "bool", 
+          "value": true
+        }, 
+        "rotateX": {
+          "curve": "CURVE925", 
+          "type": "doubleAngle", 
+          "value": 0.0
+        }, 
+        "rotateY": {
+          "curve": "CURVE926", 
+          "type": "doubleAngle", 
+          "value": 0.0
+        }, 
+        "rotateZ": {
+          "curve": "CURVE927", 
+          "type": "doubleAngle", 
+          "value": 0.0
+        }, 
+        "scaleZ": {
+          "curve": "CURVE928", 
+          "type": "double", 
+          "value": 1.0
+        }
+      }
+    }, 
+    "siera_rig_170:hood_03_ctl": {
+      "attrs": {
+        "translateX": {
+          "curve": "CURVE930", 
+          "type": "doubleLinear", 
+          "value": 0.0
+        }, 
+        "translateY": {
+          "curve": "CURVE931", 
+          "type": "doubleLinear", 
+          "value": 0.0
+        }, 
+        "translateZ": {
+          "curve": "CURVE932", 
+          "type": "doubleLinear", 
+          "value": 0.0
+        }, 
+        "scaleX": {
+          "curve": "CURVE933", 
+          "type": "double", 
+          "value": 1.0
+        }, 
+        "scaleY": {
+          "curve": "CURVE934", 
+          "type": "double", 
+          "value": 1.0
+        }, 
+        "visibility": {
+          "curve": "CURVE935", 
+          "type": "bool", 
+          "value": true
+        }, 
+        "rotateX": {
+          "curve": "CURVE936", 
+          "type": "doubleAngle", 
+          "value": 0.0
+        }, 
+        "rotateY": {
+          "curve": "CURVE937", 
+          "type": "doubleAngle", 
+          "value": 0.0
+        }, 
+        "rotateZ": {
+          "curve": "CURVE938", 
+          "type": "doubleAngle", 
+          "value": 0.0
+        }, 
+        "scaleZ": {
+          "curve": "CURVE939", 
+          "type": "double", 
+          "value": 1.0
+        }
+      }
+    }, 
+    "siera_rig_170:finger_04_04_L_ctl": {
+      "attrs": {
+        "translateX": {
+          "curve": "CURVE941", 
+          "type": "doubleLinear", 
+          "value": 0.0
+        }, 
+        "translateY": {
+          "curve": "CURVE942", 
+          "type": "doubleLinear", 
+          "value": 0.0
+        }, 
+        "translateZ": {
+          "curve": "CURVE943", 
+          "type": "doubleLinear", 
+          "value": 0.0
+        }, 
+        "scaleX": {
+          "curve": "CURVE944", 
+          "type": "double", 
+          "value": 1.0000000000000002
+        }, 
+        "scaleY": {
+          "curve": "CURVE945", 
+          "type": "double", 
+          "value": 1.0000000000000002
+        }, 
+        "visibility": {
+          "curve": "CURVE946", 
+          "type": "bool", 
+          "value": true
+        }, 
+        "rotateX": {
+          "curve": "CURVE947", 
+          "type": "doubleAngle", 
+          "value": 0.0
+        }, 
+        "rotateY": {
+          "curve": "CURVE948", 
+          "type": "doubleAngle", 
+          "value": 0.0
+        }, 
+        "rotateZ": {
+          "curve": "CURVE949", 
+          "type": "doubleAngle", 
+          "value": 0.0
+        }, 
+        "scaleZ": {
+          "curve": "CURVE950", 
+          "type": "double", 
+          "value": 1.0
+        }
+      }
+    }, 
+    "siera_rig_170:hood_07_ctl": {
+      "attrs": {
+        "translateX": {
+          "curve": "CURVE952", 
+          "type": "doubleLinear", 
+          "value": -0.008311500014178321
+        }, 
+        "translateY": {
+          "curve": "CURVE953", 
+          "type": "doubleLinear", 
+          "value": 0.02693516657312508
+        }, 
+        "translateZ": {
+          "curve": "CURVE954", 
+          "type": "doubleLinear", 
+          "value": -0.012944588762230399
+        }, 
+        "scaleX": {
+          "curve": "CURVE955", 
+          "type": "double", 
+          "value": 1.0
+        }, 
+        "scaleY": {
+          "curve": "CURVE956", 
+          "type": "double", 
+          "value": 1.0
+        }, 
+        "visibility": {
+          "curve": "CURVE957", 
+          "type": "bool", 
+          "value": true
+        }, 
+        "rotateX": {
+          "curve": "CURVE958", 
+          "type": "doubleAngle", 
+          "value": 0.0
+        }, 
+        "rotateY": {
+          "curve": "CURVE959", 
+          "type": "doubleAngle", 
+          "value": 0.0
+        }, 
+        "rotateZ": {
+          "curve": "CURVE960", 
+          "type": "doubleAngle", 
+          "value": 0.0
+        }, 
+        "scaleZ": {
+          "curve": "CURVE961", 
+          "type": "double", 
+          "value": 1.0
+        }
+      }
+    }, 
+    "siera_rig_170:shoulders_spine_ctl": {
+      "attrs": {
+        "translateX": {
+          "curve": "CURVE963", 
+          "type": "doubleLinear", 
+          "value": 0.0
+        }, 
+        "translateY": {
+          "curve": "CURVE964", 
+          "type": "doubleLinear", 
+          "value": 0.0
+        }, 
+        "translateZ": {
+          "curve": "CURVE965", 
+          "type": "doubleLinear", 
+          "value": 0.0
+        }, 
+        "scaleX": {
+          "curve": "CURVE966", 
+          "type": "double", 
+          "value": 1.0
+        }, 
+        "scaleY": {
+          "curve": "CURVE967", 
+          "type": "double", 
+          "value": 1.0
+        }, 
+        "visibility": {
+          "curve": "CURVE968", 
+          "type": "bool", 
+          "value": true
+        }, 
+        "rotateX": {
+          "curve": "CURVE969", 
+          "type": "doubleAngle", 
+          "value": 0.0
+        }, 
+        "rotateY": {
+          "curve": "CURVE970", 
+          "type": "doubleAngle", 
+          "value": 15.704083671980456
+        }, 
+        "rotateZ": {
+          "curve": "CURVE971", 
+          "type": "doubleAngle", 
+          "value": 0.0
+        }, 
+        "scaleZ": {
+          "curve": "CURVE972", 
+          "type": "double", 
+          "value": 1.0
+        }
+      }
+    }, 
+    "siera_rig_170:hair_R_05_ctl_grp|siera_rig_170:hair_R_05_ctl": {
+      "attrs": {
+        "translateX": {
+          "curve": "CURVE974", 
+          "type": "doubleLinear", 
+          "value": -0.0006536001972224721
+        }, 
+        "translateY": {
+          "curve": "CURVE975", 
+          "type": "doubleLinear", 
+          "value": 0.013916972850531522
+        }, 
+        "translateZ": {
+          "curve": "CURVE976", 
+          "type": "doubleLinear", 
+          "value": 0.09824381895821095
+        }, 
+        "scaleX": {
+          "curve": "CURVE977", 
+          "type": "double", 
+          "value": 1.0
+        }, 
+        "scaleY": {
+          "curve": "CURVE978", 
+          "type": "double", 
+          "value": 1.0
+        }, 
+        "visibility": {
+          "curve": "CURVE979", 
+          "type": "bool", 
+          "value": true
+        }, 
+        "rotateX": {
+          "curve": "CURVE980", 
+          "type": "doubleAngle", 
+          "value": 0.0
+        }, 
+        "rotateY": {
+          "curve": "CURVE981", 
+          "type": "doubleAngle", 
+          "value": 0.0
+        }, 
+        "rotateZ": {
+          "curve": "CURVE982", 
+          "type": "doubleAngle", 
+          "value": 0.0
+        }, 
+        "scaleZ": {
+          "curve": "CURVE983", 
+          "type": "double", 
+          "value": 1.0
+        }
+      }
+    }, 
+    "siera_rig_170:finger_03_02_R_ctl": {
+      "attrs": {
+        "translateX": {
+          "curve": "CURVE985", 
+          "type": "doubleLinear", 
+          "value": 0.0
+        }, 
+        "translateY": {
+          "curve": "CURVE986", 
+          "type": "doubleLinear", 
+          "value": 0.0
+        }, 
+        "translateZ": {
+          "curve": "CURVE987", 
+          "type": "doubleLinear", 
+          "value": 0.0
+        }, 
+        "scaleX": {
+          "curve": "CURVE988", 
+          "type": "double", 
+          "value": 1.0
+        }, 
+        "scaleY": {
+          "curve": "CURVE989", 
+          "type": "double", 
+          "value": 1.0
+        }, 
+        "visibility": {
+          "curve": "CURVE990", 
+          "type": "bool", 
+          "value": true
+        }, 
+        "rotateX": {
+          "curve": "CURVE991", 
+          "type": "doubleAngle", 
+          "value": 21.544955560908313
+        }, 
+        "rotateY": {
+          "curve": "CURVE992", 
+          "type": "doubleAngle", 
+          "value": -1.2892859709682645
+        }, 
+        "rotateZ": {
+          "curve": "CURVE993", 
+          "type": "doubleAngle", 
+          "value": -79.21551357182854
+        }, 
+        "scaleZ": {
+          "curve": "CURVE994", 
+          "type": "double", 
+          "value": 1.0000000000000004
+        }
+      }
+    }, 
+    "siera_rig_170:finger_05_02_L_ctl": {
+      "attrs": {
+        "translateX": {
+          "curve": "CURVE996", 
+          "type": "doubleLinear", 
+          "value": 0.0
+        }, 
+        "translateY": {
+          "curve": "CURVE997", 
+          "type": "doubleLinear", 
+          "value": 0.0
+        }, 
+        "translateZ": {
+          "curve": "CURVE998", 
+          "type": "doubleLinear", 
+          "value": 0.0
+        }, 
+        "scaleX": {
+          "curve": "CURVE999", 
+          "type": "double", 
+          "value": 1.0
+        }, 
+        "scaleY": {
+          "curve": "CURVE1000", 
+          "type": "double", 
+          "value": 1.0
+        }, 
+        "visibility": {
+          "curve": "CURVE1001", 
+          "type": "bool", 
+          "value": true
+        }, 
+        "rotateX": {
+          "curve": "CURVE1002", 
+          "type": "doubleAngle", 
+          "value": -7.429001626090302
+        }, 
+        "rotateY": {
+          "curve": "CURVE1003", 
+          "type": "doubleAngle", 
+          "value": -0.30679910060601084
+        }, 
+        "rotateZ": {
+          "curve": "CURVE1004", 
+          "type": "doubleAngle", 
+          "value": -33.47800813691012
+        }, 
+        "scaleZ": {
+          "curve": "CURVE1005", 
+          "type": "double", 
+          "value": 1.0
+        }
+      }
+    }, 
+    "siera_rig_170:ctl_grp|siera_rig_170:master_ctl_grp|siera_rig_170:master_ctl|siera_rig_170:general_ctl_grp|siera_rig_170:general_ctl|siera_rig_170:local_ctl_grp|siera_rig_170:local_ctl": {
+      "attrs": {
+        "translateX": {
+          "curve": "CURVE1007", 
+          "type": "doubleLinear", 
+          "value": 0.0
+        }, 
+        "translateY": {
+          "curve": "CURVE1008", 
+          "type": "doubleLinear", 
+          "value": 0.0
+        }, 
+        "translateZ": {
+          "curve": "CURVE1009", 
+          "type": "doubleLinear", 
+          "value": 0.0
+        }, 
+        "scaleX": {
+          "curve": "CURVE1010", 
+          "type": "double", 
+          "value": 1.0
+        }, 
+        "scaleY": {
+          "curve": "CURVE1011", 
+          "type": "double", 
+          "value": 1.0
+        }, 
+        "visibility": {
+          "curve": "CURVE1012", 
+          "type": "bool", 
+          "value": true
+        }, 
+        "rotateX": {
+          "curve": "CURVE1013", 
+          "type": "doubleAngle", 
+          "value": 0.0
+        }, 
+        "rotateY": {
+          "curve": "CURVE1014", 
+          "type": "doubleAngle", 
+          "value": 0.0
+        }, 
+        "rotateZ": {
+          "curve": "CURVE1015", 
+          "type": "doubleAngle", 
+          "value": 0.0
+        }, 
+        "scaleZ": {
+          "curve": "CURVE1016", 
+          "type": "double", 
+          "value": 1.0
+        }
+      }
+    }, 
+    "siera_rig_170:feet_L_ctl": {
+      "attrs": {
+        "translateX": {
+          "curve": "CURVE1018", 
+          "type": "doubleLinear", 
+          "value": 0.03
+        }, 
+        "translateY": {
+          "curve": "CURVE1019", 
+          "type": "doubleLinear", 
+          "value": 0.12796220456276294
+        }, 
+        "translateZ": {
+          "curve": "CURVE1020", 
+          "type": "doubleLinear", 
+          "value": -0.5633764082250732
+        }, 
+        "scaleX": {
+          "curve": "CURVE1021", 
+          "type": "double", 
+          "value": 1.0
+        }, 
+        "scaleY": {
+          "curve": "CURVE1022", 
+          "type": "double", 
+          "value": 1.0
+        }, 
+        "visibility": {
+          "curve": "CURVE1023", 
+          "type": "bool", 
+          "value": true
+        }, 
+        "rotateX": {
+          "curve": "CURVE1024", 
+          "type": "doubleAngle", 
+          "value": 26.942405441436787
+        }, 
+        "rotateY": {
+          "curve": "CURVE1025", 
+          "type": "doubleAngle", 
+          "value": 0.0
+        }, 
+        "rotateZ": {
+          "curve": "CURVE1026", 
+          "type": "doubleAngle", 
+          "value": 0.0
+        }, 
+        "scaleZ": {
+          "curve": "CURVE1027", 
+          "type": "double", 
+          "value": 1.0
+        }
+      }
+    }
+  }
+}
