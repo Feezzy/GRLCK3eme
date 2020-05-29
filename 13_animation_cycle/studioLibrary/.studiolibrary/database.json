@@ -1,4 +1,13 @@
 {
+    "../../Trash/seq_05_cam_03.anim": {
+        "category": "Trash", 
+        "name": "seq_05_cam_03.anim", 
+        "modified": 1590691913.576934, 
+        "__class__": "studiolibrary.libraryitem.LibraryItem", 
+        "path": "../../Trash/seq_05_cam_03.anim", 
+        "folder": "../../Trash", 
+        "type": ".anim"
+    }, 
     "../../Trash/siera": {
         "category": "Trash", 
         "name": "siera", 
@@ -62,6 +71,15 @@
         "folder": "../../droide", 
         "type": ".anim"
     }, 
+    "../../droide/droide_walk_Cycle_02.anim": {
+        "category": "droide", 
+        "name": "droide_walk_Cycle_02.anim", 
+        "path": "../../droide/droide_walk_Cycle_02.anim", 
+        "folder": "../../droide", 
+        "type": ".anim", 
+        "modified": 1590748773.583006, 
+        "__class__": "studiolibrarymaya.animitem.AnimItem"
+    }, 
     "../../siera": {
         "category": "studioLibrary", 
         "name": "siera", 
@@ -71,13 +89,22 @@
         "folder": "../..", 
         "type": "Folder"
     }, 
+    "../../siera/seq_05_cam_03.anim": {
+        "category": "siera", 
+        "name": "seq_05_cam_03.anim", 
+        "modified": 1590742978.569477, 
+        "__class__": "studiolibrarymaya.animitem.AnimItem", 
+        "path": "../../siera/seq_05_cam_03.anim", 
+        "folder": "../../siera", 
+        "type": ".anim"
+    }, 
     "../../siera/sieraRunCycle.anim": {
         "category": "siera", 
         "name": "sieraRunCycle.anim", 
+        "__class__": "studiolibrarymaya.animitem.AnimItem", 
+        "modified": 1590416699.048518, 
         "path": "../../siera/sieraRunCycle.anim", 
         "folder": "../../siera", 
-        "type": ".anim", 
-        "modified": 1590416699.048518, 
-        "__class__": "studiolibrarymaya.animitem.AnimItem"
+        "type": ".anim"
     }
 }
