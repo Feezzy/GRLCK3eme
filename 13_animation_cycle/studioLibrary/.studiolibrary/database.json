@@ -1,9 +1,18 @@
 {
+    "../../Trash/seq_05_cam_03 (2).anim": {
+        "category": "Trash", 
+        "name": "seq_05_cam_03 (2).anim", 
+        "__class__": "studiolibrary.libraryitem.LibraryItem", 
+        "modified": 1590742978.569477, 
+        "path": "../../Trash/seq_05_cam_03 (2).anim", 
+        "folder": "../../Trash", 
+        "type": ".anim"
+    }, 
     "../../Trash/seq_05_cam_03.anim": {
         "category": "Trash", 
         "name": "seq_05_cam_03.anim", 
-        "modified": 1590691913.576934, 
         "__class__": "studiolibrary.libraryitem.LibraryItem", 
+        "modified": 1590691913.576934, 
         "path": "../../Trash/seq_05_cam_03.anim", 
         "folder": "../../Trash", 
         "type": ".anim"
@@ -11,8 +20,8 @@
     "../../Trash/siera": {
         "category": "Trash", 
         "name": "siera", 
-        "modified": 1590153291.278201, 
         "__class__": "studiolibrary.folderitem.FolderItem", 
+        "modified": 1590153291.278201, 
         "path": "../../Trash/siera", 
         "folder": "../../Trash", 
         "type": "Folder"
@@ -20,8 +29,8 @@
     "../../Trash/sieraRunCycle.anim": {
         "category": "Trash", 
         "name": "sieraRunCycle.anim", 
-        "modified": 1590415769.753017, 
         "__class__": "studiolibrary.libraryitem.LibraryItem", 
+        "modified": 1590415769.753017, 
         "path": "../../Trash/sieraRunCycle.anim", 
         "folder": "../../Trash", 
         "type": ".anim"
@@ -29,8 +38,8 @@
     "../../Trash/sieraRunCycle_V2 (2).anim": {
         "category": "Trash", 
         "name": "sieraRunCycle_V2 (2).anim", 
-        "__class__": "studiolibrary.libraryitem.LibraryItem", 
         "modified": 1590155124.876102, 
+        "__class__": "studiolibrary.libraryitem.LibraryItem", 
         "path": "../../Trash/sieraRunCycle_V2 (2).anim", 
         "folder": "../../Trash", 
         "type": ".anim"
@@ -38,8 +47,8 @@
     "../../Trash/sieraRunCycle_V2 (3).anim": {
         "category": "Trash", 
         "name": "sieraRunCycle_V2 (3).anim", 
-        "__class__": "studiolibrarymaya.animitem.AnimItem", 
         "modified": 1590415586.087573, 
+        "__class__": "studiolibrarymaya.animitem.AnimItem", 
         "path": "../../Trash/sieraRunCycle_V2 (3).anim", 
         "folder": "../../Trash", 
         "type": ".anim"
@@ -47,17 +56,26 @@
     "../../Trash/sieraRunCycle_V2.anim": {
         "category": "Trash", 
         "name": "sieraRunCycle_V2.anim", 
-        "__class__": "studiolibrary.libraryitem.LibraryItem", 
         "modified": 1590153348.53136, 
+        "__class__": "studiolibrary.libraryitem.LibraryItem", 
         "path": "../../Trash/sieraRunCycle_V2.anim", 
         "folder": "../../Trash", 
         "type": ".anim"
     }, 
+    "../../Trash/tyran": {
+        "category": "Trash", 
+        "name": "tyran", 
+        "__class__": "studiolibrary.folderitem.FolderItem", 
+        "modified": 1591099281.893061, 
+        "path": "../../Trash/tyran", 
+        "folder": "../../Trash", 
+        "type": "Folder"
+    }, 
     "../../droide": {
         "category": "studioLibrary", 
         "name": "droide", 
-        "modified": 1589294978.2864788, 
         "__class__": "studiolibrary.folderitem.FolderItem", 
+        "modified": 1589294978.2864788, 
         "path": "../../droide", 
         "folder": "../..", 
         "type": "Folder"
@@ -65,8 +83,8 @@
     "../../droide/Droide_walk_cycle.anim": {
         "category": "droide", 
         "name": "Droide_walk_cycle.anim", 
-        "modified": 1589294978.2884746, 
         "__class__": "studiolibrarymaya.animitem.AnimItem", 
+        "modified": 1589294978.2884746, 
         "path": "../../droide/Droide_walk_cycle.anim", 
         "folder": "../../droide", 
         "type": ".anim"
@@ -74,25 +92,70 @@
     "../../droide/droide_walk_Cycle_02.anim": {
         "category": "droide", 
         "name": "droide_walk_Cycle_02.anim", 
+        "modified": 1590748773.583006, 
+        "__class__": "studiolibrarymaya.animitem.AnimItem", 
         "path": "../../droide/droide_walk_Cycle_02.anim", 
         "folder": "../../droide", 
-        "type": ".anim", 
-        "modified": 1590748773.583006, 
-        "__class__": "studiolibrarymaya.animitem.AnimItem"
+        "type": ".anim"
+    }, 
+    "../../droide/seq_05_cam_07_droide_stopThenWalk.anim": {
+        "category": "droide", 
+        "name": "seq_05_cam_07_droide_stopThenWalk.anim", 
+        "modified": 1591190959.322457, 
+        "__class__": "studiolibrarymaya.animitem.AnimItem", 
+        "path": "../../droide/seq_05_cam_07_droide_stopThenWalk.anim", 
+        "folder": "../../droide", 
+        "type": ".anim"
+    }, 
+    "../../droide/seq_05_cam_07_droide_walkEnd.anim": {
+        "category": "droide", 
+        "name": "seq_05_cam_07_droide_walkEnd.anim", 
+        "__class__": "studiolibrarymaya.animitem.AnimItem", 
+        "modified": 1591188826.749421, 
+        "path": "../../droide/seq_05_cam_07_droide_walkEnd.anim", 
+        "folder": "../../droide", 
+        "type": ".anim"
+    }, 
+    "../../laD": {
+        "category": "studioLibrary", 
+        "name": "laD", 
+        "__class__": "studiolibrary.folderitem.FolderItem", 
+        "modified": 1591099658.10536, 
+        "path": "../../laD", 
+        "folder": "../..", 
+        "type": "Folder"
+    }, 
+    "../../laD/laD_seq_02_cam_02.anim": {
+        "category": "laD", 
+        "name": "laD_seq_02_cam_02.anim", 
+        "modified": 1591099719.130187, 
+        "__class__": "studiolibrarymaya.animitem.AnimItem", 
+        "path": "../../laD/laD_seq_02_cam_02.anim", 
+        "folder": "../../laD", 
+        "type": ".anim"
     }, 
     "../../siera": {
         "category": "studioLibrary", 
         "name": "siera", 
-        "modified": 1590153307.778546, 
         "__class__": "studiolibrary.folderitem.FolderItem", 
+        "modified": 1590153307.778546, 
         "path": "../../siera", 
         "folder": "../..", 
         "type": "Folder"
     }, 
+    "../../siera/ArcherPose.pose": {
+        "category": "siera", 
+        "name": "ArcherPose.pose", 
+        "path": "../../siera/ArcherPose.pose", 
+        "folder": "../../siera", 
+        "type": ".pose", 
+        "modified": 1591223332.213423, 
+        "__class__": "studiolibrarymaya.poseitem.PoseItem"
+    }, 
     "../../siera/seq_05_cam_03.anim": {
         "category": "siera", 
         "name": "seq_05_cam_03.anim", 
-        "modified": 1590742978.569477, 
+        "modified": 1591091789.709628, 
         "__class__": "studiolibrarymaya.animitem.AnimItem", 
         "path": "../../siera/seq_05_cam_03.anim", 
         "folder": "../../siera", 
@@ -101,10 +164,28 @@
     "../../siera/sieraRunCycle.anim": {
         "category": "siera", 
         "name": "sieraRunCycle.anim", 
-        "__class__": "studiolibrarymaya.animitem.AnimItem", 
         "modified": 1590416699.048518, 
+        "__class__": "studiolibrarymaya.animitem.AnimItem", 
         "path": "../../siera/sieraRunCycle.anim", 
         "folder": "../../siera", 
+        "type": ".anim"
+    }, 
+    "../../tyran": {
+        "category": "studioLibrary", 
+        "name": "tyran", 
+        "__class__": "studiolibrary.folderitem.FolderItem", 
+        "modified": 1591099415.26167, 
+        "path": "../../tyran", 
+        "folder": "../..", 
+        "type": "Folder"
+    }, 
+    "../../tyran/tyran_seq_02_cam_02.anim": {
+        "category": "tyran", 
+        "name": "tyran_seq_02_cam_02.anim", 
+        "modified": 1591099498.255016, 
+        "__class__": "studiolibrarymaya.animitem.AnimItem", 
+        "path": "../../tyran/tyran_seq_02_cam_02.anim", 
+        "folder": "../../tyran", 
         "type": ".anim"
     }
 }

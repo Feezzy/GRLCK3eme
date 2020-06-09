@@ -1,0 +1,1542 @@
+{
+  "metadata": {
+    "mayaSceneFile": "D:/GRLCK3eme/16_animation_plan/wip/sequence_05/seq_05_cam_07/seq_05_cam_07.mb", 
+    "angularUnit": "deg", 
+    "description": "", 
+    "endFrame": 71, 
+    "linearUnit": "cm", 
+    "version": "1.0.0", 
+    "references": [
+      {
+        "node": "droide_rig_65RN", 
+        "unresolved": "D:/GRLCK3eme/06_character/wip/droide/rig/V2/droide_rig_65.mb", 
+        "namespace": ":droide_rig_65", 
+        "filename": "D:/GRLCK3eme/06_character/wip/droide/rig/V2/droide_rig_65.mb"
+      }
+    ], 
+    "user": "Feezzy", 
+    "startFrame": 0, 
+    "timeUnit": "film", 
+    "mayaVersion": "2020", 
+    "ctime": "1591190959"
+  }
+,
+  "objects": {
+    "droide_rig_65:torso_tube_back_02_ctl": {
+      "attrs": {
+        "translateX": {
+          "curve": "CURVE1", 
+          "type": "doubleLinear", 
+          "value": 0.0
+        }, 
+        "translateY": {
+          "curve": "CURVE2", 
+          "type": "doubleLinear", 
+          "value": 0.0
+        }, 
+        "translateZ": {
+          "curve": "CURVE3", 
+          "type": "doubleLinear", 
+          "value": 0.0
+        }, 
+        "scaleX": {
+          "curve": "CURVE4", 
+          "type": "double", 
+          "value": 1.0
+        }, 
+        "scaleY": {
+          "curve": "CURVE5", 
+          "type": "double", 
+          "value": 1.0
+        }, 
+        "visibility": {
+          "curve": "CURVE6", 
+          "type": "bool", 
+          "value": true
+        }, 
+        "rotateX": {
+          "curve": "CURVE7", 
+          "type": "doubleAngle", 
+          "value": 0.0
+        }, 
+        "rotateY": {
+          "curve": "CURVE8", 
+          "type": "doubleAngle", 
+          "value": 0.0
+        }, 
+        "rotateZ": {
+          "curve": "CURVE9", 
+          "type": "doubleAngle", 
+          "value": 0.0
+        }, 
+        "scaleZ": {
+          "curve": "CURVE10", 
+          "type": "double", 
+          "value": 1.0
+        }
+      }
+    }, 
+    "droide_rig_65:thumbs_L_ctl": {
+      "attrs": {
+        "translateX": {
+          "curve": "CURVE12", 
+          "type": "doubleLinear", 
+          "value": 0.0
+        }, 
+        "translateY": {
+          "curve": "CURVE13", 
+          "type": "doubleLinear", 
+          "value": 0.0
+        }, 
+        "translateZ": {
+          "curve": "CURVE14", 
+          "type": "doubleLinear", 
+          "value": 0.0
+        }, 
+        "scaleX": {
+          "curve": "CURVE15", 
+          "type": "double", 
+          "value": 1.0
+        }, 
+        "scaleY": {
+          "curve": "CURVE16", 
+          "type": "double", 
+          "value": 1.0
+        }, 
+        "visibility": {
+          "curve": "CURVE17", 
+          "type": "bool", 
+          "value": true
+        }, 
+        "rotateX": {
+          "curve": "CURVE18", 
+          "type": "doubleAngle", 
+          "value": -82.31566154881273
+        }, 
+        "rotateY": {
+          "curve": "CURVE19", 
+          "type": "doubleAngle", 
+          "value": 2.374643015606373
+        }, 
+        "rotateZ": {
+          "curve": "CURVE20", 
+          "type": "doubleAngle", 
+          "value": -17.07071389775533
+        }, 
+        "scaleZ": {
+          "curve": "CURVE21", 
+          "type": "double", 
+          "value": 1.0
+        }
+      }
+    }, 
+    "droide_rig_65:hand_L_ctl": {
+      "attrs": {
+        "rotateX": {
+          "curve": "CURVE23", 
+          "type": "doubleAngle", 
+          "value": 0.0
+        }, 
+        "rotateY": {
+          "curve": "CURVE24", 
+          "type": "doubleAngle", 
+          "value": 0.0
+        }, 
+        "rotateZ": {
+          "curve": "CURVE25", 
+          "type": "doubleAngle", 
+          "value": 0.0
+        }, 
+        "visibility": {
+          "curve": "CURVE26", 
+          "type": "bool", 
+          "value": true
+        }
+      }
+    }, 
+    "droide_rig_65:leg_orient_L_ctl": {
+      "attrs": {
+        "translateX": {
+          "curve": "CURVE28", 
+          "type": "doubleLinear", 
+          "value": -7.460698725481052e-14
+        }, 
+        "translateY": {
+          "curve": "CURVE29", 
+          "type": "doubleLinear", 
+          "value": 1.4210854715202004e-14
+        }, 
+        "translateZ": {
+          "curve": "CURVE30", 
+          "type": "doubleLinear", 
+          "value": 55.3876403061661
+        }, 
+        "scaleX": {
+          "curve": "CURVE31", 
+          "type": "double", 
+          "value": 1.0
+        }, 
+        "scaleY": {
+          "curve": "CURVE32", 
+          "type": "double", 
+          "value": 1.0
+        }, 
+        "visibility": {
+          "curve": "CURVE33", 
+          "type": "bool", 
+          "value": true
+        }, 
+        "rotateX": {
+          "curve": "CURVE34", 
+          "type": "doubleAngle", 
+          "value": 0.0
+        }, 
+        "rotateY": {
+          "curve": "CURVE35", 
+          "type": "doubleAngle", 
+          "value": 0.0
+        }, 
+        "rotateZ": {
+          "curve": "CURVE36", 
+          "type": "doubleAngle", 
+          "value": 0.0
+        }, 
+        "scaleZ": {
+          "curve": "CURVE37", 
+          "type": "double", 
+          "value": 1.0
+        }
+      }
+    }, 
+    "droide_rig_65:fingers_L_ctl": {
+      "attrs": {
+        "translateX": {
+          "curve": "CURVE39", 
+          "type": "doubleLinear", 
+          "value": 0.0
+        }, 
+        "translateY": {
+          "curve": "CURVE40", 
+          "type": "doubleLinear", 
+          "value": 0.0
+        }, 
+        "translateZ": {
+          "curve": "CURVE41", 
+          "type": "doubleLinear", 
+          "value": 0.0
+        }, 
+        "scaleX": {
+          "curve": "CURVE42", 
+          "type": "double", 
+          "value": 1.0
+        }, 
+        "scaleY": {
+          "curve": "CURVE43", 
+          "type": "double", 
+          "value": 1.0
+        }, 
+        "visibility": {
+          "curve": "CURVE44", 
+          "type": "bool", 
+          "value": true
+        }, 
+        "rotateX": {
+          "curve": "CURVE45", 
+          "type": "doubleAngle", 
+          "value": 0.0
+        }, 
+        "rotateY": {
+          "curve": "CURVE46", 
+          "type": "doubleAngle", 
+          "value": 0.0
+        }, 
+        "rotateZ": {
+          "curve": "CURVE47", 
+          "type": "doubleAngle", 
+          "value": -17.49587777065429
+        }, 
+        "scaleZ": {
+          "curve": "CURVE48", 
+          "type": "double", 
+          "value": 1.0
+        }
+      }
+    }, 
+    "droide_rig_65:master_ctl": {
+      "attrs": {
+        "translateX": {
+          "curve": "CURVE50", 
+          "type": "doubleLinear", 
+          "value": 906.6417439699286
+        }, 
+        "translateY": {
+          "curve": "CURVE51", 
+          "type": "doubleLinear", 
+          "value": 109.0800391338966
+        }, 
+        "translateZ": {
+          "curve": "CURVE52", 
+          "type": "doubleLinear", 
+          "value": 1390.4626369427172
+        }, 
+        "scaleX": {
+          "curve": "CURVE53", 
+          "type": "double", 
+          "value": 1.0
+        }, 
+        "scaleY": {
+          "curve": "CURVE54", 
+          "type": "double", 
+          "value": 1.0
+        }, 
+        "visibility": {
+          "curve": "CURVE55", 
+          "type": "bool", 
+          "value": true
+        }, 
+        "rotateX": {
+          "curve": "CURVE56", 
+          "type": "doubleAngle", 
+          "value": 0.0
+        }, 
+        "rotateY": {
+          "curve": "CURVE57", 
+          "type": "doubleAngle", 
+          "value": 84.81636632738027
+        }, 
+        "rotateZ": {
+          "curve": "CURVE58", 
+          "type": "doubleAngle", 
+          "value": 0.0
+        }, 
+        "scaleZ": {
+          "curve": "CURVE59", 
+          "type": "double", 
+          "value": 1.0
+        }
+      }
+    }, 
+    "droide_rig_65:neck_02_ctl": {
+      "attrs": {
+        "translateX": {
+          "curve": "CURVE61", 
+          "type": "doubleLinear", 
+          "value": 0.015200002118945122
+        }, 
+        "translateY": {
+          "curve": "CURVE62", 
+          "type": "doubleLinear", 
+          "value": -77.08718872070312
+        }, 
+        "translateZ": {
+          "curve": "CURVE63", 
+          "type": "doubleLinear", 
+          "value": -6.370380878448486
+        }, 
+        "scaleX": {
+          "curve": "CURVE64", 
+          "type": "double", 
+          "value": 1.0
+        }, 
+        "scaleY": {
+          "curve": "CURVE65", 
+          "type": "double", 
+          "value": 1.0
+        }, 
+        "visibility": {
+          "curve": "CURVE66", 
+          "type": "bool", 
+          "value": true
+        }, 
+        "rotateX": {
+          "curve": "CURVE67", 
+          "type": "doubleAngle", 
+          "value": 0.0
+        }, 
+        "rotateY": {
+          "curve": "CURVE68", 
+          "type": "doubleAngle", 
+          "value": 0.0
+        }, 
+        "rotateZ": {
+          "curve": "CURVE69", 
+          "type": "doubleAngle", 
+          "value": 0.0
+        }, 
+        "scaleZ": {
+          "curve": "CURVE70", 
+          "type": "double", 
+          "value": 1.0
+        }
+      }
+    }, 
+    "droide_rig_65:spline_02_ctl": {
+      "attrs": {
+        "translateX": {
+          "curve": "CURVE72", 
+          "type": "doubleLinear", 
+          "value": 0.0
+        }, 
+        "translateY": {
+          "curve": "CURVE73", 
+          "type": "doubleLinear", 
+          "value": 0.0
+        }, 
+        "translateZ": {
+          "curve": "CURVE74", 
+          "type": "doubleLinear", 
+          "value": 0.0
+        }, 
+        "scaleX": {
+          "curve": "CURVE75", 
+          "type": "double", 
+          "value": 1.0
+        }, 
+        "scaleY": {
+          "curve": "CURVE76", 
+          "type": "double", 
+          "value": 1.0
+        }, 
+        "visibility": {
+          "curve": "CURVE77", 
+          "type": "bool", 
+          "value": true
+        }, 
+        "rotateX": {
+          "curve": "CURVE78", 
+          "type": "doubleAngle", 
+          "value": 0.0
+        }, 
+        "rotateY": {
+          "curve": "CURVE79", 
+          "type": "doubleAngle", 
+          "value": 0.0
+        }, 
+        "rotateZ": {
+          "curve": "CURVE80", 
+          "type": "doubleAngle", 
+          "value": 0.0
+        }, 
+        "scaleZ": {
+          "curve": "CURVE81", 
+          "type": "double", 
+          "value": 1.0
+        }
+      }
+    }, 
+    "droide_rig_65:toes_Ik_L_ctl": {
+      "attrs": {
+        "translateX": {
+          "curve": "CURVE83", 
+          "type": "doubleLinear", 
+          "value": 0.0
+        }, 
+        "translateY": {
+          "curve": "CURVE84", 
+          "type": "doubleLinear", 
+          "value": 0.0
+        }, 
+        "translateZ": {
+          "curve": "CURVE85", 
+          "type": "doubleLinear", 
+          "value": 0.0
+        }, 
+        "scaleX": {
+          "curve": "CURVE86", 
+          "type": "double", 
+          "value": 1.0
+        }, 
+        "scaleY": {
+          "curve": "CURVE87", 
+          "type": "double", 
+          "value": 1.0
+        }, 
+        "visibility": {
+          "curve": "CURVE88", 
+          "type": "bool", 
+          "value": true
+        }, 
+        "rotateX": {
+          "curve": "CURVE89", 
+          "type": "doubleAngle", 
+          "value": 0.0
+        }, 
+        "rotateY": {
+          "curve": "CURVE90", 
+          "type": "doubleAngle", 
+          "value": 0.0
+        }, 
+        "rotateZ": {
+          "curve": "CURVE91", 
+          "type": "doubleAngle", 
+          "value": 0.0
+        }, 
+        "scaleZ": {
+          "curve": "CURVE92", 
+          "type": "double", 
+          "value": 1.0
+        }
+      }
+    }, 
+    "droide_rig_65:handle_R_ctl": {
+      "attrs": {
+        "translateX": {
+          "curve": "CURVE94", 
+          "type": "doubleLinear", 
+          "value": 13.403298248256752
+        }, 
+        "translateY": {
+          "curve": "CURVE95", 
+          "type": "doubleLinear", 
+          "value": 53.1596349052647
+        }, 
+        "translateZ": {
+          "curve": "CURVE96", 
+          "type": "doubleLinear", 
+          "value": 3.866154718171395
+        }, 
+        "scaleX": {
+          "curve": "CURVE97", 
+          "type": "double", 
+          "value": 1.0000000000000004
+        }, 
+        "scaleY": {
+          "curve": "CURVE98", 
+          "type": "double", 
+          "value": 1.0000000000000007
+        }, 
+        "visibility": {
+          "curve": "CURVE99", 
+          "type": "bool", 
+          "value": true
+        }, 
+        "rotateX": {
+          "curve": "CURVE100", 
+          "type": "doubleAngle", 
+          "value": -26.671174991961777
+        }, 
+        "rotateY": {
+          "curve": "CURVE101", 
+          "type": "doubleAngle", 
+          "value": -8.685179327758215
+        }, 
+        "rotateZ": {
+          "curve": "CURVE102", 
+          "type": "doubleAngle", 
+          "value": -40.61703903776908
+        }, 
+        "scaleZ": {
+          "curve": "CURVE103", 
+          "type": "double", 
+          "value": 1.0000000000000004
+        }
+      }
+    }, 
+    "droide_rig_65:hip_L_ctl": {
+      "attrs": {
+        "translateX": {
+          "curve": "CURVE105", 
+          "type": "doubleLinear", 
+          "value": 0.0
+        }, 
+        "translateY": {
+          "curve": "CURVE106", 
+          "type": "doubleLinear", 
+          "value": 0.0
+        }, 
+        "translateZ": {
+          "curve": "CURVE107", 
+          "type": "doubleLinear", 
+          "value": 0.0
+        }, 
+        "scaleX": {
+          "curve": "CURVE108", 
+          "type": "double", 
+          "value": 1.0
+        }, 
+        "scaleY": {
+          "curve": "CURVE109", 
+          "type": "double", 
+          "value": 1.0
+        }, 
+        "visibility": {
+          "curve": "CURVE110", 
+          "type": "bool", 
+          "value": true
+        }, 
+        "rotateX": {
+          "curve": "CURVE111", 
+          "type": "doubleAngle", 
+          "value": 0.0
+        }, 
+        "rotateY": {
+          "curve": "CURVE112", 
+          "type": "doubleAngle", 
+          "value": 0.0
+        }, 
+        "rotateZ": {
+          "curve": "CURVE113", 
+          "type": "doubleAngle", 
+          "value": 0.0
+        }, 
+        "scaleZ": {
+          "curve": "CURVE114", 
+          "type": "double", 
+          "value": 1.0
+        }
+      }
+    }, 
+    "droide_rig_65:neck_tube_L_02_ctl": {
+      "attrs": {
+        "translateX": {
+          "curve": "CURVE116", 
+          "type": "doubleLinear", 
+          "value": 0.0
+        }, 
+        "translateY": {
+          "curve": "CURVE117", 
+          "type": "doubleLinear", 
+          "value": 0.0
+        }, 
+        "translateZ": {
+          "curve": "CURVE118", 
+          "type": "doubleLinear", 
+          "value": 0.0
+        }, 
+        "scaleX": {
+          "curve": "CURVE119", 
+          "type": "double", 
+          "value": 1.0
+        }, 
+        "scaleY": {
+          "curve": "CURVE120", 
+          "type": "double", 
+          "value": 1.0
+        }, 
+        "visibility": {
+          "curve": "CURVE121", 
+          "type": "bool", 
+          "value": true
+        }, 
+        "rotateX": {
+          "curve": "CURVE122", 
+          "type": "doubleAngle", 
+          "value": 0.0
+        }, 
+        "rotateY": {
+          "curve": "CURVE123", 
+          "type": "doubleAngle", 
+          "value": 0.0
+        }, 
+        "rotateZ": {
+          "curve": "CURVE124", 
+          "type": "doubleAngle", 
+          "value": 0.0
+        }, 
+        "scaleZ": {
+          "curve": "CURVE125", 
+          "type": "double", 
+          "value": 1.0
+        }
+      }
+    }, 
+    "droide_rig_65:torso_ctl": {
+      "attrs": {
+        "translateX": {
+          "curve": "CURVE127", 
+          "type": "doubleLinear", 
+          "value": 0.0
+        }, 
+        "translateY": {
+          "curve": "CURVE128", 
+          "type": "doubleLinear", 
+          "value": 0.0
+        }, 
+        "translateZ": {
+          "curve": "CURVE129", 
+          "type": "doubleLinear", 
+          "value": 0.0
+        }, 
+        "scaleX": {
+          "curve": "CURVE130", 
+          "type": "double", 
+          "value": 1.0
+        }, 
+        "scaleY": {
+          "curve": "CURVE131", 
+          "type": "double", 
+          "value": 1.0
+        }, 
+        "visibility": {
+          "curve": "CURVE132", 
+          "type": "bool", 
+          "value": true
+        }, 
+        "rotateX": {
+          "curve": "CURVE133", 
+          "type": "doubleAngle", 
+          "value": 2.9796030057943206
+        }, 
+        "rotateY": {
+          "curve": "CURVE134", 
+          "type": "doubleAngle", 
+          "value": 0.0
+        }, 
+        "rotateZ": {
+          "curve": "CURVE135", 
+          "type": "doubleAngle", 
+          "value": 0.0
+        }, 
+        "scaleZ": {
+          "curve": "CURVE136", 
+          "type": "double", 
+          "value": 1.0
+        }
+      }
+    }, 
+    "droide_rig_65:handle_L_ctl": {
+      "attrs": {
+        "translateX": {
+          "curve": "CURVE138", 
+          "type": "doubleLinear", 
+          "value": -13.806670239634096
+        }, 
+        "translateY": {
+          "curve": "CURVE139", 
+          "type": "doubleLinear", 
+          "value": -51.94042202961523
+        }, 
+        "translateZ": {
+          "curve": "CURVE140", 
+          "type": "doubleLinear", 
+          "value": 1.4084026844891369
+        }, 
+        "scaleX": {
+          "curve": "CURVE141", 
+          "type": "double", 
+          "value": 1.0
+        }, 
+        "scaleY": {
+          "curve": "CURVE142", 
+          "type": "double", 
+          "value": 1.0
+        }, 
+        "visibility": {
+          "curve": "CURVE143", 
+          "type": "bool", 
+          "value": true
+        }, 
+        "rotateX": {
+          "curve": "CURVE144", 
+          "type": "doubleAngle", 
+          "value": -20.32053808532936
+        }, 
+        "rotateY": {
+          "curve": "CURVE145", 
+          "type": "doubleAngle", 
+          "value": -4.962038971861629
+        }, 
+        "rotateZ": {
+          "curve": "CURVE146", 
+          "type": "doubleAngle", 
+          "value": -49.35039977205048
+        }, 
+        "scaleZ": {
+          "curve": "CURVE147", 
+          "type": "double", 
+          "value": 1.0000000000000002
+        }
+      }
+    }, 
+    "droide_rig_65:pelvis_ctl": {
+      "attrs": {
+        "translateX": {
+          "curve": "CURVE149", 
+          "type": "doubleLinear", 
+          "value": 0.47799424412313357
+        }, 
+        "translateY": {
+          "curve": "CURVE150", 
+          "type": "doubleLinear", 
+          "value": -0.8232727597319863
+        }, 
+        "translateZ": {
+          "curve": "CURVE151", 
+          "type": "doubleLinear", 
+          "value": 50.19610106207844
+        }, 
+        "scaleX": {
+          "curve": "CURVE152", 
+          "type": "double", 
+          "value": 1.0
+        }, 
+        "scaleY": {
+          "curve": "CURVE153", 
+          "type": "double", 
+          "value": 1.0
+        }, 
+        "visibility": {
+          "curve": "CURVE154", 
+          "type": "bool", 
+          "value": true
+        }, 
+        "rotateX": {
+          "curve": "CURVE155", 
+          "type": "doubleAngle", 
+          "value": -0.39113733337621837
+        }, 
+        "rotateY": {
+          "curve": "CURVE156", 
+          "type": "doubleAngle", 
+          "value": -3.72347734145369
+        }, 
+        "rotateZ": {
+          "curve": "CURVE157", 
+          "type": "doubleAngle", 
+          "value": 0.41247625072874106
+        }, 
+        "scaleZ": {
+          "curve": "CURVE158", 
+          "type": "double", 
+          "value": 1.0
+        }
+      }
+    }, 
+    "droide_rig_65:leg_Ik_R_ctl": {
+      "attrs": {
+        "translateX": {
+          "curve": "CURVE160", 
+          "type": "doubleLinear", 
+          "value": 0.0
+        }, 
+        "translateY": {
+          "curve": "CURVE161", 
+          "type": "doubleLinear", 
+          "value": 0.4636663706651234
+        }, 
+        "translateZ": {
+          "curve": "CURVE162", 
+          "type": "doubleLinear", 
+          "value": 50.97685133435265
+        }, 
+        "scaleX": {
+          "curve": "CURVE163", 
+          "type": "double", 
+          "value": 1.0
+        }, 
+        "scaleY": {
+          "curve": "CURVE164", 
+          "type": "double", 
+          "value": 1.0
+        }, 
+        "visibility": {
+          "curve": "CURVE165", 
+          "type": "bool", 
+          "value": true
+        }, 
+        "rotateX": {
+          "curve": "CURVE166", 
+          "type": "doubleAngle", 
+          "value": 0.0
+        }, 
+        "rotateY": {
+          "curve": "CURVE167", 
+          "type": "doubleAngle", 
+          "value": 0.0
+        }, 
+        "rotateZ": {
+          "curve": "CURVE168", 
+          "type": "doubleAngle", 
+          "value": 0.0
+        }, 
+        "scaleZ": {
+          "curve": "CURVE169", 
+          "type": "double", 
+          "value": 1.0
+        }
+      }
+    }, 
+    "droide_rig_65:head_ctl": {
+      "attrs": {
+        "translateX": {
+          "curve": "CURVE171", 
+          "type": "doubleLinear", 
+          "value": 0.0
+        }, 
+        "translateY": {
+          "curve": "CURVE172", 
+          "type": "doubleLinear", 
+          "value": 0.0
+        }, 
+        "translateZ": {
+          "curve": "CURVE173", 
+          "type": "doubleLinear", 
+          "value": 0.0
+        }, 
+        "scaleX": {
+          "curve": "CURVE174", 
+          "type": "double", 
+          "value": 1.0
+        }, 
+        "scaleY": {
+          "curve": "CURVE175", 
+          "type": "double", 
+          "value": 1.0
+        }, 
+        "visibility": {
+          "curve": "CURVE176", 
+          "type": "bool", 
+          "value": true
+        }, 
+        "rotateX": {
+          "curve": "CURVE177", 
+          "type": "doubleAngle", 
+          "value": -0.5413111322692
+        }, 
+        "rotateY": {
+          "curve": "CURVE178", 
+          "type": "doubleAngle", 
+          "value": -4.47686157878278
+        }, 
+        "rotateZ": {
+          "curve": "CURVE179", 
+          "type": "doubleAngle", 
+          "value": 1.849592408529806
+        }, 
+        "scaleZ": {
+          "curve": "CURVE180", 
+          "type": "double", 
+          "value": 1.0
+        }
+      }
+    }, 
+    "droide_rig_65:global_ctl": {
+      "attrs": {
+        "translateX": {
+          "type": "doubleLinear", 
+          "value": 0.0
+        }, 
+        "translateY": {
+          "type": "doubleLinear", 
+          "value": 0.0
+        }, 
+        "translateZ": {
+          "type": "doubleLinear", 
+          "value": 0.0
+        }, 
+        "scaleX": {
+          "type": "double", 
+          "value": 1.0
+        }, 
+        "scaleY": {
+          "type": "double", 
+          "value": 1.0
+        }, 
+        "visibility": {
+          "type": "bool", 
+          "value": true
+        }, 
+        "rotateX": {
+          "type": "doubleAngle", 
+          "value": 0.0
+        }, 
+        "rotateY": {
+          "type": "doubleAngle", 
+          "value": 0.0
+        }, 
+        "rotateZ": {
+          "type": "doubleAngle", 
+          "value": 0.0
+        }, 
+        "scaleZ": {
+          "type": "double", 
+          "value": 1.0
+        }
+      }
+    }, 
+    "droide_rig_65:thumbs_tips_L_ctl": {
+      "attrs": {
+        "translateX": {
+          "curve": "CURVE182", 
+          "type": "doubleLinear", 
+          "value": 0.0
+        }, 
+        "translateY": {
+          "curve": "CURVE183", 
+          "type": "doubleLinear", 
+          "value": 0.0
+        }, 
+        "translateZ": {
+          "curve": "CURVE184", 
+          "type": "doubleLinear", 
+          "value": 0.0
+        }, 
+        "scaleX": {
+          "curve": "CURVE185", 
+          "type": "double", 
+          "value": 1.0
+        }, 
+        "scaleY": {
+          "curve": "CURVE186", 
+          "type": "double", 
+          "value": 1.0
+        }, 
+        "visibility": {
+          "curve": "CURVE187", 
+          "type": "bool", 
+          "value": true
+        }, 
+        "rotateX": {
+          "curve": "CURVE188", 
+          "type": "doubleAngle", 
+          "value": 0.0
+        }, 
+        "rotateY": {
+          "curve": "CURVE189", 
+          "type": "doubleAngle", 
+          "value": 0.0
+        }, 
+        "rotateZ": {
+          "curve": "CURVE190", 
+          "type": "doubleAngle", 
+          "value": 0.0
+        }, 
+        "scaleZ": {
+          "curve": "CURVE191", 
+          "type": "double", 
+          "value": 1.0
+        }
+      }
+    }, 
+    "droide_rig_65:thumbs_base_L_ctl": {
+      "attrs": {
+        "translateX": {
+          "curve": "CURVE193", 
+          "type": "doubleLinear", 
+          "value": 0.0
+        }, 
+        "translateY": {
+          "curve": "CURVE194", 
+          "type": "doubleLinear", 
+          "value": 0.0
+        }, 
+        "translateZ": {
+          "curve": "CURVE195", 
+          "type": "doubleLinear", 
+          "value": 0.0
+        }, 
+        "scaleX": {
+          "curve": "CURVE196", 
+          "type": "double", 
+          "value": 1.0
+        }, 
+        "scaleY": {
+          "curve": "CURVE197", 
+          "type": "double", 
+          "value": 0.9999999999999994
+        }, 
+        "visibility": {
+          "curve": "CURVE198", 
+          "type": "bool", 
+          "value": true
+        }, 
+        "rotateX": {
+          "curve": "CURVE199", 
+          "type": "doubleAngle", 
+          "value": -1.3200305589570307
+        }, 
+        "rotateY": {
+          "curve": "CURVE200", 
+          "type": "doubleAngle", 
+          "value": 4.633046113514649
+        }, 
+        "rotateZ": {
+          "curve": "CURVE201", 
+          "type": "doubleAngle", 
+          "value": -28.724328066446407
+        }, 
+        "scaleZ": {
+          "curve": "CURVE202", 
+          "type": "double", 
+          "value": 0.9999999999999998
+        }
+      }
+    }, 
+    "droide_rig_65:neck_tube_R_02_ctl": {
+      "attrs": {
+        "translateX": {
+          "curve": "CURVE204", 
+          "type": "doubleLinear", 
+          "value": 0.0
+        }, 
+        "translateY": {
+          "curve": "CURVE205", 
+          "type": "doubleLinear", 
+          "value": 0.0
+        }, 
+        "translateZ": {
+          "curve": "CURVE206", 
+          "type": "doubleLinear", 
+          "value": 0.0
+        }, 
+        "scaleX": {
+          "curve": "CURVE207", 
+          "type": "double", 
+          "value": 1.0
+        }, 
+        "scaleY": {
+          "curve": "CURVE208", 
+          "type": "double", 
+          "value": 1.0
+        }, 
+        "visibility": {
+          "curve": "CURVE209", 
+          "type": "bool", 
+          "value": true
+        }, 
+        "rotateX": {
+          "curve": "CURVE210", 
+          "type": "doubleAngle", 
+          "value": 0.0
+        }, 
+        "rotateY": {
+          "curve": "CURVE211", 
+          "type": "doubleAngle", 
+          "value": 0.0
+        }, 
+        "rotateZ": {
+          "curve": "CURVE212", 
+          "type": "doubleAngle", 
+          "value": 0.0
+        }, 
+        "scaleZ": {
+          "curve": "CURVE213", 
+          "type": "double", 
+          "value": 1.0
+        }
+      }
+    }, 
+    "droide_rig_65:orient_Ik_arm_L": {
+      "attrs": {
+        "translateX": {
+          "curve": "CURVE215", 
+          "type": "doubleLinear", 
+          "value": 0.0
+        }, 
+        "translateY": {
+          "curve": "CURVE216", 
+          "type": "doubleLinear", 
+          "value": 3.0279541539236767
+        }, 
+        "translateZ": {
+          "curve": "CURVE217", 
+          "type": "doubleLinear", 
+          "value": -30.805097520791968
+        }, 
+        "scaleX": {
+          "curve": "CURVE218", 
+          "type": "double", 
+          "value": 1.0
+        }, 
+        "scaleY": {
+          "curve": "CURVE219", 
+          "type": "double", 
+          "value": 1.0
+        }, 
+        "visibility": {
+          "curve": "CURVE220", 
+          "type": "bool", 
+          "value": true
+        }, 
+        "rotateX": {
+          "curve": "CURVE221", 
+          "type": "doubleAngle", 
+          "value": 0.0
+        }, 
+        "rotateY": {
+          "curve": "CURVE222", 
+          "type": "doubleAngle", 
+          "value": 0.0
+        }, 
+        "rotateZ": {
+          "curve": "CURVE223", 
+          "type": "doubleAngle", 
+          "value": 0.0
+        }, 
+        "scaleZ": {
+          "curve": "CURVE224", 
+          "type": "double", 
+          "value": 1.0
+        }
+      }
+    }, 
+    "droide_rig_65:feet_Ik_L_ctl": {
+      "attrs": {
+        "translateX": {
+          "curve": "CURVE226", 
+          "type": "doubleLinear", 
+          "value": 0.0
+        }, 
+        "translateY": {
+          "curve": "CURVE227", 
+          "type": "doubleLinear", 
+          "value": 0.0
+        }, 
+        "translateZ": {
+          "curve": "CURVE228", 
+          "type": "doubleLinear", 
+          "value": 0.0
+        }, 
+        "scaleX": {
+          "curve": "CURVE229", 
+          "type": "double", 
+          "value": 1.0
+        }, 
+        "scaleY": {
+          "curve": "CURVE230", 
+          "type": "double", 
+          "value": 1.0
+        }, 
+        "visibility": {
+          "curve": "CURVE231", 
+          "type": "bool", 
+          "value": true
+        }, 
+        "rotateX": {
+          "curve": "CURVE232", 
+          "type": "doubleAngle", 
+          "value": 0.0
+        }, 
+        "rotateY": {
+          "curve": "CURVE233", 
+          "type": "doubleAngle", 
+          "value": 0.0
+        }, 
+        "rotateZ": {
+          "curve": "CURVE234", 
+          "type": "doubleAngle", 
+          "value": 0.0
+        }, 
+        "scaleZ": {
+          "curve": "CURVE235", 
+          "type": "double", 
+          "value": 1.0
+        }
+      }
+    }, 
+    "droide_rig_65:torso_tube_front_02_ctl": {
+      "attrs": {
+        "translateX": {
+          "curve": "CURVE237", 
+          "type": "doubleLinear", 
+          "value": 0.0
+        }, 
+        "translateY": {
+          "curve": "CURVE238", 
+          "type": "doubleLinear", 
+          "value": 0.0
+        }, 
+        "translateZ": {
+          "curve": "CURVE239", 
+          "type": "doubleLinear", 
+          "value": 0.0
+        }, 
+        "scaleX": {
+          "curve": "CURVE240", 
+          "type": "double", 
+          "value": 1.0
+        }, 
+        "scaleY": {
+          "curve": "CURVE241", 
+          "type": "double", 
+          "value": 1.0
+        }, 
+        "visibility": {
+          "curve": "CURVE242", 
+          "type": "bool", 
+          "value": true
+        }, 
+        "rotateX": {
+          "curve": "CURVE243", 
+          "type": "doubleAngle", 
+          "value": 0.0
+        }, 
+        "rotateY": {
+          "curve": "CURVE244", 
+          "type": "doubleAngle", 
+          "value": 0.0
+        }, 
+        "rotateZ": {
+          "curve": "CURVE245", 
+          "type": "doubleAngle", 
+          "value": 0.0
+        }, 
+        "scaleZ": {
+          "curve": "CURVE246", 
+          "type": "double", 
+          "value": 1.0
+        }
+      }
+    }, 
+    "droide_rig_65:feet_Ik_R_ctl": {
+      "attrs": {
+        "translateX": {
+          "curve": "CURVE248", 
+          "type": "doubleLinear", 
+          "value": 0.0
+        }, 
+        "translateY": {
+          "curve": "CURVE249", 
+          "type": "doubleLinear", 
+          "value": 0.0
+        }, 
+        "translateZ": {
+          "curve": "CURVE250", 
+          "type": "doubleLinear", 
+          "value": 0.0
+        }, 
+        "scaleX": {
+          "curve": "CURVE251", 
+          "type": "double", 
+          "value": 1.0
+        }, 
+        "scaleY": {
+          "curve": "CURVE252", 
+          "type": "double", 
+          "value": 1.0
+        }, 
+        "visibility": {
+          "curve": "CURVE253", 
+          "type": "bool", 
+          "value": true
+        }, 
+        "rotateX": {
+          "curve": "CURVE254", 
+          "type": "doubleAngle", 
+          "value": 0.0
+        }, 
+        "rotateY": {
+          "curve": "CURVE255", 
+          "type": "doubleAngle", 
+          "value": 0.0
+        }, 
+        "rotateZ": {
+          "curve": "CURVE256", 
+          "type": "doubleAngle", 
+          "value": 0.0
+        }, 
+        "scaleZ": {
+          "curve": "CURVE257", 
+          "type": "double", 
+          "value": 1.0
+        }
+      }
+    }, 
+    "droide_rig_65:hip_R_ctl": {
+      "attrs": {
+        "translateX": {
+          "curve": "CURVE259", 
+          "type": "doubleLinear", 
+          "value": 0.0
+        }, 
+        "translateY": {
+          "curve": "CURVE260", 
+          "type": "doubleLinear", 
+          "value": 0.0
+        }, 
+        "translateZ": {
+          "curve": "CURVE261", 
+          "type": "doubleLinear", 
+          "value": 0.0
+        }, 
+        "scaleX": {
+          "curve": "CURVE262", 
+          "type": "double", 
+          "value": 1.0
+        }, 
+        "scaleY": {
+          "curve": "CURVE263", 
+          "type": "double", 
+          "value": 1.0
+        }, 
+        "visibility": {
+          "curve": "CURVE264", 
+          "type": "bool", 
+          "value": true
+        }, 
+        "rotateX": {
+          "curve": "CURVE265", 
+          "type": "doubleAngle", 
+          "value": 0.0
+        }, 
+        "rotateY": {
+          "curve": "CURVE266", 
+          "type": "doubleAngle", 
+          "value": 0.0
+        }, 
+        "rotateZ": {
+          "curve": "CURVE267", 
+          "type": "doubleAngle", 
+          "value": 0.0
+        }, 
+        "scaleZ": {
+          "curve": "CURVE268", 
+          "type": "double", 
+          "value": 1.0
+        }
+      }
+    }, 
+    "droide_rig_65:leg_Ik_L_ctl": {
+      "attrs": {
+        "translateX": {
+          "curve": "CURVE270", 
+          "type": "doubleLinear", 
+          "value": -1.2101780787910443
+        }, 
+        "translateY": {
+          "curve": "CURVE271", 
+          "type": "doubleLinear", 
+          "value": 0.8454902792135179
+        }, 
+        "translateZ": {
+          "curve": "CURVE272", 
+          "type": "doubleLinear", 
+          "value": 51.106867965615095
+        }, 
+        "scaleX": {
+          "curve": "CURVE273", 
+          "type": "double", 
+          "value": 1.0
+        }, 
+        "scaleY": {
+          "curve": "CURVE274", 
+          "type": "double", 
+          "value": 1.0
+        }, 
+        "visibility": {
+          "curve": "CURVE275", 
+          "type": "bool", 
+          "value": true
+        }, 
+        "rotateX": {
+          "curve": "CURVE276", 
+          "type": "doubleAngle", 
+          "value": 0.0
+        }, 
+        "rotateY": {
+          "curve": "CURVE277", 
+          "type": "doubleAngle", 
+          "value": 0.0
+        }, 
+        "rotateZ": {
+          "curve": "CURVE278", 
+          "type": "doubleAngle", 
+          "value": 0.0
+        }, 
+        "scaleZ": {
+          "curve": "CURVE279", 
+          "type": "double", 
+          "value": 1.0
+        }
+      }
+    }, 
+    "droide_rig_65:fingers_tips_L_ctl": {
+      "attrs": {
+        "translateX": {
+          "curve": "CURVE281", 
+          "type": "doubleLinear", 
+          "value": 0.0
+        }, 
+        "translateY": {
+          "curve": "CURVE282", 
+          "type": "doubleLinear", 
+          "value": 0.0
+        }, 
+        "translateZ": {
+          "curve": "CURVE283", 
+          "type": "doubleLinear", 
+          "value": 0.0
+        }, 
+        "scaleX": {
+          "curve": "CURVE284", 
+          "type": "double", 
+          "value": 1.0
+        }, 
+        "scaleY": {
+          "curve": "CURVE285", 
+          "type": "double", 
+          "value": 1.0
+        }, 
+        "visibility": {
+          "curve": "CURVE286", 
+          "type": "bool", 
+          "value": true
+        }, 
+        "rotateX": {
+          "curve": "CURVE287", 
+          "type": "doubleAngle", 
+          "value": 0.0
+        }, 
+        "rotateY": {
+          "curve": "CURVE288", 
+          "type": "doubleAngle", 
+          "value": 0.0
+        }, 
+        "rotateZ": {
+          "curve": "CURVE289", 
+          "type": "doubleAngle", 
+          "value": 0.0
+        }, 
+        "scaleZ": {
+          "curve": "CURVE290", 
+          "type": "double", 
+          "value": 1.0
+        }
+      }
+    }, 
+    "droide_rig_65:local_ctl": {
+      "attrs": {
+        "translateX": {
+          "type": "doubleLinear", 
+          "value": 0.0
+        }, 
+        "translateY": {
+          "type": "doubleLinear", 
+          "value": 0.0
+        }, 
+        "translateZ": {
+          "type": "doubleLinear", 
+          "value": 0.0
+        }, 
+        "scaleX": {
+          "type": "double", 
+          "value": 1.0
+        }, 
+        "scaleY": {
+          "type": "double", 
+          "value": 1.0
+        }, 
+        "visibility": {
+          "type": "bool", 
+          "value": true
+        }, 
+        "rotateX": {
+          "type": "doubleAngle", 
+          "value": 0.0
+        }, 
+        "rotateY": {
+          "type": "doubleAngle", 
+          "value": 0.0
+        }, 
+        "rotateZ": {
+          "type": "doubleAngle", 
+          "value": 0.0
+        }, 
+        "scaleZ": {
+          "type": "double", 
+          "value": 1.0
+        }
+      }
+    }
+  }
+}
