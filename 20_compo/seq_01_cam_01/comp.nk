@@ -1,0 +1,1152 @@
+#! C:/Program Files/Nuke11.3v2/nuke-11.3.2.dll -nx
+#write_info Write1 file:"D:/GRLCK3eme/16_animation_plan/wip/sequence_01/seq_01_cam_01/render/test_comp_02.mov" format:"1920 857 1" chans:":rgba.red:rgba.green:rgba.blue:" framerange:"1 580" fps:"0" colorspace:"default" datatype:"unknown" transfer:"unknown" views:"main" colorManagement:"Nuke"
+version 11.3 v2
+define_window_layout_xml {<?xml version="1.0" encoding="UTF-8"?>
+<layout version="1.0">
+    <window x="0" y="0" w="2178" h="1155" screen="0">
+        <splitter orientation="1">
+            <split size="40"/>
+            <dock id="" hideTitles="1" activePageId="Toolbar.1">
+                <page id="Toolbar.1"/>
+            </dock>
+            <split size="1515" stretch="1"/>
+            <splitter orientation="2">
+                <split size="650"/>
+                <dock id="" activePageId="Viewer.1">
+                    <page id="Viewer.1"/>
+                </dock>
+                <split size="457"/>
+                <dock id="" activePageId="DAG.1" focus="true">
+                    <page id="DAG.1"/>
+                    <page id="Curve Editor.1"/>
+                    <page id="DopeSheet.1"/>
+                </dock>
+            </splitter>
+            <split size="615"/>
+            <dock id="" activePageId="Properties.1">
+                <page id="Properties.1"/>
+                <page id="uk.co.thefoundry.backgroundrenderview.1"/>
+            </dock>
+        </splitter>
+    </window>
+</layout>
+}
+Root {
+ inputs 0
+ name D:/GRLCK3eme/20_compo/seq_01_cam_01/comp.nk
+ frame 448
+ last_frame 580
+ lock_range true
+ format "1920 1080 0 0 1920 1080 1 HD_1080"
+ proxy_type scale
+ proxy_format "1024 778 0 0 1024 778 1 1K_Super_35(full-ap)"
+ colorManagement Nuke
+ workingSpaceLUT linear
+ monitorLut sRGB
+ int8Lut sRGB
+ int16Lut sRGB
+ logLut Cineon
+ floatLut linear
+}
+Read {
+ inputs 0
+ file_type exr
+ file D:/siera/comp/plate03.exr
+ format "1920 1080 0 0 1920 1080 1 HD_1080"
+ origset true
+ name Read1
+ xpos 656
+ ypos -1548
+}
+Read {
+ inputs 0
+ file_type exr
+ file D:/GRLCK3eme/16_animation_plan/wip/sequence_01/seq_01_cam_01/render/render_01.####.exr
+ format "1920 1080 0 0 1920 1080 1 HD_1080"
+ last 600
+ origlast 600
+ origset true
+ name Read8
+ xpos 627
+ ypos -1404
+}
+Read {
+ inputs 0
+ file_type exr
+ file D:/GRLCK3eme/16_animation_plan/wip/sequence_01/seq_01_cam_01/render/test01.exr
+ format "1920 1080 0 0 1920 1080 1 HD_1080"
+ origset true
+ name Read2
+ xpos 1249
+ ypos -1375
+}
+Read {
+ inputs 0
+ file_type exr
+ file D:/GRLCK3eme/16_animation_plan/wip/sequence_01/seq_01_cam_01/render/test02.exr
+ format "1920 1080 0 0 1920 1080 1 HD_1080"
+ origset true
+ name Read3
+ xpos 742
+ ypos -1446
+}
+Read {
+ inputs 0
+ file_type exr
+ file D:/GRLCK3eme/16_animation_plan/wip/sequence_01/seq_01_cam_01/render/render_01.####.exr
+ format "1920 857 0 0 1920 857 1 "
+ last 546
+ origlast 546
+ origset true
+ name Read4
+ xpos 902
+ ypos -1344
+}
+set N93fc9400 [stack 0]
+Dot {
+ name Dot5
+ xpos 936
+ ypos -1052
+}
+set N93fc9800 [stack 0]
+add_layer {beauty02 beauty02.red beauty02.green beauty02.blue beauty02.alpha}
+Shuffle {
+ in beauty02
+ name Shuffle19
+ xpos 732
+ ypos -1057
+}
+push $N93fc9800
+Dot {
+ name Dot6
+ xpos 1057
+ ypos -1052
+}
+set N94022c00 [stack 0]
+Dot {
+ name Dot7
+ xpos 1167
+ ypos -1052
+}
+set N94022800 [stack 0]
+Dot {
+ name Dot8
+ xpos 1289
+ ypos -1052
+}
+set N94022400 [stack 0]
+Dot {
+ name Dot10
+ xpos 1461
+ ypos -1052
+}
+set N94022000 [stack 0]
+Dot {
+ name Dot13
+ xpos 1599
+ ypos -1052
+}
+set N94023c00 [stack 0]
+Shuffle {
+ in depth
+ name Z
+ xpos 1565
+ ypos -990
+}
+Grade {
+ blackpoint 5.6
+ whitepoint 10000
+ name Grade1
+ xpos 1565
+ ypos -852
+}
+Grade {
+ whitepoint 0.0059
+ gamma 5
+ name Grade3
+ xpos 1565
+ ypos -700
+}
+Dot {
+ name Dot14
+ xpos 1599
+ ypos -612
+}
+Constant {
+ inputs 0
+ channels rgb
+ color {0.006404798944 0.009158983827 0.0120000001 0.0120000001}
+ name Constant1
+ xpos 1978
+ ypos -1092
+}
+push $N94023c00
+Dot {
+ name Dot1
+ xpos 1788
+ ypos -1052
+}
+add_layer {emission emission.red emission.green emission.blue emission.alpha}
+Shuffle {
+ in emission
+ name emission
+ xpos 1754
+ ypos -1004
+ postage_stamp true
+}
+set N94044800 [stack 0]
+Blur {
+ size 100
+ mix 0.72
+ name Blur1
+ xpos 1864
+ ypos -987
+}
+Dot {
+ name Dot11
+ xpos 1898
+ ypos -924
+}
+Merge2 {
+ inputs 2
+ operation plus
+ name Merge2
+ xpos 1978
+ ypos -928
+}
+Ramp {
+ opacity 0.04
+ p0 {102 108}
+ p1 {108 1086}
+ type smooth0
+ color {0.4561362863 0.6160553694 1 1}
+ name Ramp1
+ xpos 1978
+ ypos -695
+ disable true
+}
+ShuffleCopy {
+ inputs 2
+ alpha red
+ name ShuffleCopy1
+ xpos 1978
+ ypos -616
+}
+Premult {
+ name Premult1
+ xpos 1978
+ ypos -543
+}
+Dot {
+ name Dot15
+ xpos 2012
+ ypos -192
+}
+push $N94044800
+Keyer {
+ invert true
+ operation "blue keyer"
+ range {0.09090679528 0.2068192722 0.3224413525 0.4300459584}
+ name Keyer1
+ xpos 1754
+ ypos -851
+}
+Grade {
+ white 1.3
+ multiply 2.75
+ name Grade2
+ xpos 1754
+ ypos -772
+}
+Group {
+ name apGlow4
+ help "apGlow v1.1 by Adrian Pueyo\n\nExponential glow using a sub-frame iterative blur.\n\nWith the \"area\" input (optional) you can set only a part of the image to emit glow.\n\nCaveats:\n- This node will kill sub-frames as it relies on a floor NoTimeBlur. Do any other sub-frame operations before this!\n- NaN's will be turned black, but on rgba only.\n\nadrianpueyo.com, 2015-2018"
+ onCreate "n = nuke.thisNode()\nfor i in \['intensity','response','max_size','src_black','src_white','response']:\n    n\[i].setFlag(0x00000004)\nn\['max_size'].setRange(0,10000)\nn\['overscan'].setRange(0,1000)"
+ knobChanged "n = nuke.thisNode()\nk = nuke.thisKnob()\nif k.name() in \[\"crop\",\"enableOverscan\"]:\n    kcv = n\[\"crop\"].value()\n    kov = n\[\"enableOverscan\"].value()\n    n\[\"enableOverscan\"].setEnabled(not kcv)\n    n\['overscan'].setEnabled(not kcv and kov)"
+ tile_color 0xe88543ff
+ xpos 1754
+ ypos -688
+ addUserKnob {20 apGlow}
+ addUserKnob {41 channels T KeepWhat.channels}
+ addUserKnob {7 intensity t "Intensity multiplier for the resulting glow." R 0 10}
+ intensity 0.26
+ addUserKnob {18 persistance t "Color gain of the largest step. Affects the other steps progressively, with 0 effect on the smallest one.\n\nUse as an inverse falloff or as a progressive color tint." R 0 10}
+ persistance 1
+ addUserKnob {6 persistance_panelDropped l "panel dropped state" -STARTLINE +HIDDEN}
+ addUserKnob {6 persistance_panelDropped_1 l "panel dropped state" -STARTLINE +HIDDEN}
+ addUserKnob {6 persistance_panelDropped_1_1 l "panel dropped state" -STARTLINE +HIDDEN}
+ addUserKnob {6 persistance_panelDropped_1_1_1 l "panel dropped state" -STARTLINE +HIDDEN}
+ addUserKnob {6 persistance_panelDropped_1_1_1_1 l "panel dropped state" -STARTLINE +HIDDEN}
+ addUserKnob {6 persistance_panelDropped_1_1_1_1_1 l "panel dropped state" -STARTLINE +HIDDEN}
+ addUserKnob {6 persistance_panelDropped_1_1_1_1_1_1 l "panel dropped state" -STARTLINE +HIDDEN}
+ addUserKnob {6 persistance_panelDropped_1_1_1_1_1_1_1 l "panel dropped state" -STARTLINE +HIDDEN}
+ addUserKnob {6 persistance_panelDropped_1_1_1_1_1_1_1_1 l "panel dropped state" -STARTLINE +HIDDEN}
+ addUserKnob {6 persistance_panelDropped_1_1_1_1_1_1_1_1_1 l "panel dropped state" -STARTLINE +HIDDEN}
+ addUserKnob {6 persistance_panelDropped_1_1_1_1_1_1_1_1_1_1 l "panel dropped state" -STARTLINE +HIDDEN}
+ addUserKnob {6 persistance_panelDropped_1_1_1_1_1_1_1_1_1_1_1 l "panel dropped state" -STARTLINE +HIDDEN}
+ addUserKnob {6 persistance_panelDropped_1_1_1_1_1_1_1_1_1_1_1_1 l "panel dropped state" -STARTLINE +HIDDEN}
+ addUserKnob {6 persistance_panelDropped_1_1_1_1_1_1_1_1_1_1_1_1_1 l "panel dropped state" -STARTLINE +HIDDEN}
+ addUserKnob {6 persistance_panelDropped_1_1_1_1_1_1_1_1_1_1_1_1_1_1 l "panel dropped state" -STARTLINE +HIDDEN}
+ addUserKnob {6 persistance_panelDropped_1_1_1_1_1_1_1_1_1_1_1_1_1_1_1 l "panel dropped state" -STARTLINE +HIDDEN}
+ addUserKnob {6 persistance_panelDropped_1_1_1_1_1_1_1_1_1_1_1_1_1_1_1_1 l "panel dropped state" -STARTLINE +HIDDEN}
+ addUserKnob {18 tint t "Overall color multiplier for the intensity."}
+ tint {1 0.6217324734 0}
+ addUserKnob {6 tint_panelDropped l "panel dropped state" -STARTLINE +HIDDEN}
+ addUserKnob {6 tint_panelDropped_1 l "panel dropped state" -STARTLINE +HIDDEN}
+ addUserKnob {6 tint_panelDropped_1_1 l "panel dropped state" -STARTLINE +HIDDEN}
+ addUserKnob {6 tint_panelDropped_1_1_1 l "panel dropped state" -STARTLINE +HIDDEN}
+ addUserKnob {6 tint_panelDropped_1_1_1_1 l "panel dropped state" -STARTLINE +HIDDEN}
+ addUserKnob {6 tint_panelDropped_1_1_1_1_1 l "panel dropped state" -STARTLINE +HIDDEN}
+ addUserKnob {6 tint_panelDropped_1_1_1_1_1_1 l "panel dropped state" -STARTLINE +HIDDEN}
+ addUserKnob {6 tint_panelDropped_1_1_1_1_1_1_1 l "panel dropped state" -STARTLINE +HIDDEN}
+ addUserKnob {6 tint_panelDropped_1_1_1_1_1_1_1_1 l "panel dropped state" -STARTLINE +HIDDEN}
+ addUserKnob {6 tint_panelDropped_1_1_1_1_1_1_1_1_1 l "panel dropped state" -STARTLINE +HIDDEN}
+ addUserKnob {6 tint_panelDropped_1_1_1_1_1_1_1_1_1_1 l "panel dropped state" -STARTLINE +HIDDEN}
+ addUserKnob {6 tint_panelDropped_1_1_1_1_1_1_1_1_1_1_1 l "panel dropped state" -STARTLINE +HIDDEN}
+ addUserKnob {6 tint_panelDropped_1_1_1_1_1_1_1_1_1_1_1_1 l "panel dropped state" -STARTLINE +HIDDEN}
+ addUserKnob {6 tint_panelDropped_1_1_1_1_1_1_1_1_1_1_1_1_1 l "panel dropped state" -STARTLINE +HIDDEN}
+ addUserKnob {6 tint_panelDropped_1_1_1_1_1_1_1_1_1_1_1_1_1_1 l "panel dropped state" -STARTLINE +HIDDEN}
+ addUserKnob {6 tint_panelDropped_1_1_1_1_1_1_1_1_1_1_1_1_1_1_1 l "panel dropped state" -STARTLINE +HIDDEN}
+ addUserKnob {6 tint_panelDropped_1_1_1_1_1_1_1_1_1_1_1_1_1_1_1_1 l "panel dropped state" -STARTLINE +HIDDEN}
+ addUserKnob {6 effect_only l "effect only" +STARTLINE}
+ addUserKnob {26 ""}
+ addUserKnob {7 src_black l "src black" t "Black point of the source image's luminance.\nClip the effect below this luminance value." R 0 4}
+ addUserKnob {7 src_white l "src white" t "White point of the source image's luminance." R 0 4}
+ src_white 0.74
+ addUserKnob {41 white_clamp l clamp -STARTLINE T Grade1.white_clamp}
+ addUserKnob {7 response t "Gamma on the source image's luminance, to change the response curve falloff." R 0 4}
+ response 1
+ addUserKnob {26 ""}
+ addUserKnob {14 max_size l "max size" t "Maximum pixel size of the exponential glow." R 0 10000}
+ max_size 2000
+ addUserKnob {14 falloff l "size falloff" t "Falloff adjustment on the exponential distribution of the blur sizes." R 0 10}
+ falloff 1
+ addUserKnob {3 steps t "Number of blur iterations to combine together."}
+ steps 10
+ addUserKnob {41 filter T Blur.filter}
+ addUserKnob {41 quality l "" -STARTLINE T Blur.quality}
+ addUserKnob {6 crop l "crop to format" -STARTLINE}
+ addUserKnob {14 overscan R 0 1000}
+ overscan 100
+ addUserKnob {6 enableOverscan l enable -STARTLINE}
+ enableOverscan true
+ addUserKnob {26 ""}
+ addUserKnob {41 maskChannelArea l area -STARTLINE T ExpressionArea.maskChannelMask}
+ addUserKnob {41 inject_area l inject -STARTLINE T ExpressionArea.inject}
+ addUserKnob {41 invert_area l invert -STARTLINE T ExpressionArea.invert_mask}
+ addUserKnob {41 fringe_area l fringe -STARTLINE T ExpressionArea.fringe}
+ addUserKnob {41 maskChannelMask l mask T Merge.maskChannelMask}
+ addUserKnob {41 inject -STARTLINE T Merge.inject}
+ addUserKnob {41 invert_mask l invert -STARTLINE T Merge.invert_mask}
+ addUserKnob {41 fringe -STARTLINE T Merge.fringe}
+ addUserKnob {41 mix T Merge.mix}
+ addUserKnob {26 version_author l "" t "apGlow v1.1\n2018" +STARTLINE T "<span style=\"color:#666\"><br/><b>apGlow v1.1</b> - <a href=\"http://www.adrianpueyo.com\" style=\"color:#666;text-decoration: none;\">adrianpueyo.com</a>, 2015-2018</span>"}
+}
+ Input {
+  inputs 0
+  name Inputmask
+  xpos -748
+  ypos 847
+  number 2
+ }
+ Input {
+  inputs 0
+  name Inputarea
+  xpos -156
+  ypos 383
+  number 1
+ }
+ Input {
+  inputs 0
+  name Inputimg
+  xpos -638
+  ypos 220
+ }
+ NoTimeBlur {
+  rounding none
+  name NTB
+  xpos -638
+  ypos 267
+ }
+ Dot {
+  name Dot6
+  xpos -604
+  ypos 308
+ }
+set Nba5ed400 [stack 0]
+ Dot {
+  name Dot7
+  xpos -384
+  ypos 308
+ }
+set Nba5ed000 [stack 0]
+ Dot {
+  name Dot8
+  xpos -232
+  ypos 308
+ }
+ Remove {
+  name RemoveAll
+  xpos -266
+  ypos 345
+ }
+ Expression {
+  inputs 1+1
+  channel0 rgba
+  expr0 1
+  name ExpressionArea
+  xpos -266
+  ypos 383
+  disable {{"!\[exists parent.input1]"}}
+ }
+ Shuffle {
+  red white
+  green white
+  blue white
+  alpha white
+  name ShuffleWhite
+  xpos -266
+  ypos 409
+  disable {{"\[exists parent.input1]"}}
+ }
+push $Nba5ed000
+ Remove {
+  operation keep
+  channels rgba
+  name KeepWhat
+  xpos -418
+  ypos 377
+ }
+add_layer {apGlowArea apGlowArea.red}
+ Copy {
+  inputs 2
+  from0 rgba.alpha
+  to0 apGlowArea.red
+  name Copy1
+  xpos -418
+  ypos 403
+  disable {{"!\[exists parent.input1]"}}
+ }
+ Premult {
+  channels all
+  alpha apGlowArea.red
+  name Premult1
+  xpos -418
+  ypos 441
+  disable {{"!\[exists parent.input1]"}}
+ }
+ Remove {
+  channels apGlowArea
+  name RemoveArea
+  xpos -418
+  ypos 479
+  disable {{"!\[exists parent.input1]"}}
+ }
+ Dot {
+  name Dot5
+  xpos -384
+  ypos 532
+ }
+set Nba610c00 [stack 0]
+ Dot {
+  name Dot1
+  xpos -284
+  ypos 532
+ }
+ Saturation {
+  channels all
+  saturation 0
+  name Saturation1
+  xpos -318
+  ypos 572
+ }
+set Nba610400 [stack 0]
+ Grade {
+  channels all
+  blackpoint {{parent.src_black}}
+  whitepoint {{parent.src_white}}
+  gamma {{parent.response}}
+  name Grade1
+  xpos -318
+  ypos 610
+ }
+push $Nba610c00
+push $Nba610400
+ Merge2 {
+  inputs 2
+  operation divide
+  also_merge all
+  name Merge4
+  xpos -418
+  ypos 578
+ }
+ Merge2 {
+  inputs 2
+  operation multiply
+  also_merge all
+  name Merge3
+  xpos -418
+  ypos 616
+ }
+ Dot {
+  name DP
+  xpos -384
+  ypos 642
+  addUserKnob {20 User}
+  addUserKnob {14 j R 0 100}
+  j {{"pow(2, t*(log(parent.max_size*parent.falloff)/log(2)) )"} {"pow(2, t*(log(parent.max_size*parent.falloff)/log(2)) )"}}
+ }
+ Blur {
+  size {{"DP.j( (t%1)+1/parent.steps) / parent.falloff"} {"DP.j( (t%1)+1/parent.steps) / parent.falloff"}}
+  crop false
+  name Blur
+  selected true
+  xpos -418
+  ypos 660
+ }
+ Multiply {
+  value {{"parent.persistance * (t%1) + (1-t%1)"} {"parent.persistance * (t%1) + (1-t%1)"} {"parent.persistance * (t%1) + (1-t%1)"} {"parent.persistance * (t%1) + (1-t%1)"}}
+  name Multiply
+  xpos -418
+  ypos 699
+ }
+ TimeBlur {
+  divisions {{parent.steps}}
+  shutter 1
+  shutteroffset start
+  shuttercustomoffset 0
+  name TB
+  xpos -418
+  ypos 736
+ }
+ Multiply {
+  value {{parent.steps?parent.intensity*parent.tint:0} {parent.steps?parent.intensity*parent.tint:0} {parent.steps?parent.intensity*parent.tint:0} {parent.steps?parent.intensity*parent.tint:0}}
+  name MultiplyR
+  xpos -418
+  ypos 762
+ }
+ Expression {
+  expr0 isnan(r)?0:r
+  expr1 isnan(g)?0:g
+  expr2 isnan(b)?0:b
+  expr3 isnan(a)?0:a
+  name NanToBlack
+  xpos -418
+  ypos 800
+ }
+push $Nba5ed400
+ Dot {
+  name Dot4
+  xpos -604
+  ypos 582
+ }
+set Nba66fc00 [stack 0]
+ Dot {
+  name Dot2
+  xpos -494
+  ypos 582
+ }
+ Shuffle {
+  red black
+  green black
+  blue black
+  name Shuffle
+  xpos -528
+  ypos 660
+  disable {{!parent.effect_only}}
+ }
+ Remove {
+  operation keep
+  channels rgb
+  name Remove1
+  xpos -528
+  ypos 686
+  disable {{!parent.effect_only}}
+ }
+ Merge2 {
+  inputs 2
+  operation plus
+  output {rgba.red rgba.green rgba.blue -rgba.alpha}
+  also_merge all
+  name Merge1
+  xpos -528
+  ypos 800
+ }
+ Dot {
+  name Dot3
+  xpos -494
+  ypos 850
+ }
+push $Nba66fc00
+ Merge2 {
+  inputs 2+1
+  operation copy
+  output {rgba.red rgba.green rgba.blue -rgba.alpha}
+  also_merge all
+  name Merge
+  xpos -638
+  ypos 846
+ }
+ Crop {
+  box {{parent.crop?0:-parent.overscan} {parent.crop?0:-parent.overscan} {parent.crop?width:width+parent.overscan} {parent.crop?height:height+parent.overscan}}
+  intersect true
+  name CropOverscan
+  xpos -638
+  ypos 872
+  disable {{"!parent.enableOverscan && !parent.crop"}}
+ }
+ Output {
+  name Output
+  xpos -638
+  ypos 898
+ }
+end_group
+Dot {
+ name Dot16
+ xpos 1788
+ ypos -371
+}
+push $N94022000
+add_layer {fogEmission fogEmission.red fogEmission.green fogEmission.blue fogEmission.alpha}
+Shuffle {
+ in fogEmission
+ name fogEmission
+ xpos 1427
+ ypos -994
+}
+Grade {
+ whitepoint 2.12
+ white {2.180000067 1.82027173 0.5193921924 2.180000067}
+ gamma 1.1
+ name Grade13
+ xpos 1427
+ ypos -850
+}
+HueShift {
+ saturation 0.94
+ name HueShift4
+ xpos 1427
+ ypos -774
+}
+Group {
+ name apGlow1
+ help "apGlow v1.1 by Adrian Pueyo\n\nExponential glow using a sub-frame iterative blur.\n\nWith the \"area\" input (optional) you can set only a part of the image to emit glow.\n\nCaveats:\n- This node will kill sub-frames as it relies on a floor NoTimeBlur. Do any other sub-frame operations before this!\n- NaN's will be turned black, but on rgba only.\n\nadrianpueyo.com, 2015-2018"
+ onCreate "n = nuke.thisNode()\nfor i in \['intensity','response','max_size','src_black','src_white','response']:\n    n\[i].setFlag(0x00000004)\nn\['max_size'].setRange(0,10000)\nn\['overscan'].setRange(0,1000)"
+ knobChanged "n = nuke.thisNode()\nk = nuke.thisKnob()\nif k.name() in \[\"crop\",\"enableOverscan\"]:\n    kcv = n\[\"crop\"].value()\n    kov = n\[\"enableOverscan\"].value()\n    n\[\"enableOverscan\"].setEnabled(not kcv)\n    n\['overscan'].setEnabled(not kcv and kov)"
+ tile_color 0xe88543ff
+ xpos 1427
+ ypos -692
+ addUserKnob {20 apGlow}
+ addUserKnob {41 channels T KeepWhat.channels}
+ addUserKnob {7 intensity t "Intensity multiplier for the resulting glow." R 0 10}
+ intensity 3.5
+ addUserKnob {18 persistance t "Color gain of the largest step. Affects the other steps progressively, with 0 effect on the smallest one.\n\nUse as an inverse falloff or as a progressive color tint." R 0 10}
+ persistance 0.11
+ addUserKnob {6 persistance_panelDropped l "panel dropped state" -STARTLINE +HIDDEN}
+ addUserKnob {6 persistance_panelDropped_1 l "panel dropped state" -STARTLINE +HIDDEN}
+ addUserKnob {6 persistance_panelDropped_1_1 l "panel dropped state" -STARTLINE +HIDDEN}
+ addUserKnob {6 persistance_panelDropped_1_1_1 l "panel dropped state" -STARTLINE +HIDDEN}
+ addUserKnob {6 persistance_panelDropped_1_1_1_1 l "panel dropped state" -STARTLINE +HIDDEN}
+ addUserKnob {6 persistance_panelDropped_1_1_1_1_1 l "panel dropped state" -STARTLINE +HIDDEN}
+ addUserKnob {6 persistance_panelDropped_1_1_1_1_1_1 l "panel dropped state" -STARTLINE +HIDDEN}
+ addUserKnob {6 persistance_panelDropped_1_1_1_1_1_1_1 l "panel dropped state" -STARTLINE +HIDDEN}
+ addUserKnob {6 persistance_panelDropped_1_1_1_1_1_1_1_1 l "panel dropped state" -STARTLINE +HIDDEN}
+ addUserKnob {6 persistance_panelDropped_1_1_1_1_1_1_1_1_1 l "panel dropped state" -STARTLINE +HIDDEN}
+ addUserKnob {6 persistance_panelDropped_1_1_1_1_1_1_1_1_1_1 l "panel dropped state" -STARTLINE +HIDDEN}
+ addUserKnob {6 persistance_panelDropped_1_1_1_1_1_1_1_1_1_1_1 l "panel dropped state" -STARTLINE +HIDDEN}
+ addUserKnob {6 persistance_panelDropped_1_1_1_1_1_1_1_1_1_1_1_1 l "panel dropped state" -STARTLINE +HIDDEN}
+ addUserKnob {6 persistance_panelDropped_1_1_1_1_1_1_1_1_1_1_1_1_1 l "panel dropped state" -STARTLINE +HIDDEN}
+ addUserKnob {6 persistance_panelDropped_1_1_1_1_1_1_1_1_1_1_1_1_1_1 l "panel dropped state" -STARTLINE +HIDDEN}
+ addUserKnob {6 persistance_panelDropped_1_1_1_1_1_1_1_1_1_1_1_1_1_1_1 l "panel dropped state" -STARTLINE +HIDDEN}
+ addUserKnob {6 persistance_panelDropped_1_1_1_1_1_1_1_1_1_1_1_1_1_1_1_1 l "panel dropped state" -STARTLINE +HIDDEN}
+ addUserKnob {18 tint t "Overall color multiplier for the intensity."}
+ tint {1 0.8855017424 0}
+ addUserKnob {6 tint_panelDropped l "panel dropped state" -STARTLINE +HIDDEN}
+ addUserKnob {6 tint_panelDropped_1 l "panel dropped state" -STARTLINE +HIDDEN}
+ addUserKnob {6 tint_panelDropped_1_1 l "panel dropped state" -STARTLINE +HIDDEN}
+ addUserKnob {6 tint_panelDropped_1_1_1 l "panel dropped state" -STARTLINE +HIDDEN}
+ addUserKnob {6 tint_panelDropped_1_1_1_1 l "panel dropped state" -STARTLINE +HIDDEN}
+ addUserKnob {6 tint_panelDropped_1_1_1_1_1 l "panel dropped state" -STARTLINE +HIDDEN}
+ addUserKnob {6 tint_panelDropped_1_1_1_1_1_1 l "panel dropped state" -STARTLINE +HIDDEN}
+ addUserKnob {6 tint_panelDropped_1_1_1_1_1_1_1 l "panel dropped state" -STARTLINE +HIDDEN}
+ addUserKnob {6 tint_panelDropped_1_1_1_1_1_1_1_1 l "panel dropped state" -STARTLINE +HIDDEN}
+ addUserKnob {6 tint_panelDropped_1_1_1_1_1_1_1_1_1 l "panel dropped state" -STARTLINE +HIDDEN}
+ addUserKnob {6 tint_panelDropped_1_1_1_1_1_1_1_1_1_1 l "panel dropped state" -STARTLINE +HIDDEN}
+ addUserKnob {6 tint_panelDropped_1_1_1_1_1_1_1_1_1_1_1 l "panel dropped state" -STARTLINE +HIDDEN}
+ addUserKnob {6 tint_panelDropped_1_1_1_1_1_1_1_1_1_1_1_1 l "panel dropped state" -STARTLINE +HIDDEN}
+ addUserKnob {6 tint_panelDropped_1_1_1_1_1_1_1_1_1_1_1_1_1 l "panel dropped state" -STARTLINE +HIDDEN}
+ addUserKnob {6 tint_panelDropped_1_1_1_1_1_1_1_1_1_1_1_1_1_1 l "panel dropped state" -STARTLINE +HIDDEN}
+ addUserKnob {6 tint_panelDropped_1_1_1_1_1_1_1_1_1_1_1_1_1_1_1 l "panel dropped state" -STARTLINE +HIDDEN}
+ addUserKnob {6 tint_panelDropped_1_1_1_1_1_1_1_1_1_1_1_1_1_1_1_1 l "panel dropped state" -STARTLINE +HIDDEN}
+ addUserKnob {6 effect_only l "effect only" +STARTLINE}
+ addUserKnob {26 ""}
+ addUserKnob {7 src_black l "src black" t "Black point of the source image's luminance.\nClip the effect below this luminance value." R 0 4}
+ addUserKnob {7 src_white l "src white" t "White point of the source image's luminance." R 0 4}
+ src_white 0.74
+ addUserKnob {41 white_clamp l clamp -STARTLINE T Grade1.white_clamp}
+ addUserKnob {7 response t "Gamma on the source image's luminance, to change the response curve falloff." R 0 4}
+ response 1
+ addUserKnob {26 ""}
+ addUserKnob {14 max_size l "max size" t "Maximum pixel size of the exponential glow." R 0 10000}
+ max_size 2000
+ addUserKnob {14 falloff l "size falloff" t "Falloff adjustment on the exponential distribution of the blur sizes." R 0 10}
+ falloff 1
+ addUserKnob {3 steps t "Number of blur iterations to combine together."}
+ steps 10
+ addUserKnob {41 filter T Blur.filter}
+ addUserKnob {41 quality l "" -STARTLINE T Blur.quality}
+ addUserKnob {6 crop l "crop to format" -STARTLINE}
+ addUserKnob {14 overscan R 0 1000}
+ overscan 100
+ addUserKnob {6 enableOverscan l enable -STARTLINE}
+ enableOverscan true
+ addUserKnob {26 ""}
+ addUserKnob {41 maskChannelArea l area -STARTLINE T ExpressionArea.maskChannelMask}
+ addUserKnob {41 inject_area l inject -STARTLINE T ExpressionArea.inject}
+ addUserKnob {41 invert_area l invert -STARTLINE T ExpressionArea.invert_mask}
+ addUserKnob {41 fringe_area l fringe -STARTLINE T ExpressionArea.fringe}
+ addUserKnob {41 maskChannelMask l mask T Merge.maskChannelMask}
+ addUserKnob {41 inject -STARTLINE T Merge.inject}
+ addUserKnob {41 invert_mask l invert -STARTLINE T Merge.invert_mask}
+ addUserKnob {41 fringe -STARTLINE T Merge.fringe}
+ addUserKnob {41 mix T Merge.mix}
+ addUserKnob {26 version_author l "" t "apGlow v1.1\n2018" +STARTLINE T "<span style=\"color:#666\"><br/><b>apGlow v1.1</b> - <a href=\"http://www.adrianpueyo.com\" style=\"color:#666;text-decoration: none;\">adrianpueyo.com</a>, 2015-2018</span>"}
+}
+ Input {
+  inputs 0
+  name Inputmask
+  xpos -748
+  ypos 847
+  number 2
+ }
+ Input {
+  inputs 0
+  name Inputarea
+  xpos -156
+  ypos 383
+  number 1
+ }
+ Input {
+  inputs 0
+  name Inputimg
+  xpos -638
+  ypos 220
+ }
+ NoTimeBlur {
+  rounding none
+  name NTB
+  xpos -638
+  ypos 267
+ }
+ Dot {
+  name Dot6
+  xpos -604
+  ypos 308
+ }
+set Nba6e9800 [stack 0]
+ Dot {
+  name Dot7
+  xpos -384
+  ypos 308
+ }
+set Nba6e9400 [stack 0]
+ Dot {
+  name Dot8
+  xpos -232
+  ypos 308
+ }
+ Remove {
+  name RemoveAll
+  xpos -266
+  ypos 345
+ }
+ Expression {
+  inputs 1+1
+  channel0 rgba
+  expr0 1
+  name ExpressionArea
+  xpos -266
+  ypos 383
+  disable {{"!\[exists parent.input1]"}}
+ }
+ Shuffle {
+  red white
+  green white
+  blue white
+  alpha white
+  name ShuffleWhite
+  xpos -266
+  ypos 409
+  disable {{"\[exists parent.input1]"}}
+ }
+push $Nba6e9400
+ Remove {
+  operation keep
+  channels rgba
+  name KeepWhat
+  xpos -418
+  ypos 377
+ }
+ Copy {
+  inputs 2
+  from0 rgba.alpha
+  to0 apGlowArea.red
+  name Copy1
+  xpos -418
+  ypos 403
+  disable {{"!\[exists parent.input1]"}}
+ }
+ Premult {
+  channels all
+  alpha apGlowArea.red
+  name Premult1
+  xpos -418
+  ypos 441
+  disable {{"!\[exists parent.input1]"}}
+ }
+ Remove {
+  channels apGlowArea
+  name RemoveArea
+  xpos -418
+  ypos 479
+  disable {{"!\[exists parent.input1]"}}
+ }
+ Dot {
+  name Dot5
+  xpos -384
+  ypos 532
+ }
+set Nba70d000 [stack 0]
+ Dot {
+  name Dot1
+  xpos -284
+  ypos 532
+ }
+ Saturation {
+  channels all
+  saturation 0
+  name Saturation1
+  xpos -318
+  ypos 572
+ }
+set Nba70c800 [stack 0]
+ Grade {
+  channels all
+  blackpoint {{parent.src_black}}
+  whitepoint {{parent.src_white}}
+  gamma {{parent.response}}
+  name Grade1
+  xpos -318
+  ypos 610
+ }
+push $Nba70d000
+push $Nba70c800
+ Merge2 {
+  inputs 2
+  operation divide
+  also_merge all
+  name Merge4
+  xpos -418
+  ypos 578
+ }
+ Merge2 {
+  inputs 2
+  operation multiply
+  also_merge all
+  name Merge3
+  xpos -418
+  ypos 616
+ }
+ Dot {
+  name DP
+  xpos -384
+  ypos 642
+  addUserKnob {20 User}
+  addUserKnob {14 j R 0 100}
+  j {{"pow(2, t*(log(parent.max_size*parent.falloff)/log(2)) )"} {"pow(2, t*(log(parent.max_size*parent.falloff)/log(2)) )"}}
+ }
+ Blur {
+  size {{"DP.j( (t%1)+1/parent.steps) / parent.falloff"} {"DP.j( (t%1)+1/parent.steps) / parent.falloff"}}
+  crop false
+  name Blur
+  selected true
+  xpos -418
+  ypos 660
+ }
+ Multiply {
+  value {{"parent.persistance * (t%1) + (1-t%1)"} {"parent.persistance * (t%1) + (1-t%1)"} {"parent.persistance * (t%1) + (1-t%1)"} {"parent.persistance * (t%1) + (1-t%1)"}}
+  name Multiply
+  xpos -418
+  ypos 699
+ }
+ TimeBlur {
+  divisions {{parent.steps}}
+  shutter 1
+  shutteroffset start
+  shuttercustomoffset 0
+  name TB
+  xpos -418
+  ypos 736
+ }
+ Multiply {
+  value {{parent.steps?parent.intensity*parent.tint:0} {parent.steps?parent.intensity*parent.tint:0} {parent.steps?parent.intensity*parent.tint:0} {parent.steps?parent.intensity*parent.tint:0}}
+  name MultiplyR
+  xpos -418
+  ypos 762
+ }
+ Expression {
+  expr0 isnan(r)?0:r
+  expr1 isnan(g)?0:g
+  expr2 isnan(b)?0:b
+  expr3 isnan(a)?0:a
+  name NanToBlack
+  xpos -418
+  ypos 800
+ }
+push $Nba6e9800
+ Dot {
+  name Dot4
+  xpos -604
+  ypos 582
+ }
+set Nba73e000 [stack 0]
+ Dot {
+  name Dot2
+  xpos -494
+  ypos 582
+ }
+ Shuffle {
+  red black
+  green black
+  blue black
+  name Shuffle
+  xpos -528
+  ypos 660
+  disable {{!parent.effect_only}}
+ }
+ Remove {
+  operation keep
+  channels rgb
+  name Remove1
+  xpos -528
+  ypos 686
+  disable {{!parent.effect_only}}
+ }
+ Merge2 {
+  inputs 2
+  operation plus
+  output {rgba.red rgba.green rgba.blue -rgba.alpha}
+  also_merge all
+  name Merge1
+  xpos -528
+  ypos 800
+ }
+ Dot {
+  name Dot3
+  xpos -494
+  ypos 850
+ }
+push $Nba73e000
+ Merge2 {
+  inputs 2+1
+  operation copy
+  output {rgba.red rgba.green rgba.blue -rgba.alpha}
+  also_merge all
+  name Merge
+  xpos -638
+  ypos 846
+ }
+ Crop {
+  box {{parent.crop?0:-parent.overscan} {parent.crop?0:-parent.overscan} {parent.crop?width:width+parent.overscan} {parent.crop?height:height+parent.overscan}}
+  intersect true
+  name CropOverscan
+  xpos -638
+  ypos 872
+  disable {{"!parent.enableOverscan && !parent.crop"}}
+ }
+ Output {
+  name Output
+  xpos -638
+  ypos 898
+ }
+end_group
+Dot {
+ name Dot9
+ xpos 1461
+ ypos -505
+}
+push $N94022400
+add_layer {gi gi.red gi.green gi.blue gi.alpha}
+Shuffle {
+ in gi
+ name GI
+ xpos 1255
+ ypos -994
+}
+Dot {
+ name Dot2
+ xpos 1289
+ ypos -652
+}
+push $N94022800
+add_layer {specular specular.red specular.green specular.blue specular.alpha}
+Shuffle {
+ in specular
+ name specular
+ xpos 1133
+ ypos -995
+}
+Dot {
+ name Dot3
+ xpos 1167
+ ypos -728
+}
+push $N94022c00
+add_layer {reflection reflection.red reflection.green reflection.blue reflection.alpha}
+Shuffle {
+ in reflection
+ name reflection
+ xpos 1023
+ ypos -994
+}
+Dot {
+ name Dot4
+ xpos 1057
+ ypos -808
+}
+push $N93fc9800
+add_layer {diffuse diffuse.red diffuse.green diffuse.blue diffuse.alpha}
+Shuffle {
+ in diffuse
+ name diffuse
+ xpos 902
+ ypos -997
+}
+HueCorrect {
+ hue {sat {curve 1 1 1 x2.703938961 0.6990050077 s0 x4 1.027363181 x5 1 1}
+   lum {curve 1 1 1 0.978109479 1 1 1}
+   red {curve 1 1 1 1.093034863 1.164179087 1 1}
+   green {curve 1 1 1 0.9726368189 1 1 1}
+   blue {}
+   r_sup {}
+   g_sup {}
+   b_sup {}
+   sat_thrsh {}}
+ name HueCorrect1
+ xpos 902
+ ypos -930
+}
+Dot {
+ name Dot12
+ xpos 766
+ ypos -808
+}
+Merge2 {
+ inputs 2
+ operation plus
+ name Merge11
+ xpos 932
+ ypos -812
+}
+Merge2 {
+ inputs 2
+ operation plus
+ name Merge12
+ xpos 932
+ ypos -732
+}
+Merge2 {
+ inputs 2
+ operation plus
+ name Merge13
+ xpos 932
+ ypos -656
+}
+Merge2 {
+ inputs 2
+ operation plus
+ name Merge20
+ xpos 932
+ ypos -509
+}
+Merge2 {
+ inputs 2
+ operation plus
+ name Merge21
+ xpos 932
+ ypos -375
+}
+Merge2 {
+ inputs 2
+ operation plus
+ name Merge1
+ xpos 932
+ ypos -196
+}
+Blur {
+ size {60 30}
+ mix 0.255
+ name Blur3
+ xpos 932
+ ypos -110
+ disable true
+}
+MotionBlur {
+ shutterSamples 5
+ shutterTime 1
+ motionEstimation Regularized
+ name MotionBlur2
+ xpos 932
+ ypos -22
+ disable true
+}
+ColorCorrect {
+ saturation 0.96
+ name ColorCorrect1
+ xpos 932
+ ypos 60
+}
+set Nba80b400 [stack 0]
+Write {
+ file D:/GRLCK3eme/16_animation_plan/wip/sequence_01/seq_01_cam_01/render/test_comp_02.mov
+ file_type mov
+ meta_codec apch
+ mov64_codec apch
+ mov64_bitrate 20000
+ mov64_bitrate_tolerance 40000000
+ mov64_quality_min 2
+ mov64_quality_max 31
+ mov64_gop_size 12
+ mov64_b_frames 0
+ checkHashOnRead false
+ version 5
+ name Write1
+ xpos 932
+ ypos 126
+}
+push $Nba80b400
+Viewer {
+ frame_range 1-74
+ downrez 2
+ translate {2.213999987 -0.6039999723}
+ name Viewer1
+ xpos 719
+ ypos -14
+}
+push $N93fc9400
+add_layer {other other.ao other.objectID}
+Shuffle {
+ in other
+ blue green
+ alpha green
+ name Shuffle1
+ xpos 1120
+ ypos -1183
+}
+push $N93fc9400
+LayerContactSheet {
+ showLayerNames true
+ name LayerContactSheet1
+ xpos 1118
+ ypos -1276
+}
